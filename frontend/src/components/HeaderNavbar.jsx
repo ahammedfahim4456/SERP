@@ -1,5 +1,5 @@
 import React from 'react';
-import { Compass, Sparkles, User, Key, ShieldCheck, Flame } from 'lucide-react';
+import { Compass, Key } from 'lucide-react';
 
 export default function HeaderNavbar({ currentUser, onOpenAuth, onOpenCredits, apiCreditsLeft = 246 }) {
   return (

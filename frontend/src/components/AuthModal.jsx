@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, ShieldCheck, UserCheck, Key, Sparkles, CheckCircle2, Lock } from 'lucide-react';
+import { X, Lock } from 'lucide-react';
 
 export default function AuthModal({ isOpen, onClose, currentUser, onSelectUser }) {
   if (!isOpen) return null;

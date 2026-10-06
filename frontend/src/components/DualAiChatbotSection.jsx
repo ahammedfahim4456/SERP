@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Bot, Send, Sparkles, MessageSquare, AlertCircle, Heart, ArrowRight } from 'lucide-react';
+import { Bot, Send, Sparkles } from 'lucide-react';
 
 export default function DualAiChatbotSection({
   cityAStats,

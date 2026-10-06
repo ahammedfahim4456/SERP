@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     flights_ttl_minutes: int = 45         # a guess, tune after testing
     transit_ttl_minutes: int = 30         # a guess, tune after testing
     hotels_ttl_minutes: int = 60          # a guess, tune after testing
+    food_ttl_minutes: int = 60            # a guess, tune after testing
+    tripadvisor_ttl_minutes: int = 120    # TripAdvisor recommendations TTL
     serpapi_base_url: str = "https://serpapi.com"
     cors_origins: list[str] = ["http://localhost:3000", "http://localhost:5173"]
 

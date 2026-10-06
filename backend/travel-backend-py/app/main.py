@@ -9,8 +9,10 @@ from fastapi.responses import JSONResponse
 from .cache import build_cache
 from .config import get_settings
 from .flights import FlightService
+from .food import FoodService
 from .hotels import HotelService
 from .transit import TransitService
+from .tripadvisor import TripadvisorService
 from .quota import QuotaExceeded, QuotaGuard
 from .routes import router
 from .serpapi_client import SerpApiClient, UpstreamError
@@ -31,6 +33,10 @@ async def lifespan(app: FastAPI):
         SerpApiClient(http, settings.serpapi_key), cache, quota, settings.transit_ttl_minutes * 60)
     app.state.hotels = HotelService(
         SerpApiClient(http, settings.serpapi_key), cache, quota, settings.hotels_ttl_minutes * 60)
+    app.state.food = FoodService(
+        SerpApiClient(http, settings.serpapi_key), cache, quota, settings.food_ttl_minutes * 60)
+    app.state.tripadvisor = TripadvisorService(
+        SerpApiClient(http, settings.serpapi_key), cache, quota, settings.tripadvisor_ttl_minutes * 60)
     yield
     await http.aclose()
     await cache.close()

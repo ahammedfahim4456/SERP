@@ -84,7 +84,8 @@ export const INITIAL_CITIES = {
       {
         id: "ht_gk_1",
         name: "Namaste Sanjeevini Beach Resort",
-        type: "Eco Hillside & Sea View",
+        kind: "hotel",
+        type: "Eco Hillside & Sea View Hotel",
         rating: 4.6,
         reviewsCount: 1420,
         pricePerNight: 2100,
@@ -96,6 +97,7 @@ export const INITIAL_CITIES = {
       {
         id: "ht_gk_2",
         name: "Zostel Gokarna (Main Cliff)",
+        kind: "hotel",
         type: "Backpacker Pod & Deluxe Room",
         rating: 4.8,
         reviewsCount: 2890,
@@ -107,15 +109,34 @@ export const INITIAL_CITIES = {
       },
       {
         id: "ht_gk_3",
-        name: "Kahani Paradise Villa",
-        type: "Boutique Coastal Stay",
+        name: "Kahani Paradise Villa & Homestay",
+        kind: "rental",
+        type: "Vacation Rental / Airbnb Homestay",
         rating: 4.7,
         reviewsCount: 380,
         pricePerNight: 3400,
         image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80",
-        amenities: ["Infinity Pool", "Om Beach Trail", "Free High Speed WiFi", "Organic Food"],
-        badge: "Scenic Escape",
-        serpRank: "#4 on Google Hotels"
+        amenities: ["Entire 2-Bedroom Villa", "Om Beach Trail", "Private Kitchen", "Organic Food"],
+        badge: "Airbnb Style Home",
+        serpRank: "#4 on Google Hotels (Rentals)"
+      }
+    ],
+    tripadvisorRecommendations: [
+      {
+        title: "Om Beach Cliff Rock Walk",
+        category: "Top Outdoor Attraction",
+        rating: 4.8,
+        reviews: 1450,
+        badge: "TripAdvisor Recommended",
+        note: "Scenic coastal trek connecting Kudle to Half Moon Beach for zero cost."
+      },
+      {
+        title: "Prema Restaurant & Middle Beach",
+        category: "Budget Friendly Dining",
+        rating: 4.6,
+        reviews: 890,
+        badge: "Pocket Reality Verdict",
+        note: "Fresh Kingfish thalis from ₹180. Rated #1 budget seafood on TripAdvisor."
       }
     ],
     events: [
@@ -262,7 +283,8 @@ export const INITIAL_CITIES = {
       {
         id: "ht_py_1",
         name: "Villa Shanti Heritage Hotel",
-        type: "19th Century French Mansion",
+        kind: "hotel",
+        type: "19th Century French Mansion Hotel",
         rating: 4.8,
         reviewsCount: 3200,
         pricePerNight: 2800,
@@ -274,7 +296,8 @@ export const INITIAL_CITIES = {
       {
         id: "ht_py_2",
         name: "Maison Perumal - CGH Earth",
-        type: "Tamil Heritage Courtyard",
+        kind: "hotel",
+        type: "Tamil Heritage Courtyard Hotel",
         rating: 4.7,
         reviewsCount: 1650,
         pricePerNight: 2350,
@@ -285,15 +308,34 @@ export const INITIAL_CITIES = {
       },
       {
         id: "ht_py_3",
-        name: "Dune Eco Village & Spa",
-        type: "Seaside Organic Cottages",
+        name: "Dune Eco Village & Homestay Cottages",
+        kind: "rental",
+        type: "Seaside Airbnb / Homestay Cottages",
         rating: 4.5,
         reviewsCount: 2100,
         pricePerNight: 3100,
         image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=600&q=80",
-        amenities: ["Private Beach Access", "Ayurvedic Spa", "Solar Powered", "Pet Friendly"],
-        badge: "Serene Nature Stay",
-        serpRank: "#5 on Google Hotels"
+        amenities: ["Private Beach Access", "Ayurvedic Kitchen", "Solar Powered", "Pet Friendly"],
+        badge: "Airbnb Style Home",
+        serpRank: "#5 on Google Hotels (Rentals)"
+      }
+    ],
+    tripadvisorRecommendations: [
+      {
+        title: "White Town Heritage Bicycle Loop",
+        category: "Top Cultural Walk",
+        rating: 4.8,
+        reviews: 2100,
+        badge: "TripAdvisor Recommended",
+        note: "Explore French bougainvillea quarters & Alliance Française with free entry."
+      },
+      {
+        title: "Surguru & Coromandel Cafe Circuit",
+        category: "Iconic Value Dining",
+        rating: 4.7,
+        reviews: 3400,
+        badge: "Pocket Reality Verdict",
+        note: "Ghee roast dosas under ₹120 and budget French pastries rated #1 on TripAdvisor."
       }
     ],
     events: [

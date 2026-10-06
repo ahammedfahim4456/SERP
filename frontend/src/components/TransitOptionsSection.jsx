@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plane, Bus, Train, Clock, Check, ArrowRight, ShieldCheck, Sparkles } from 'lucide-react';
+import { Plane, Bus, Train, Clock } from 'lucide-react';
 
 export default function TransitOptionsSection({
   cityKey,

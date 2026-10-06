@@ -134,3 +134,70 @@ class HotelSearchResponse(CamelModel):
     unpriced_count: int = 0                   # no price for these dates/guests
     hidden_count: int = 0                     # removed by the profile's rules
     options: list[HotelOption]
+
+
+# ------------------------------ food ------------------------------
+class FoodOption(CamelModel):
+    id: str                                   # Google place_id
+    name: str
+    type: str | None = None                   # primary type, e.g. "Vegetarian restaurant"
+    types: list[str] = []
+    rating: float | None = None
+    review_count: int | None = None
+    address: str | None = None
+    coordinates: Coordinates | None = None
+    phone: str | None = None
+    website: str | None = None
+    thumbnail: str | None = None
+    price_label: str | None = None            # e.g. "₹200–400" (believed to be per person, unverified)
+    price_low: int | None = None
+    price_high: int | None = None             # null for open-ended bands like "₹2,000+"
+    estimated_per_person: int | None = None   # rough: middle of the band
+    estimated_meal_cost: int | None = None    # rough: estimated_per_person x party size
+    open_state: str | None = None             # snapshot at fetchedAt, can be stale when served from cache
+    operating_hours: dict[str, str] = {}      # by weekday, raw text
+    meals: list[str] = []                     # breakfast / lunch / dinner when the listing says so
+    features: list[str] = []                  # normalized tags, e.g. "kid_friendly", "vegetarian_only"
+    atmosphere: list[str] = []
+    highlights: list[str] = []
+    can_reserve: bool = False
+    order_online: bool = False
+    google_position: int | None = None        # Google's own order of the page
+
+    # filled when ranking, never cached
+    distance_km: float | None = None          # straight line from the anchor point
+    walk_minutes: int | None = None           # straight-line estimate at about 5 km/h
+    score: int | None = None
+    labels: list[str] = []
+    reasons: list[str] = []
+
+
+class FoodSearchResponse(CamelModel):
+    cached: bool
+    fetched_at: datetime
+    query: str
+    anchor: Coordinates | None = None
+    profile: str | None = None
+    party_size: int | None = None
+    total_found: int = 0
+    hidden_count: int = 0
+    options: list[FoodOption]
+
+
+# ------------------------------ tripadvisor ------------------------------
+class TripadvisorRecommendation(CamelModel):
+    title: str
+    category: str | None = None
+    description: str | None = None
+    location: str | None = None
+    thumbnail_url: str | None = None
+    link: str | None = None
+    rating: float | None = None
+    review_count: int | None = None
+
+
+class TripadvisorSearchResponse(CamelModel):
+    cached: bool
+    fetched_at: datetime
+    destination: str
+    recommendations: list[TripadvisorRecommendation]

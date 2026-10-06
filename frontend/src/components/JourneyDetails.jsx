@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Wallet, Users, Compass, Sparkles, MapPin, ArrowRight, RefreshCw } from 'lucide-react';
+import { Calendar, Wallet, ArrowRight, RefreshCw } from 'lucide-react';
 
 export default function JourneyDetails({
   journeyData,
@@ -198,7 +198,7 @@ export default function JourneyDetails({
         <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-sandal-200">
           <div className="flex items-center gap-2 text-xs text-stone-600">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-500"></span>
-            <span>Targeting SerpApi engines: <code className="bg-sandal-100 px-1 py-0.5 rounded text-stone-800">google_flights</code>, <code className="bg-sandal-100 px-1 py-0.5 rounded text-stone-800">google_hotels</code>, <code className="bg-sandal-100 px-1 py-0.5 rounded text-stone-800">google_events</code></span>
+            <span>Targeting SerpApi engines: <code className="bg-sandal-100 px-1 py-0.5 rounded text-stone-800">google_flights</code>, <code className="bg-sandal-100 px-1 py-0.5 rounded text-stone-800">google_hotels (stays & airbnbs)</code>, <code className="bg-sandal-100 px-1 py-0.5 rounded text-stone-800">tripadvisor</code></span>
           </div>
 
           <button

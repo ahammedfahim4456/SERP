@@ -1,0 +1,2683 @@
+{
+  "search_metadata": {
+    "id": "6ac4b96b5abea5e36509bd6e",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/o0e7ku67EzURdc3a2pPBXD7_XHgogIcQEb0bwDxymJc/6ac4b96b5abea5e36509bd6e.json",
+    "markdown_endpoint": "https://serpapi.com/searches/o0e7ku67EzURdc3a2pPBXD7_XHgogIcQEb0bwDxymJc/6ac4b96b5abea5e36509bd6e.md",
+    "created_at": "2026-10-06 09:03:39 UTC",
+    "processed_at": "2026-10-06 09:03:39 UTC",
+    "google_maps_url": "https://www.google.com/maps/search/family+restaurants/@12.9722428,77.6086284,15z/data=!3m1!4b1!4m2!2m1!6e5?hl=en&gl=in",
+    "raw_html_file": "https://serpapi.com/searches/o0e7ku67EzURdc3a2pPBXD7_XHgogIcQEb0bwDxymJc/6ac4b96b5abea5e36509bd6e.html",
+    "prettify_html_file": "https://serpapi.com/searches/o0e7ku67EzURdc3a2pPBXD7_XHgogIcQEb0bwDxymJc/6ac4b96b5abea5e36509bd6e.prettify",
+    "total_time_taken": 1.26
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "family restaurants",
+    "ll": "@12.9722428,77.6086284,15z",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "in"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "family restaurants"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Olivo Multicuisine family restaurant",
+      "place_id": "ChIJfxH31gQXrjsRwr49C5aEWlc",
+      "data_id": "0x3bae1704d6f7117f:0x575a84960b3dbec2",
+      "data_cid": "6294489209172246210",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1704d6f7117f%3A0x575a84960b3dbec2&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1704d6f7117f%3A0x575a84960b3dbec2&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.973564,
+        "longitude": 77.57037489999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJfxH31gQXrjsRwr49C5aEWlc",
+      "provider_id": "/g/11ntcrl0_v",
+      "rating": 4.8,
+      "reviews": 20,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant"
+      ],
+      "type_id": "restaurant",
+      "type_ids": [
+        "restaurant"
+      ],
+      "address": "Olivo Multicuisine Restaurant, No 83, Cottonpet Main Rd, Upparpete, Chickpet, Bengaluru, Karnataka 560053",
+      "country": "India",
+      "phone": "099169 78621",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFudGNybDBfdhgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a7nEapD0EJrh2roP6arryAU&ei=a7nEapD0EJrh2roP6arryAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Very nice and tasty food.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEwEEcMzIGAJpq2IzFapyP20OphSCkh1nWXn0lpiBkrTp5kBAWL0BXjM8OKefCjJrZFYA1N0Q6aw2tfp3sR4soAaHT69hbi-oa7e-VGoz6J8Vwy8fNyv5oL00B22fzey0MypfDXZYw61eaB9j2AayrNZGGiNsOQtUirXmiMRg8g3G75KWS0jmSqhw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/cjf7d3icHcRLcoIwAADQEyEhCGJnugiKVORTxQqyS2kgfBMDbRpu2qt01Zm-xfv5pfPMpydd76m5qhmre_I5EVGycSbjvCrZoNd80rhg30pH4cd6Tz3peWW0HH0U8Ac8LgfM1SsECafprqPGmOUj6HnjduLKrc5FWQjcvI2c5ESqXRuI4nBHRgzONpZwrrg5XdYTQ_jlam_pe6MxvCHazWeLHTg3qZwqVl8WCwFwIawWokCkeLXPi7u0DYLdbQsRViIufL-Jp-Q8vzUiH5roUju16W-sU5aCdkgfVD5LAwCg0f9LbfwDSNdV1A"
+    },
+    {
+      "position": 2,
+      "title": "Golden Family Restaurant",
+      "place_id": "ChIJpWISBGcXrjsRh6xC6VxdN3k",
+      "data_id": "0x3bae1767041262a5:0x79375d5ce942ac87",
+      "data_cid": "8734552655940201607",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1767041262a5%3A0x79375d5ce942ac87&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1767041262a5%3A0x79375d5ce942ac87&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.979381199999999,
+        "longitude": 77.5765064
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpWISBGcXrjsRh6xC6VxdN3k",
+      "provider_id": "/g/11y9b6l52j",
+      "rating": 4.3,
+      "reviews": 67,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant"
+      ],
+      "address": "6th Cross Rd, Gandhi Nagar, Bengaluru, Karnataka 560009",
+      "country": "India",
+      "open_state": "Open · Closes 11 pm",
+      "hours": "Open · Closes 11 pm",
+      "operating_hours": {
+        "tuesday": "7 am–11 pm",
+        "wednesday": "7 am–11 pm",
+        "thursday": "7 am–11 pm",
+        "friday": "7 am–11 pm",
+        "saturday": "7 am–11 pm",
+        "sunday": "7 am–11:30 pm",
+        "monday": "7 am–11 pm"
+      },
+      "phone": "084312 48599",
+      "extensions": [
+        {
+          "service_options": [
+            "Kerbside pickup",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch",
+            "Dinner",
+            "Table service"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "kerbside_pickup": true
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TruhYKYyfvxuO4uNnrYDlyCn4i9c7T3CJB2paVOv4cJHscwetRMtIQJgGVzsQM-pRJMWd_ov7u7jgNH2Hy-zoh212c6YhHWm1bWuU6kDxI-bvqJRVO2XnteJVRyP-qyTvHKP6mkA=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/k0SCwnicHc5dDsEwAADgE9W2WraQeMASVdnGMps9CTUttnbWH-qGjuA2xMv3_H3eTKlOjh2nYcMBFYI2tZZ1TwRXNVcDIlqHdhIQCaQzTcqLHeW9ZtWqsmfz1KmvE95XUWPn3L-MSJgP53gGu0ORGp9gJMmjVlmslhtMF8VLbmLQZTguT3thQh1eaYIgsuAlGPQgCSqGytY7lnob3KLnEhzNHWdFCne_DC4yuwZ3mxu0WgftbTp5eK7rAvaXAP4FgZZGaA"
+    },
+    {
+      "position": 3,
+      "title": "The Bangalore Cafe",
+      "place_id": "ChIJo0tJmV8VrjsR0vWuyvPK9DM",
+      "data_id": "0x3bae155f99494ba3:0x33f4caf3caaef5d2",
+      "data_cid": "3743840338678052306",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae155f99494ba3%3A0x33f4caf3caaef5d2&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae155f99494ba3%3A0x33f4caf3caaef5d2&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9615596,
+        "longitude": 77.59469659999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJo0tJmV8VrjsR0vWuyvPK9DM",
+      "provider_id": "/g/11fgm5s311",
+      "rating": 4.3,
+      "reviews": 12504,
+      "price": "₹400–1,400",
+      "extracted_price": 400,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant",
+        "Banquet hall",
+        "Cafe",
+        "Dessert restaurant",
+        "Vegetarian restaurant",
+        "Fine dining restaurant",
+        "Indian restaurant",
+        "Pizza restaurant"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant",
+        "banquet_hall",
+        "cafe",
+        "dessert_restaurant",
+        "vegetarian_restaurant",
+        "fine_dining_restaurant",
+        "indian_restaurant",
+        "pizza_restaurant"
+      ],
+      "address": "4, Kengal Hanumanthaiah Rd, Bheemanna Garden, Shanti Nagar, Bengaluru, Karnataka 560027",
+      "country": "India",
+      "open_state": "Open · Closes 1 am",
+      "hours": "Open · Closes 1 am",
+      "operating_hours": {
+        "tuesday": "12 pm–1 am",
+        "wednesday": "12 pm–1 am",
+        "thursday": "12 pm–1 am",
+        "friday": "12 pm–1 am",
+        "saturday": "12 pm–1 am",
+        "sunday": "12 pm–1 am",
+        "monday": "12 pm–1 am"
+      },
+      "phone": "095359 64043",
+      "website": "https://wyxsite.wixstudio.com/thebangalorecafe",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "No-contact delivery",
+            "Delivery",
+            "Drive-through",
+            "On-site services",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection",
+            "Great wine list",
+            "Rooftop seating",
+            "Sport"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        },
+        {
+          "offerings": [
+            "All you can eat",
+            "Coffee",
+            "Happy-hour drinks",
+            "Healthy options",
+            "Late-night food",
+            "Private dining room",
+            "Quick bite",
+            "Small plates",
+            "Spirits",
+            "Vegan options",
+            "Vegetarian options",
+            "Vegetarian options only",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Romantic",
+            "Trendy",
+            "Upmarket"
+          ]
+        },
+        {
+          "crowd": [
+            "Family friendly",
+            "Groups",
+            "Tourists",
+            "University students"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Lunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations",
+            "Usually a wait"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "Good for kids birthday"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Paid parking lot",
+            "Paid street parking",
+            "Plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "drive_through": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/O3qIg-nwSIo?source=pa&opi=79508299&hl=en-IN&gei=a7nEapD0EJrh2roP6arryAU&ahbb=1&sourceurl=https://www.google.com/search?pb%3D!4m8!1m3!1d21869.9655958397!2d77.6086284!3d12.9722428!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1s-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!2s1i:0,t:11886,p:-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!7e81!12e5!17s-O1v_Jp4huY_BnqFywaennPD4ajEz44:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26gl%3Din%26hl%3Den%26q%3Dfamily%2Brestaurants%26tbm%3Dmap",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmZ201czMxMRgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a7nEapD0EJrh2roP6arryAU&ei=a7nEapD0EJrh2roP6arryAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R2TZcrI5QeJnAmTm5eP7CUbtsm2WK6x2UbqOi0HDVDpFwn7GZMSzYmpw3-lfUdGAxJM1cxC_rI_LN7VLCpBcvuEUIBjtOTX4sCdmhb55PRRkoFpxAuKFAkqqss-ZwNFNvSByOkPw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/4ie7mnicHcRbcoIwFADQFUUQpYzO-BGwWHwAIvjgxxliChbygBsMusMuobvpjOfj_P1WSkmYG0ZTTUalEGVDe6AdEVxRrkZEMKOUgAggMHB4uj9niZXmpAvsPV1zzFJm09jxskIBs06bj8HKija6m1_L41L6mjurfHd4XZjUE9R8Z7cVHta7MRm8axdct6Fz3HrSJY_-MwvcHxWl5yl4N1YVth0nSS18OeB-4-O6bQFQrkM_fBzcZ1THeqHHpmmi6j1B_B8AREYH"
+    },
+    {
+      "position": 4,
+      "title": "Karavalli",
+      "place_id": "ChIJ5QD7Rn4WrjsRH_yAmEEDe3c",
+      "data_id": "0x3bae167e46fb00e5:0x777b03419880fc1f",
+      "data_cid": "8609478692915182623",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae167e46fb00e5%3A0x777b03419880fc1f&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae167e46fb00e5%3A0x777b03419880fc1f&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.972447299999999,
+        "longitude": 77.6086535
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ5QD7Rn4WrjsRH_yAmEEDe3c",
+      "provider_id": "/g/11b75nr421",
+      "rating": 4.5,
+      "reviews": 4560,
+      "price": "₹2,000+",
+      "extracted_price": 2000,
+      "type": "South Indian restaurant",
+      "types": [
+        "South Indian restaurant"
+      ],
+      "type_id": "south_indian_restaurant",
+      "type_ids": [
+        "south_indian_restaurant"
+      ],
+      "address": "Vivanta, 66, Residency Rd, Srinivas Nagar, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025",
+      "country": "India",
+      "open_state": "Open · Closes 11:30 pm",
+      "hours": "Open · Closes 11:30 pm",
+      "operating_hours": {
+        "tuesday": "12–11:30 pm",
+        "wednesday": "12–11:30 pm",
+        "thursday": "12–11:30 pm",
+        "friday": "12–11:30 pm",
+        "saturday": "12–11:30 pm",
+        "sunday": "12–11:30 pm",
+        "monday": "12–11:30 pm"
+      },
+      "phone": "080666 04545",
+      "website": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-residency-road/restaurants/karavalli-bengaluru-residency-road",
+      "description": "Classy venue for regional Indian cuisine. Regional dishes from southwest India are featured at this classic, refined hotel restaurant.",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "No-contact delivery",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection",
+            "Great wine list",
+            "Rooftop seating",
+            "Sport"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Healthy options",
+            "Late-night food",
+            "Organic dishes",
+            "Private dining room",
+            "Small plates",
+            "Spirits",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar on site",
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Romantic",
+            "Trendy",
+            "Upmarket"
+          ]
+        },
+        {
+          "crowd": [
+            "Family friendly",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Lunch reservations recommended",
+            "Reservations required",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "Good for kids birthday",
+            "Has changing table(s)",
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking garage",
+            "Free parking lot",
+            "On-site parking",
+            "Paid parking lot",
+            "Plenty of parking",
+            "Valet parking"
+          ]
+        },
+        {
+          "pets": [
+            "Dogs allowed inside",
+            "Dogs allowed outside"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true,
+        "no_contact_delivery": true
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TmPOlr3NT6ytBWNWMTHGwT5LclivRKUt2AXu_9M1wvCIIq_3gTWF4bmrhZQtOtvsqgCHJSN5RSHSchc-k3PxoK2Ra7GgCrb73k5aQ1MoMO1Yz9WxdbmISqV1b0QoXV0cBawG3H4Fh3arz0=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/w7mp3nicHcTBDoIgAADQLyIhsmZbh3JLrdRUiurSlBy0VBJIq5_s3N-09Q7v-xHG3PXUsiqBB1xKXpUPXSomG1M2ZsBkbfG7BkwDbc0jen05pN7GlcIRGb_MgkY0JL7XE3vDqmuXrndmOD88zk6I-s4NgvaMOaHLUVErcUpMbDrdctdfZZGdZn7GBAM3vH3K9TDNJx53VTHBNztPUCjDGB3fDn1eijrI2j0qYCIPe8gWee9hf7QUOFdvOOsRhBCI_ww0P688RuY"
+    },
+    {
+      "position": 5,
+      "title": "Gourmet Kitchen and Bar",
+      "place_id": "ChIJ3XHBsGUVrjsRT7tIL1dTSQY",
+      "data_id": "0x3bae1565b0c171dd:0x64953572f48bb4f",
+      "data_cid": "452984871448001359",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1565b0c171dd%3A0x64953572f48bb4f&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1565b0c171dd%3A0x64953572f48bb4f&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.966095,
+        "longitude": 77.59489599999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ3XHBsGUVrjsRT7tIL1dTSQY",
+      "provider_id": "/g/11r4lsbnn9",
+      "rating": 4.2,
+      "reviews": 249,
+      "price": "₹400–600",
+      "extracted_price": 400,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant",
+        "Buffet restaurant",
+        "North Indian restaurant"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant",
+        "buffet_restaurant",
+        "north_indian_restaurant"
+      ],
+      "address": "Ground Floor at, Hotel Ramanashree #16, Raja Ram Mohan Roy Rd, Sampangi Rama Nagara, Bengaluru, Karnataka 560027",
+      "country": "India",
+      "open_state": "Open · Closes 11:30 pm",
+      "hours": "Open · Closes 11:30 pm",
+      "operating_hours": {
+        "tuesday": "7 am–11:30 pm",
+        "wednesday": "7 am–11:30 pm",
+        "thursday": "7 am–11:30 pm",
+        "friday": "7 am–11:30 pm",
+        "saturday": "7 am–11:30 pm",
+        "sunday": "7 am–11:30 pm",
+        "monday": "7 am–11:30 pm"
+      },
+      "phone": "096861 11516",
+      "website": "https://thegourmetblr.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great dessert",
+            "Live music",
+            "Sport"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair-accessible toilet"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "All you can eat",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Happy-hour drinks",
+            "Happy-hour food",
+            "Late-night food",
+            "Organic dishes",
+            "Small plates",
+            "Spirits",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar on site",
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "Family friendly",
+            "Groups",
+            "LGBTQ+ friendly"
+          ]
+        },
+        {
+          "planning": [
+            "Reservations required",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/R0B-Cu9DUlA?source=pa&opi=79508299&hl=en-IN&gei=a7nEapD0EJrh2roP6arryAU&ahbb=1&sourceurl=https://www.google.com/search?pb%3D!4m8!1m3!1d21869.9655958397!2d77.6086284!3d12.9722428!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1s-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!2s1i:0,t:11886,p:-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!7e81!12e5!17s-O1v_Jp4huY_BnqFywaennPD4ajEz44:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26gl%3Din%26hl%3Den%26q%3Dfamily%2Brestaurants%26tbm%3Dmap",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFyNGxzYm5uORgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a7nEapD0EJrh2roP6arryAU&ei=a7nEapD0EJrh2roP6arryAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TYGNBHgB57JrSaEaxWQWQjGZ4HS3YUskTglYPf28PZAc5NsoT4s4E5THXs7JCsr6h3KTSZ0KosLN2fdiAmjQ7b4jIv13FqbC_YI9-C5zMVkA_mPuLitl1WLW_o0QFSIracSfI=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/2xTPCXicHcTdboIwGADQJ6qUvzGX7AKJCooE0mqFG4IdFBCo4yu6-YC-g29j4rk4z0et1AW-NK2rzZmQUnTlBOXI5aDKQc247DVxAcQBgeZGrPmf03QdLXyxsJ3NSIpl8ccSlrTrzPKJme7hTEWXxpXxGWcutyOQ1AJraVP_CM7Gg_GjNreUZHgrIYyM6qdx-zZxTlYbXHVz9Xvy8jSYI8--7w5nN-_jKWxUp7OQ5RInKxKMBSdV8H3TMcaofs_R8AKSz0Lk"
+    },
+    {
+      "position": 6,
+      "title": "Banjara family restaurant",
+      "place_id": "ChIJVXvzJ20XrjsRUeNNEougCp4",
+      "data_id": "0x3bae176d27f37b55:0x9e0aa08b124de351",
+      "data_cid": "11388091126927713105",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae176d27f37b55%3A0x9e0aa08b124de351&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae176d27f37b55%3A0x9e0aa08b124de351&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.978775299999999,
+        "longitude": 77.57727899999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVXvzJ20XrjsRUeNNEougCp4",
+      "provider_id": "/g/11j8lp_50y",
+      "rating": 4.7,
+      "reviews": 14,
+      "unclaimed_listing": true,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant"
+      ],
+      "address": "XHHG+GW6, Gandhi Nagar, Bengaluru, Karnataka 560009",
+      "country": "India",
+      "open_state": "Open · Closes 5 pm",
+      "hours": "Open · Closes 5 pm",
+      "operating_hours": {
+        "tuesday": "9 am–5 pm",
+        "wednesday": "Closed",
+        "thursday": "9 am–5 pm",
+        "friday": "9 am–5 pm",
+        "saturday": "9 am–5 pm",
+        "sunday": "8:30 am–5 pm",
+        "monday": "9 am–5 pm"
+      },
+      "extensions": [
+        {
+          "service_options": [
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch",
+            "Dinner",
+            "Table service"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/we0BQ0_Yzo0?source=pa&opi=79508299&hl=en-IN&gei=a7nEapD0EJrh2roP6arryAU&ahbb=1&sourceurl=https://www.google.com/search?pb%3D!4m8!1m3!1d21869.9655958397!2d77.6086284!3d12.9722428!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1s-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!2s1i:0,t:11886,p:-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!7e81!12e5!17s-O1v_Jp4huY_BnqFywaennPD4ajEz44:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26gl%3Din%26hl%3Den%26q%3Dfamily%2Brestaurants%26tbm%3Dmap",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RROvl0RH9sC0ZjHZ-VQ6XhGJSb9HnTS65zkCyQw_XFBngyInkRDeAT2EpqpHcI9QpMLIIbQ2HEynmrfl6YFUfG2hoPMwJqMh0zJ0-pYtIq0t4skYGY61NS1zF74Sng7oZLGJJ_pQ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/oGcyc3icHcTbDoIgAADQLyLRymZbD90UWFZoN31pixmUBhiU0z_sE_qbts7D-X6EtdqMHacS_R5XilfFyxRPpqQtpO0x9XC4NoAZYJzp-nhrgyTZvCuYoMDMYX5HOThQ_yQikl4CJHepP-zKeUub8ymcSd5iWSaLYrrzlrrWiOGA6niF8YV6aNnKx_Na-Vm4v0aeUNu4IXUsYEcg0JnFNbQDU2ZR5rvr1O3C0SCVfKTyVUTIWdNJ40IIgfjPgPwBswxEfw"
+    },
+    {
+      "position": 7,
+      "title": "OLIVO multi cuisine family restaurant",
+      "place_id": "ChIJUxniCgAXrjsRY68JXQSqWEw",
+      "data_id": "0x3bae17000ae21953:0x4c58aa045d09af63",
+      "data_cid": "5501333880550567779",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae17000ae21953%3A0x4c58aa045d09af63&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae17000ae21953%3A0x4c58aa045d09af63&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9735227,
+        "longitude": 77.57044239999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJUxniCgAXrjsRY68JXQSqWEw",
+      "provider_id": "/g/11mztbnhb7",
+      "rating": 3.6,
+      "reviews": 20,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "unclaimed_listing": true,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant"
+      ],
+      "type_id": "restaurant",
+      "type_ids": [
+        "restaurant"
+      ],
+      "address": "Km from Majestic, Railway Station, Bus stand and Metro station, Cottonpet Main Rd, Majestic, Bengaluru, Karnataka 0.2",
+      "country": "India",
+      "open_state": "Open · Closes 1:52 am",
+      "hours": "Open · Closes 1:52 am",
+      "operating_hours": {
+        "tuesday": "6 am–1:52 am",
+        "wednesday": "6 am–1:52 am",
+        "thursday": "6 am–1:52 am",
+        "friday": "6 am–1:52 am",
+        "saturday": "6 am–1:52 am",
+        "sunday": "6 am–1:52 am",
+        "monday": "6 am–1:52 am"
+      },
+      "extensions": [
+        {
+          "service_options": [
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Twjte2RxF7UkZ_SjkuucO4URMTulfzzmQBo6DmEBcUanWGjifdNu1cwW4hSfSodtyC1JM84ELHscbt3ITCn377TK6nqVS9BYsfrLI0-hPA6sKrfRJ-K_KfGWEYgjQ2gO9qWooGeeP6RjIU=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/wgy1rnicHco7DoIwAADQE1VACIiJgygi4pePjS5Ga1us0Cptg3pJZ2-jcXnT-7xLpW6ybxhVaXeoELTCWuIGCa4wVx0kaoPeJEASSGO4hJenn7dM4W76mHjFdX_I2FVrtHKKdJHrirxe9SYQ7rgOA1QcOYzYhZyX2kItdMqMZOKsniNrtug54Xwq0UnZcT7ituflicvv28wPdpI089gE5XroyqQh6Qwkh4REMNxRtunSlX-HQkQYr92UxcWgtUzzt_8iwL8iBkfB"
+    },
+    {
+      "position": 8,
+      "title": "Smoke House Deli Lavelle Road",
+      "place_id": "ChIJJ3R_vXkWrjsRIGNMeGY0Ylc",
+      "data_id": "0x3bae1679bd7f7427:0x57623466784c6320",
+      "data_cid": "6296652843726955296",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1679bd7f7427%3A0x57623466784c6320&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1679bd7f7427%3A0x57623466784c6320&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.971606699999999,
+        "longitude": 77.5984165
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJJ3R_vXkWrjsRIGNMeGY0Ylc",
+      "provider_id": "/g/11b6shcbwl",
+      "rating": 4.3,
+      "reviews": 5270,
+      "price": "₹600–1,600",
+      "extracted_price": 600,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant",
+        "Breakfast restaurant",
+        "Continental restaurant",
+        "Dessert restaurant",
+        "European restaurant",
+        "Deli",
+        "Vegetarian restaurant"
+      ],
+      "type_id": "restaurant",
+      "type_ids": [
+        "restaurant",
+        "breakfast_restaurant",
+        "continental_restaurant",
+        "dessert_restaurant",
+        "european_restaurant",
+        "deli",
+        "vegetarian_restaurant"
+      ],
+      "address": "Shop 52, Ground Floor, 52/53, Lavelle Road, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001",
+      "country": "India",
+      "open_state": "Open · Closes 12:30 am",
+      "hours": "Open · Closes 12:30 am",
+      "operating_hours": {
+        "tuesday": "9 am–12:30 am",
+        "wednesday": "9 am–12:30 am",
+        "thursday": "9 am–12:30 am",
+        "friday": "9 am–12:30 am",
+        "saturday": "9 am–12:30 am",
+        "sunday": "9 am–12:30 am",
+        "monday": "9 am–12:30 am"
+      },
+      "phone": "091520 17972",
+      "website": "http://www.smokehousedeli.in/",
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "On-site services",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Paid parking lot"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Assistive hearing loop",
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/dzBhB1pIWH4?source=pa&opi=79508299&hl=en-IN&gei=a7nEapD0EJrh2roP6arryAU&ahbb=1&sourceurl=https://www.google.com/search?pb%3D!4m8!1m3!1d21869.9655958397!2d77.6086284!3d12.9722428!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1s-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!2s1i:0,t:11886,p:-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!7e81!12e5!17s-O1v_Jp4huY_BnqFywaennPD4ajEz44:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26gl%3Din%26hl%3Den%26q%3Dfamily%2Brestaurants%26tbm%3Dmap",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFiNnNoY2J3bBgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a7nEapD0EJrh2roP6arryAU&ei=a7nEapD0EJrh2roP6arryAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QYgoEaftYzrDdzi4NQLLBmwod8yxmX70mEGB1zYtAuEmaVhW1UgIAHk8RI5qRdcbFBeVgo63QQyKaddf5ijXHPCNBf1C3N67L5S6I5--BXg366UwESCSqFViZSXn5QqsCg3q2C=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/GnLWF3icHcRRboIwAADQE1XArkVN9kErDiIhViLC_rCFwrRUbA3CBXcGb7Nk7-O9f1tr72bjOLcWLqTW8lY_Tf3gurd1bxdcK0feDeAGGCdIz920ZqXUYdXYcn5sxdx9pCxJiBq1WE0vVfiuCr-IN5c2eIaqytuzd5JxEF1XxxgNR8EvO1LnUmPI2LSvhGhQ91NEB5qSxqMwxX6CMhwjAEghIcanMcxoNuzy7jsresQGQyUclvRz9FzXBe3_HPR_afdDWw"
+    },
+    {
+      "position": 9,
+      "title": "Brigade Dine",
+      "place_id": "ChIJYTIRE3sXrjsRiCssE_e4Lj4",
+      "data_id": "0x3bae177b13113261:0x3e2eb8f7132c2b88",
+      "data_cid": "4480722050598316936",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae177b13113261%3A0x3e2eb8f7132c2b88&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae177b13113261%3A0x3e2eb8f7132c2b88&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9734503,
+        "longitude": 77.60784199999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJYTIRE3sXrjsRiCssE_e4Lj4",
+      "provider_id": "/g/11pkfk708r",
+      "rating": 3.8,
+      "reviews": 92,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant",
+        "Biryani restaurant"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant",
+        "biryani_restaurant"
+      ],
+      "address": "112/A, Shanthala Nagar, Sampangi Rama Nagar, Bengaluru, Karnataka 560001",
+      "country": "India",
+      "open_state": "Open · Closes 12 am",
+      "hours": "Open · Closes 12 am",
+      "operating_hours": {
+        "tuesday": "12 pm–12 am",
+        "wednesday": "12 pm–12 am",
+        "thursday": "12 pm–12 am",
+        "friday": "12 pm–12 am",
+        "saturday": "12 pm–12 am",
+        "sunday": "12 pm–12 am",
+        "monday": "12 pm–12 am"
+      },
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "All you can eat",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch",
+            "Dinner",
+            "Table service"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "Family friendly",
+            "Groups",
+            "University students"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": true
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZlFnAX_6Rp3SFOOERXjdS9sNSiO-qP-6DvPtknYtZHou3FDuqnoBDGthNdYt532-ApM-gnN80O_r-Rku4_ynAd8TOfLkqTayI0xzv70gKxzUedJZv8tXeXbaCOYDqD0LurjmcAA=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/c_1aknicHcRbcoIwFADQFV1Ji7XYmX7EptiHJQ7oFPhhNKRBwQTIDRV36BK6G2d6Ps7ftUJs7ZPnNZU_UcaoRjore2E0So0TYU6eai0IC9aj0fdhnCd5E2qaFrO49ZOQ89c4PZbJ3EbJgUO3hhkb1ljrDPM34_yQuU6bBVtiFZUZPvj3QNsvUDoKCC96iGs3LUZNy2DDf1Z1t9mN7-R8GR6J-jxftrL8yIcAU5nudy88Yx0jK9cfT4LS5987QghU_wvQN_bvRcU"
+    },
+    {
+      "position": 10,
+      "title": "Konark Kanteerava",
+      "place_id": "ChIJo9Gk5nUWrjsRRoaExV3AMG4",
+      "data_id": "0x3bae1675e6a4d1a3:0x6e30c05dc5848646",
+      "data_cid": "7940057652032472646",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1675e6a4d1a3%3A0x6e30c05dc5848646&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1675e6a4d1a3%3A0x6e30c05dc5848646&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9701331,
+        "longitude": 77.59220499999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJo9Gk5nUWrjsRRoaExV3AMG4",
+      "provider_id": "/g/11b700ll7n",
+      "rating": 4.2,
+      "reviews": 8172,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant",
+        "Breakfast restaurant",
+        "Chinese restaurant",
+        "Vegetarian restaurant",
+        "North Indian restaurant"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant",
+        "breakfast_restaurant",
+        "chinese_restaurant",
+        "vegetarian_restaurant",
+        "north_indian_restaurant"
+      ],
+      "address": "Sree kanteerava outdoor stadium, Next to main gate, Kasturba Rd Nunegundlapalli, Ambedkar Veedhi, Sampangi Rama Nagara, Bengaluru, Karnataka 560001",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 pm",
+      "hours": "Open · Closes 10:30 pm",
+      "operating_hours": {
+        "tuesday": "8 am–10:30 pm",
+        "wednesday": "8 am–10:30 pm",
+        "thursday": "8 am–10:30 pm",
+        "friday": "8 am–10:30 pm",
+        "saturday": "8 am–10:30 pm",
+        "sunday": "8 am–10:30 pm",
+        "monday": "8 am–10:30 pm"
+      },
+      "phone": "094815 28812",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "No-contact delivery",
+            "Delivery",
+            "On-site services",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection",
+            "Rooftop seating"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair-accessible entrance"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Healthy options",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options",
+            "Vegetarian options only"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Counter service",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups",
+            "LGBTQ+ friendly",
+            "Tourists",
+            "University students"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Paid parking lot",
+            "Paid street parking",
+            "Plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true,
+        "no_contact_delivery": true
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TM5OSDNG6us17BBdbGMutzTf6m37U89qAq6g02dKXzkdYmMcD9vz__nMGqXjIy-_fRDqkAJgY4avPBE4LYTbAPf8pGZ52rYmoZ_eExZi5vQp-jRW1B04AAPSVgtTm_rofeBHhm=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/N8dDEXicHcRLjoIwAADQE1WKAorJLNpg8IeDgh_YNFpK8VMKtDDKBT3D3MbEt3j_70LrSk0N41GMBlxK_mCtYg2VpWalHlApDF4pQBVQBtocry83DuzfyNv4TqvMMcbZxQ9a3ce5I0bj_cStUe1wOMxWp_6eJSKgntv1hJSBX59uixcg-c6r72jJE-vchXhmrZP4gsJ8UvmpPWwSIVPCZs_0anfbCtx2RxNDC6EwOnAdC9LInOF5IX7-TAghKL5TUH4AIRBERg"
+    },
+    {
+      "position": 11,
+      "title": "Barbecue By Punjab Grill Malleshwaram",
+      "place_id": "ChIJNUaRyrQXrjsR5hC6NjrDWs0",
+      "data_id": "0x3bae17b4ca914635:0xcd5ac33a36ba10e6",
+      "data_cid": "14797354180472869094",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae17b4ca914635%3A0xcd5ac33a36ba10e6&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae17b4ca914635%3A0xcd5ac33a36ba10e6&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9915483,
+        "longitude": 77.5711007
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJNUaRyrQXrjsR5hC6NjrDWs0",
+      "provider_id": "/g/11f7311nvj",
+      "rating": 4.7,
+      "reviews": 8581,
+      "price": "₹800–2,000",
+      "extracted_price": 800,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant",
+        "Grill",
+        "Barbecue restaurant",
+        "Fine dining restaurant",
+        "Restaurant"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant",
+        "asador",
+        "barbecue_restaurant",
+        "fine_dining_restaurant",
+        "restaurant"
+      ],
+      "address": "Unit T-1, Third Floor, Mantri square mall, Sampige Rd, Malleshwaram, Bengaluru, Karnataka 560003",
+      "country": "India",
+      "open_state": "Open · Closes 11:30 pm",
+      "hours": "Open · Closes 11:30 pm",
+      "operating_hours": {
+        "tuesday": "11 am–11:30 pm",
+        "wednesday": "11 am–11:30 pm",
+        "thursday": "11 am–11:30 pm",
+        "friday": "11 am–11:30 pm",
+        "saturday": "11 am–11:30 pm",
+        "sunday": "11 am–11:30 pm",
+        "monday": "11 am–11:30 pm"
+      },
+      "phone": "098216 34576",
+      "website": "https://stores.lbf.co.in/store-pages/barbercue-by-punjab-grill-mantri-square-mall-malleshwaram-bengaluru/",
+      "description": "Airy spot for BBQ-grill cuisine. Spacious buffet restaurant serving BBQ-grilled fares & soft beverages in an easy-going atmosphere.",
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "On-site services",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great dessert"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "All you can eat",
+            "Cocktails",
+            "Healthy options",
+            "Spirits",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Counter service",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar on site",
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Trendy",
+            "Upmarket"
+          ]
+        },
+        {
+          "crowd": [
+            "Family friendly",
+            "Groups",
+            "Tourists",
+            "University students"
+          ]
+        },
+        {
+          "planning": [
+            "Lunch reservations recommended",
+            "Reservations required",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/Z6VouPZjSNw?source=pa&opi=79508299&hl=en-IN&gei=a7nEapD0EJrh2roP6arryAU&ahbb=1&sourceurl=https://www.google.com/search?pb%3D!4m8!1m3!1d21869.9655958397!2d77.6086284!3d12.9722428!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1s-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!2s1i:0,t:11886,p:-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!7e81!12e5!17s-O1v_Jp4huY_BnqFywaennPD4ajEz44:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26gl%3Din%26hl%3Den%26q%3Dfamily%2Brestaurants%26tbm%3Dmap",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmNzMxMW52ahgAOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a7nEapD0EJrh2roP6arryAU&ei=a7nEapD0EJrh2roP6arryAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S1Y91mJajoKnCZ130PDSl5mcT_P896CFWZIgzwPyeEEoAZJTm3JV2XDAwmhV5vAXlnOZHsORy9Yp3T65h0yJa7NbSQF5vcpPfc_IqEgW7wDVzGH2xwWU5AK4T-GlmGXU48Az_N=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/CQhdSHicHcRdEoFAAADgE602WWTGw44SmUmUSi8NO9ll9ic2Vl3QGdzGjO_h-35Y2zZ6ZlmcOQOqFOX1U9cPomRby3ZAlLBoowHRQFs4yq-dm9hH1xbh6aY2clHaDoy9hCNB0iqeuuPFMi_XtDdxV_u-wmWYCifMhoWHjWAZeuGCy2250tt95x4bJx0jBrvwNInOyW6JXqSJL6Ra332aT4yX9cFq-Db5AeHNKAUBF0FxGE1xX0VzY0MIAftPgPwB3phDIw"
+    },
+    {
+      "position": 12,
+      "title": "Gufha Restaurant, Kumarapark",
+      "place_id": "ChIJA0AIbscXrjsRKUg1mKrDU_s",
+      "data_id": "0x3bae17c76e084003:0xfb53c3aa98354829",
+      "data_cid": "18110033664052381737",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae17c76e084003%3A0xfb53c3aa98354829&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae17c76e084003%3A0xfb53c3aa98354829&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9962568,
+        "longitude": 77.5838773
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJA0AIbscXrjsRKUg1mKrDU_s",
+      "provider_id": "/g/11jsh1lvst",
+      "rating": 4.7,
+      "reviews": 4800,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant",
+        "Barbecue restaurant",
+        "Chinese restaurant",
+        "Restaurant",
+        "Fine dining restaurant",
+        "Non Vegetarian Restaurant",
+        "Northern Italian restaurant",
+        "Vegetarian restaurant"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant",
+        "barbecue_restaurant",
+        "chinese_restaurant",
+        "restaurant",
+        "fine_dining_restaurant",
+        "non_vegetarian_restaurant",
+        "northern_italian_restaurant",
+        "vegetarian_restaurant"
+      ],
+      "address": "101, Railway Parallel Rd, Kumarapark West, Kumara Park West, Seshadripuram, Bengaluru, Karnataka 560020",
+      "country": "India",
+      "open_state": "Open · Closes 12:30 am",
+      "hours": "Open · Closes 12:30 am",
+      "operating_hours": {
+        "tuesday": "12 pm–12:30 am",
+        "wednesday": "12 pm–12:30 am",
+        "thursday": "12 pm–12:30 am",
+        "friday": "12 pm–12:30 am",
+        "saturday": "12 pm–12:30 am",
+        "sunday": "12 pm–12:30 am",
+        "monday": "12 pm–12:30 am"
+      },
+      "phone": "090199 08004",
+      "website": "https://www.paihotels.com/the-president-hotel-kumara-park-bangalore/restaurants/restaurants.html",
+      "extensions": [
+        {
+          "service_options": [
+            "Kerbside pickup",
+            "No-contact delivery",
+            "Delivery",
+            "Drive-through",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great coffee",
+            "Great dessert",
+            "Great wine list",
+            "Live music"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "All you can eat",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Halal food",
+            "Happy-hour drinks",
+            "Happy-hour food",
+            "Late-night food",
+            "Organic dishes",
+            "Quick bite",
+            "Salad bar",
+            "Small plates",
+            "Spirits",
+            "Vegan options",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar on site",
+            "Gender-neutral toilets",
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Romantic",
+            "Trendy",
+            "Upmarket"
+          ]
+        },
+        {
+          "crowd": [
+            "Family friendly",
+            "Groups",
+            "LGBTQ+ friendly",
+            "Tourists",
+            "University students"
+          ]
+        },
+        {
+          "planning": [
+            "Lunch reservations recommended",
+            "Reservations required",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "Good for kids birthday",
+            "Has changing table(s)",
+            "High chairs",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Paid parking lot",
+            "Paid street parking",
+            "Plenty of parking",
+            "Valet parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "drive_through": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/kr-v2Houkq4?source=pa&opi=79508299&hl=en-IN&gei=a7nEapD0EJrh2roP6arryAU&ahbb=1&sourceurl=https://www.google.com/search?pb%3D!4m8!1m3!1d21869.9655958397!2d77.6086284!3d12.9722428!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1s-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!2s1i:0,t:11886,p:-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!7e81!12e5!17s-O1v_Jp4huY_BnqFywaennPD4ajEz44:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26gl%3Din%26hl%3Den%26q%3Dfamily%2Brestaurants%26tbm%3Dmap",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqc2gxbHZzdBgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a7nEapD0EJrh2roP6arryAU&ei=a7nEapD0EJrh2roP6arryAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QDA8H5v1G4HDaeEH1yBeSZVEFIQR54NWSgaj37c7KSzOO3tak_gsUc7r-wrL43sGusz2gW-oHhu0UwnzHz5JysaBZWRm-E6vL8sT_b8CgA3LECCWdOx2i6lsz8UBFAc8pNEYeaXjzYellk=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/h6URT3icHcTBToMwGADgJ-qAFUY18QCsW1UC2RDrdllqbco2Rgl_GdKX9OzbmPgdvt-fxtoeHj2vbfBCG6NbNYIapOms6uxCmpune0ASEHhJwc_zw26dEBbdg23I1kJRFsypqo7vdPO820dhwSstLjiW8WvlyhJbcT1pqGU8oGnIQwzbEdxSc2RYM_r11DnmopcZRHrk-xuiq3tO4O30STKd4JxmGf8qv5fnVQuO1OkmkaQv6EGJj4s7qLa9Pk2B7_uo-V-i7g8LxkaN"
+    },
+    {
+      "position": 13,
+      "title": "Amma's Legacy",
+      "place_id": "ChIJ2zz1UBAXrjsRxv3zC4Vrcpc",
+      "data_id": "0x3bae171050f53cdb:0x97726b850bf3fdc6",
+      "data_cid": "10912903066247495110",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae171050f53cdb%3A0x97726b850bf3fdc6&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae171050f53cdb%3A0x97726b850bf3fdc6&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9738923,
+        "longitude": 77.62332599999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ2zz1UBAXrjsRxv3zC4Vrcpc",
+      "provider_id": "/g/11p61qbnq7",
+      "rating": 4.4,
+      "reviews": 1039,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant",
+        "North Indian restaurant"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant",
+        "north_indian_restaurant"
+      ],
+      "address": "22, Swami Vivekananda road, Old Madras Rd, Halasuru, Bengaluru, Karnataka 560008",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 pm",
+      "hours": "Open · Closes 10:30 pm",
+      "operating_hours": {
+        "tuesday": "9:30 am–10:30 pm",
+        "wednesday": "9:30 am–10:30 pm",
+        "thursday": "9:30 am–10:30 pm",
+        "friday": "9:30 am–10:30 pm",
+        "saturday": "9:30 am–10:30 pm",
+        "sunday": "9:30 am–10:30 pm",
+        "monday": "9:30 am–10:30 pm"
+      },
+      "phone": "080504 73645",
+      "extensions": [
+        {
+          "service_options": [
+            "Kerbside pickup",
+            "On-site services",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Healthy options",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options",
+            "Vegetarian options only"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Counter service",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "kerbside_pickup": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwNjFxYm5xNxgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a7nEapD0EJrh2roP6arryAU&ei=a7nEapD0EJrh2roP6arryAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QV_MAZyzZRH8-g4CD4S7Y8PNWSXy3TjZ3uvYlSqRsStuULwRM5Zkh3HJb-RBRu1yxgYAq5msCzY4wjUGMoVz1mgaFrJwyp0-Wt8KoSzNYhcXaChc8xSnbW-9T7jCmw5STFXwI=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/MXJj63icHcRdDoIgAADgE5E6dVlbD2brX1dgKr40ZQ4yFQuM8IDdodu09T183w-Tshdzw2iYPaGc06YaRPUkvJNVJyeEtwbtBSACCMOP0puenZNr6Od6zOHWA9QJVg6aYu8UpSjTdlzn9vDCDXpAgeRwOSoYuvmd2dt9CeASDpZ-U-w_3FYEI3ZUfdmEPBmtlhbr517p3gSp9A4cjRFmJCsCRrw36soUzOJpHbTKRfE6U7uFskzTBOw_Ad0PLUtEzw"
+    },
+    {
+      "position": 14,
+      "title": "Indian Family Restaurant",
+      "place_id": "ChIJudxxNAAXrjsRUSoyior4QJc",
+      "data_id": "0x3bae17003471dcb9:0x9740f88a8a322a51",
+      "data_cid": "10898984372144319057",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae17003471dcb9%3A0x9740f88a8a322a51&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae17003471dcb9%3A0x9740f88a8a322a51&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9682649,
+        "longitude": 77.6068499
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJudxxNAAXrjsRUSoyior4QJc",
+      "provider_id": "/g/11xlz4gxzk",
+      "rating": 4.7,
+      "reviews": 11,
+      "unclaimed_listing": true,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant"
+      ],
+      "type_id": "restaurant",
+      "type_ids": [
+        "restaurant"
+      ],
+      "address": "XJ94+7PW, H1 St, Ashok Nagar, Bengaluru, Karnataka 560025",
+      "country": "India",
+      "open_state": "Open · Closes 11:30 pm",
+      "hours": "Open · Closes 11:30 pm",
+      "operating_hours": {
+        "tuesday": "11:30 am–11:30 pm",
+        "wednesday": "11:30 am–11:30 pm",
+        "thursday": "11:30 am–11:30 pm",
+        "friday": "11:30 am–11:30 pm",
+        "saturday": "11:30 am–11:30 pm",
+        "sunday": "11:30 am–11:30 pm",
+        "monday": "11:30 am–11:30 pm"
+      },
+      "phone": "087921 63799",
+      "extensions": [
+        {
+          "service_options": [
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QoOAXHSFI68sw3aFiMkmq_nIkkthWa0bIKf-v6h8LsYzUJS6TPYlDsZvPKZx6QK78XUlPuGbeI6AB3mMVQK_P03-1tyMDHyAUigvilktlTnMtunhp1R8tT_Vyn_bpSahNl3SVM0R0dQWEH=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/rsL1gXicHcRNjoIwGADQE1VKmnTQxAXGcUCsA_KnbggwSAmlRfuB4iVn7W1MfIv3-ucAvV4YhuBkVitVi2rQ1a1UEioJs1J1Rt1rVGqkDXufNtM8UL_20Qk3LrX0neSbhrXdNZNu2wJPc1y43gWNlFs7fXrG25BG_kms9Xn0vfODBt6XdYyFP_wUlUvtFelYEniZjwkyYWJrZ7Ljph4b0YKIJINB8t48WBBlySSzog9zvhckTBg-4L8g_XaWdxNjjPjnEsk3wgtHvw"
+    },
+    {
+      "position": 15,
+      "title": "Bengaluru Restaurant",
+      "place_id": "ChIJf2-y-BwVrjsR0G-Ts_6cAVs",
+      "data_id": "0x3bae151cf8b26f7f:0x5b019cfeb3936fd0",
+      "data_cid": "6557695150176563152",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae151cf8b26f7f%3A0x5b019cfeb3936fd0&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae151cf8b26f7f%3A0x5b019cfeb3936fd0&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9665998,
+        "longitude": 77.5831707
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJf2-y-BwVrjsR0G-Ts_6cAVs",
+      "provider_id": "/g/11jfpvdqkj",
+      "rating": 4.7,
+      "reviews": 437,
+      "price": "₹200–1,000",
+      "extracted_price": 200,
+      "type": "Indian restaurant",
+      "types": [
+        "Indian restaurant"
+      ],
+      "type_id": "indian_restaurant",
+      "type_ids": [
+        "indian_restaurant"
+      ],
+      "address": "Ganigara, C, Gurkar Ramanayak Ln, Bengaluru, Karnataka 560002",
+      "country": "India",
+      "open_state": "Open · Closes 11:57 pm",
+      "hours": "Open · Closes 11:57 pm",
+      "operating_hours": {
+        "tuesday": "12 am–11:57 pm",
+        "wednesday": "12 am–11:57 pm",
+        "thursday": "12 am–11:57 pm",
+        "friday": "12 am–11:57 pm",
+        "saturday": "12 am–11:57 pm",
+        "sunday": "12 am–11:57 pm",
+        "monday": "12 am–11:57 pm"
+      },
+      "website": "https://restaurant-bengaluru.ueniweb.com/?utm_campaign=gmb",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "No-contact delivery",
+            "Delivery",
+            "Drive-through",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection",
+            "Great wine list",
+            "Live music",
+            "Rooftop seating",
+            "Sport"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "All you can eat",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Happy-hour drinks",
+            "Happy-hour food",
+            "Healthy options",
+            "Organic dishes",
+            "Private dining room",
+            "Quick bite",
+            "Small plates",
+            "Spirits",
+            "Vegan options",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar on site",
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Romantic",
+            "Trendy",
+            "Upmarket"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups",
+            "Tourists",
+            "University students"
+          ]
+        },
+        {
+          "planning": [
+            "Reservations required",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "Good for kids birthday",
+            "Has changing table(s)",
+            "High chairs",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking",
+            "Plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "drive_through": true,
+        "no_contact_delivery": true
+      },
+      "user_review": "\"Nice and very hygienic family restaurant\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S1y-RFicMAw3eX5BdGPpJPAq9nSvj5fvtzRPkqGMbjBQxfdVPuQY9H3CU1fChmx2QxXx47-sUwdmXI08lTDWV56UWH57QkuuCmFiFdyBJrM63ex4jTSe8AwAtNafwm5AEtDlVKfYfALjnl=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/hMYoHHicHcRLcoIwAADQE0VAjIozLgIWrRUHRD4u25DwMQloggm9ZNe9TWf6Fu_3p1FqkBvLYo07q_u-ZmSU5Il7oYhQM9xzqx4kwBJIC52LdvJSZwKXsMUR0i4poV_t4-EYo4cn0lcH6Ut9X-L7Yx99dX5iaJXHY3LzDm6QOTRouJknpjSLFZCZrnj5bq_ZdVfkcJkVB7hK7uMY8LANq8k_PqOlS8yiu6ZkjTRS50-qOURvasfyD3qj6NQJttWObdug-R8D8QejmUdz"
+    },
+    {
+      "position": 16,
+      "title": "The Only Place",
+      "place_id": "ChIJhUwCoH4WrjsRXHFQjoJQxzQ",
+      "data_id": "0x3bae167ea0024c85:0x34c750828e50715c",
+      "data_cid": "3803096932001280348",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae167ea0024c85%3A0x34c750828e50715c&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae167ea0024c85%3A0x34c750828e50715c&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9716454,
+        "longitude": 77.6131197
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJhUwCoH4WrjsRXHFQjoJQxzQ",
+      "provider_id": "/g/1v6qg1pt",
+      "rating": 4.2,
+      "reviews": 8829,
+      "price": "₹600–1,600",
+      "extracted_price": 600,
+      "type": "Steak house",
+      "types": [
+        "Steak house",
+        "Cafe",
+        "Continental restaurant",
+        "Hamburger restaurant"
+      ],
+      "type_id": "steak_house",
+      "type_ids": [
+        "steak_house",
+        "cafe",
+        "continental_restaurant",
+        "hamburger_restaurant"
+      ],
+      "address": "6/5, Gurappa Avenue, Primrose Rd, Ashok Nagar, Bengaluru, Karnataka 560025",
+      "country": "India",
+      "open_state": "Closes soon · 3:20 pm · Reopens 7 pm",
+      "hours": "Closes soon · 3:20 pm · Reopens 7 pm",
+      "operating_hours": {
+        "tuesday": "12–3:20 pm, 7–11 pm",
+        "wednesday": "12–3:20 pm, 7–11 pm",
+        "thursday": "12–3:20 pm, 7–11 pm",
+        "friday": "12–3:20 pm, 7–11 pm",
+        "saturday": "12–3:20 pm, 7–11 pm",
+        "sunday": "12–3:20 pm, 7–11 pm",
+        "monday": "12–3:20 pm, 7–11 pm"
+      },
+      "phone": "099860 11112",
+      "website": "https://m.facebook.com/TheOnlyPlaceBangalore",
+      "description": "Casual place for American-style eats. Straightforward mainstay serving American classics such as burgers, steaks, sandwiches & apple pie.",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "No-contact delivery",
+            "Delivery",
+            "On-site services",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great dessert"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Healthy options",
+            "Quick bite",
+            "Small plates",
+            "Spirits",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Romantic",
+            "Trendy",
+            "Upmarket"
+          ]
+        },
+        {
+          "crowd": [
+            "Family friendly",
+            "Groups",
+            "Tourists",
+            "University students"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Lunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "On-site parking",
+            "Paid parking lot",
+            "Paid street parking",
+            "Valet parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiUKI-ICIDIeEhciFdLX29IPDwoLL2cvMXY2cWcxcHQYADoDCPAN&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a7nEapD0EJrh2roP6arryAU&ei=a7nEapD0EJrh2roP6arryAU&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TJiQ8ZYruOebuA2FWlFumwlgr6iboLz6GKkDDGrHBghCJwV3vPnAdQre1zYfYu5-ZOF0xTEypiTuBsbzn0JjBpTUKfjVhb_f4ArQkBYJE6jmMJUGAqFZKgczCrBKTApYYkKwiz=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/sGhfP3icHcRdTsMgAADgE7Eyp42a-EC3tQbU2YRtoS8mRQr0BxCKdVzQM3ibJX4P39-vmmcXHrNsVJuVtFaOIgbhuTWzMPOK2ymTLgAeQMjQ21lfHijW9X3DfDyINqKb8jyWcVpG6XPd2peUV2TY7Sr_XEi1xctp8_1u0GftxTqxjsU70BxK-EP3F6dpLEKbDMR94eiRdP1JtR_dLfL1UDC8z_vpFR8r9FU2RPK09QWhyDE2kEWnp2UNIQTqfw7MFfOMRkc"
+    },
+    {
+      "position": 17,
+      "title": "Pasta Street - Cunningham Road",
+      "place_id": "ChIJY0f2SWgWrjsRmMNTyxkClT8",
+      "data_id": "0x3bae166849f64763:0x3f950219cb53c398",
+      "data_cid": "4581570505728050072",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae166849f64763%3A0x3f950219cb53c398&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae166849f64763%3A0x3f950219cb53c398&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9883413,
+        "longitude": 77.5937533
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJY0f2SWgWrjsRmMNTyxkClT8",
+      "provider_id": "/g/1hf6ft88x",
+      "rating": 4.4,
+      "reviews": 4658,
+      "price": "₹600–1,600",
+      "extracted_price": 600,
+      "type": "Italian restaurant",
+      "types": [
+        "Italian restaurant",
+        "European restaurant",
+        "Pizza restaurant",
+        "Wine bar"
+      ],
+      "type_id": "italian_restaurant",
+      "type_ids": [
+        "italian_restaurant",
+        "european_restaurant",
+        "pizza_restaurant",
+        "wine_bar"
+      ],
+      "address": "Chicago Avenue, 37/2, Cunningham Rd, opposite Fortis Hospital, Vasanth Nagar, Bengaluru, Karnataka 560001",
+      "country": "India",
+      "open_state": "Open · Closes 11 pm",
+      "hours": "Open · Closes 11 pm",
+      "operating_hours": {
+        "tuesday": "12–11 pm",
+        "wednesday": "12–11 pm",
+        "thursday": "12–11 pm",
+        "friday": "12–11 pm",
+        "saturday": "12–11 pm",
+        "sunday": "12–11 pm",
+        "monday": "12–11 pm"
+      },
+      "phone": "098865 13284",
+      "website": "http://www.pastastreet.co.in/",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "No-contact delivery",
+            "Delivery",
+            "On-site services",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great dessert",
+            "Great wine list",
+            "Rooftop seating",
+            "Sport"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Cocktails",
+            "Coffee",
+            "Happy-hour drinks",
+            "Healthy options",
+            "Quick bite",
+            "Small plates",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar on site",
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Romantic",
+            "Trendy",
+            "Upmarket"
+          ]
+        },
+        {
+          "crowd": [
+            "Family friendly",
+            "Groups"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking",
+            "Paid parking lot",
+            "Valet parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/lwd5Qa8NRn4?source=pa&opi=79508299&hl=en-IN&gei=a7nEapD0EJrh2roP6arryAU&ahbb=1&sourceurl=https://www.google.com/search?pb%3D!4m8!1m3!1d21869.9655958397!2d77.6086284!3d12.9722428!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1s-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!2s1i:0,t:11886,p:-O1v_Jp4huY_BnqFywaennPD4ajEz44:2!7e81!12e5!17s-O1v_Jp4huY_BnqFywaennPD4ajEz44:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26gl%3Din%26hl%3Den%26q%3Dfamily%2Brestaurants%26tbm%3Dmap",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiYKJOICITIfEhgiFtLX29IPEAoML2cvMWhmNmZ0ODh4GAE6AwjwDQ%3D%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=a7nEapD0EJrh2roP6arryAU&ei=a7nEapD0EJrh2roP6arryAU&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SaGUXhDIzsScWQMmKi5mocy6IFaBwOiIEWOc5MIMp7O3ZQijSxLtRvfCGs4tUcyDzyx6BCmiTQBx6BRUWGXP6VO7kty3eZvBo6t3zqh3n-uYt1msLO7HB0fcpCTIXHSm9oC-zA=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/yFJHLXicHcbdboIwGADQJ6pgOiGa7MLCho1ih8hg3pkvSKuWov38KS-4Z_BtNN6cnMe_ROzsxPOOkg4aY5pjfbH1GUyLdYsDMNprOkvAEutNl6Vy43ybFJWMeW9zKLNUz9VIG3AB_96ym1D8qxQwSnnahYJuMrXP7wtcXXdRYj-wABf37h6wSKt1xl5ZFWVS_QS_Ijygo_XmykyAtD9J2pLLHw61XYhwxvwddNGaV7Ncj01E-unnbej7PpFvgbRPpdVE9g"
+    },
+    {
+      "position": 18,
+      "title": "Karavali Family Restaurant",
+      "place_id": "ChIJZ8p541oVrjsRiO6nrN1I_Ao",
+      "data_id": "0x3bae155ae379ca67:0xafc48ddaca7ee88",
+      "data_cid": "791587751432023688",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae155ae379ca67%3A0xafc48ddaca7ee88&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae155ae379ca67%3A0xafc48ddaca7ee88&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.959907999999999,
+        "longitude": 77.593454
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZ8p541oVrjsRiO6nrN1I_Ao",
+      "provider_id": "/g/11sb4ycsqx",
+      "rating": 3.8,
+      "reviews": 293,
+      "unclaimed_listing": true,
+      "type": "Karnataka restaurant",
+      "types": [
+        "Karnataka restaurant",
+        "Alsace restaurant",
+        "Chinese restaurant",
+        "Hotel",
+        "North Indian restaurant",
+        "Resort hotel",
+        "South Indian restaurant"
+      ],
+      "type_id": "karnataka_restaurant",
+      "type_ids": [
+        "karnataka_restaurant",
+        "alsace_restaurant",
+        "chinese_restaurant",
+        "hotel",
+        "north_indian_restaurant",
+        "resort_hotel",
+        "south_indian_restaurant"
+      ],
+      "address": "120, Kengal Hanumanthaiah Rd, Raja Ram Mohanroy Extension, Sudhama Nagar, Bengaluru, Karnataka 560027",
+      "country": "India",
+      "phone": "063662 46862",
+      "extensions": [
+        {
+          "service_options": [
+            "Kerbside pickup",
+            "No-contact delivery",
+            "Delivery",
+            "Drive-through",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "All you can eat",
+            "Quick bite",
+            "Small plates",
+            "Vegetarian options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar on site",
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Family friendly",
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "drive_through": true,
+        "no_contact_delivery": true
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RqHgcav0ZIK2cqBFSK3a7J-fqzO51Yz3Sk500XLwRPaHfD-A_sLUVWpyzI242rYEaORJllB4o25ZKQqTTxhrMUKOVlL4IhMs9HQ6hVrRv0pAiOiNjINtYVC7y5cqF9PNfaI2jT=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/z9FZh3icHcTbDoIgAADQLyIJtWZbD3abpGmZWfbSGFOxSETooj_YN_Q3bZ2H8_0wrRs1MQzOzEEpRMnzh8pbKmqd13pAxd0oGwWoAspww2PVObH0Skqe8Ix9ROVstfdNMl6DQvaRPcx6c3-zITwFr3hLvGIB3IsKDumx6XqMLNRmSxLFa85nlkD22d_JJHmzdnPwo5QHFmYb5Xi7EUvb-Akbt4qq8IpDnaXzcWdTuXK2YUEwuibT1xBCCNh_Cuof6ftDXQ"
+    },
+    {
+      "position": 19,
+      "title": "Appaji Mane | Naati Style, Family Restaurant | Gandhinagar",
+      "place_id": "ChIJdRaqfIQXrjsRYXaprDyoXLw",
+      "data_id": "0x3bae17847caa1675:0xbc5ca83caca97661",
+      "data_cid": "13572908355536123489",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae17847caa1675%3A0xbc5ca83caca97661&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae17847caa1675%3A0xbc5ca83caca97661&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.978879599999999,
+        "longitude": 77.5795054
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdRaqfIQXrjsRYXaprDyoXLw",
+      "provider_id": "/g/11mlq1fyqg",
+      "rating": 4.4,
+      "reviews": 87,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant"
+      ],
+      "address": "No 1/2, 6th Cross, Sri, Vajreshwari Combines Road, Gandhi Nagar, Bengaluru, Karnataka 560009",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 pm",
+      "hours": "Open · Closes 10:30 pm",
+      "operating_hours": {
+        "tuesday": "12–10:30 pm",
+        "wednesday": "12–10:30 pm",
+        "thursday": "12–10:30 pm",
+        "friday": "12–10:30 pm",
+        "saturday": "12–10:30 pm",
+        "sunday": "12–10:30 pm",
+        "monday": "12–10:30 pm"
+      },
+      "extensions": [
+        {
+          "service_options": [
+            "Kerbside pickup",
+            "Delivery",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "kerbside_pickup": true,
+        "delivery": true
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ss4ecswPAv9LJ9VM2ZKYmIIjAhbVqjYMRgp97mowmlWtEpsM5hi9MJ-BrEJVAG7ZIGviAZ-V8UVk9ZRPjUBOIo5oy6dHBE9tZTbh2XRTShbMOV3fiX0E-R56GbCJOagIokb0c2sxJR1FQ2=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ltAnEXicHcTRdoIgAADQLyLJssbO2QN2nIPGbFRUvA1moKm4YFlf2XN_s3N2H-7jbkPo_XMUNXYyMs6Zpvz15Vm7LpRdGGnXRqb3QHvgI_yxq25o7ael9sMKX9A7RYLFcnloCamxVeKnPjBuejRv3dA2u5D1niW2QoyC9JxRgfO5JPmlwhKIp604IclX9TYtiEvcbfb9lmYoyI2y8Z5v1laxQkyO1R5mgCezXC1o8WWIOymoY3-lfPz6Gb8MYwghsP9r0P0BduxF9Q"
+    },
+    {
+      "position": 20,
+      "title": "Sangeet Family Restaurant & Bar",
+      "place_id": "ChIJMbyXsCIWrjsRHiMa-dV_T6k",
+      "data_id": "0x3bae1622b097bc31:0xa94f7fd5f91a231e",
+      "data_cid": "12200110472553964318",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1622b097bc31%3A0xa94f7fd5f91a231e&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1622b097bc31%3A0xa94f7fd5f91a231e&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9899699,
+        "longitude": 77.5727081
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMbyXsCIWrjsRHiMa-dV_T6k",
+      "provider_id": "/g/1vqmgtf0",
+      "rating": 3.9,
+      "reviews": 766,
+      "price": "₹400–800",
+      "extracted_price": 400,
+      "unclaimed_listing": true,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant",
+        "Bar"
+      ],
+      "type_id": "family_restaurant",
+      "type_ids": [
+        "family_restaurant",
+        "bar"
+      ],
+      "address": "XHQF+X3P, Jai Bheema Nagar, Sampangiram Nagar, Seshadripuram, Bengaluru, Karnataka 560020",
+      "country": "India",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours",
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours"
+      },
+      "phone": "093423 11580",
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "Takeaway",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection"
+          ]
+        },
+        {
+          "popular_for": [
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Beer",
+            "Spirits",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch",
+            "Dinner",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar on site",
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking",
+            "Difficult to find a space"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": true
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TNJIjYkj4_xGs57I8iTgE8oeHmY6Xbxfl-VfnFmTflo6yVy-fBJC02UElaEnERHNg1fCdJKz8_wsVg4xakXTF0eMQDw_GdTAQvujVWWOqiWh4rutUtinWFpTrLuYNJwJHZBCwL=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/rxsNOXicHcRRboIwAADQE1WqMseW-CEMxM5hNJWKP8RhW8DSIi0WdsGdYbdZ4vt4f7-lMa1-dxxRzidcKS5or2lXKGmoNJNCNQ5vNSg00M4qIdX4hhO0qbNb7ebDWr-8brwK89BTNG6yxel7YAKkTEYNZkItxnQEzEcBnB1DcQlleIgTPmXBFX3-eLnVKXeHy-2EI0i_9h82X1_xav_o65SQ3b0ipdv15mgqSaIWd9s-S5BF8dkP7HZppxBCUD4vgPwHnANFxQ"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&gl=in&google_domain=google.com&hl=en&ll=%4012.9722428%2C77.6086284%2C15z&q=family+restaurants&start=20&type=search"
+  }
+}

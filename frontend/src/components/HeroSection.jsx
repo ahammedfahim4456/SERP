@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, ArrowRight, CheckCircle2, TrendingDown, MapPin, ShieldAlert, Award } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Award } from 'lucide-react';
 
 export default function HeroSection({ onScrollToJourney }) {
   return (

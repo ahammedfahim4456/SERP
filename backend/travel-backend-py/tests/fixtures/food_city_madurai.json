@@ -1,0 +1,1071 @@
+{
+  "search_metadata": {
+    "id": "6ac4b963fbe53b090793fc4c",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/vnGpwKdAhPchm1sFCa3DEUDxR1tKhqHj8J5SH5M5YJw/6ac4b963fbe53b090793fc4c.json",
+    "markdown_endpoint": "https://serpapi.com/searches/vnGpwKdAhPchm1sFCa3DEUDxR1tKhqHj8J5SH5M5YJw/6ac4b963fbe53b090793fc4c.md",
+    "created_at": "2026-10-06 09:03:31 UTC",
+    "processed_at": "2026-10-06 09:03:31 UTC",
+    "google_maps_url": "https://www.google.com/maps/search/restaurants+in+Madurai//data=!3m1!4b1!4m2!2m1!6e5?hl=en&gl=in",
+    "raw_html_file": "https://serpapi.com/searches/vnGpwKdAhPchm1sFCa3DEUDxR1tKhqHj8J5SH5M5YJw/6ac4b963fbe53b090793fc4c.html",
+    "prettify_html_file": "https://serpapi.com/searches/vnGpwKdAhPchm1sFCa3DEUDxR1tKhqHj8J5SH5M5YJw/6ac4b963fbe53b090793fc4c.prettify",
+    "total_time_taken": 0.82
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "restaurants in Madurai",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "in"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "restaurants in Madurai"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Zaitoon Restaurant, Madurai",
+      "place_id": "ChIJR0x9Wa7FADsRQGLRHfIEDfE",
+      "data_id": "0x3b00c5ae597d4c47:0xf10d04f21dd16240",
+      "data_cid": "17369544775766729280",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c5ae597d4c47%3A0xf10d04f21dd16240&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c5ae597d4c47%3A0xf10d04f21dd16240&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.922738599999999,
+        "longitude": 78.1488774
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJR0x9Wa7FADsRQGLRHfIEDfE",
+      "provider_id": "/g/11cmtstvbt",
+      "rating": 4.4,
+      "reviews": 11298,
+      "type": "Middle Eastern restaurant",
+      "types": [
+        "Middle Eastern restaurant",
+        "Barbecue restaurant",
+        "Non Vegetarian Restaurant"
+      ],
+      "address": "80 Feet Rd, New LIG Colony, Anna Nagar, Madurai, Tamil Nadu 625020",
+      "country": "India",
+      "open_state": "Open · Closes 11:30 pm",
+      "hours": "Open · Closes 11:30 pm",
+      "operating_hours": {
+        "tuesday": "11:30 am–11:30 pm",
+        "wednesday": "11:30 am–11:30 pm",
+        "thursday": "11:30 am–11:30 pm",
+        "friday": "11:30 am–11:30 pm",
+        "saturday": "11:30 am–11:30 pm",
+        "sunday": "11:30 am–11:30 pm",
+        "monday": "11:30 am–11:30 pm"
+      },
+      "phone": "0452 435 3800",
+      "website": "https://thezaitoon.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjbXRzdHZidBgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfCR05niQHGW0A7n-R4ii_Vvp62Nfw2NKbpNK0UjpMfCA2luThMHhu1TAataf0aaYjJC1K7KovNMU9VsDEqEAIM_f6jMLq3xmoS4FhTiKF-fL_CR7fKq0NXfx5SgZvBHgSIjojw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/s6f7pnicHcRdboIwAADgE1UK_pAt8aEyFS1tMkDd9kIqoS0VWrAFvKFn2G1M_B6-_6d0rrOfntfI-UwYI5pqsNW9NNpV2s1K03rizqwFpfUQ2tzahEcpXOr6O95fIAo1SBd1XZzHbhVQPgUUXzuK4Ul1hEcoaIZcklgOfo6YYxwy9quOkY9DbEZKTh9n-7Xtt-hACr5SJOnnj9Zki53Ma7wDPCmiNOS4h_SHP5aZ-Bs3scgOyqhpPfkQQiDfl0C_AP4qQ9Y"
+    },
+    {
+      "position": 2,
+      "title": "House Of Paneer - Veg Restaurant Madurai",
+      "place_id": "ChIJWS4KBgDFADsRPNKllptrXLY",
+      "data_id": "0x3b00c500060a2e59:0xb65c6b9b96a5d23c",
+      "data_cid": "13140496128751817276",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c500060a2e59%3A0xb65c6b9b96a5d23c&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c500060a2e59%3A0xb65c6b9b96a5d23c&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9432131,
+        "longitude": 78.128908
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJWS4KBgDFADsRPNKllptrXLY",
+      "provider_id": "/g/11y67mb3dx",
+      "rating": 4.7,
+      "reviews": 2548,
+      "type": "Vegetarian restaurant",
+      "types": [
+        "Vegetarian restaurant"
+      ],
+      "address": "Alagendra jothi, Income Tax Rd, Viswanathapuram, Krishnapuram Colony, Madurai, Tamil Nadu 625002",
+      "country": "India",
+      "open_state": "Open · Closes 11 pm",
+      "hours": "Open · Closes 11 pm",
+      "operating_hours": {
+        "tuesday": "12–11 pm",
+        "wednesday": "12–11 pm",
+        "thursday": "12–11 pm",
+        "friday": "12–11 pm",
+        "saturday": "12–11 pm",
+        "sunday": "12–11 pm",
+        "monday": "12–11 pm"
+      },
+      "phone": "096000 77511",
+      "website": "http://www.houseofpaneer.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/VFYBKh3y1bg?source=pa&opi=79508299&hl=en-IN&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ahbb=1&sourceurl=https://www.google.com/search?q%3Drestaurants%2Bin%2BMadurai%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!2s1i:0,t:11886,p:EVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!7e81!12e5!17sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:35!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26gl%3Din%26hl%3Den",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOKIZtBDDooM4wR2BYFJFV82aX44lDIMaVB9r1obTtIytEW3rTOWWlfFPzTHbeMGrQRV-hRpyuO81eRJ73xIJSSurpv2SF7ft18a7gwgnfZeptZ4M3-GNjPekDJ9Amk3H9oOm8AMKp3bWg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/9HdJjHicHcTdboIwGADQJ6r8lARY4gWMgWAqDghs3AEpJbPQpv2Q6UN679uYeC7O8zEBSP1hGHzCOyYE43TVVA1iAbrAbhCzwVSnNRq0EXxeJZ_zY9pCGEVCEGcr7PA3zuLas7sfx-FRSro69JUl-grSG3w1WFV50_AxPt-rQ09Jor6LGk2FvK25Z9Eic_F_mpXlquTVLmN3BMvrXLaxZWyphNYhGCWnvzO9RJkfzBd88EU-ewE5Stw3bL9Zpmmi6f2Alhc6j0ZZ"
+    },
+    {
+      "position": 3,
+      "title": "Bistro 1427 - Madurai Restaurant",
+      "place_id": "ChIJATHVA57FADsR-nykhjgfEHA",
+      "data_id": "0x3b00c59e03d53101:0x70101f3886a47cfa",
+      "data_cid": "8074988459512855802",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c59e03d53101%3A0x70101f3886a47cfa&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c59e03d53101%3A0x70101f3886a47cfa&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9133134,
+        "longitude": 78.14442869999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJATHVA57FADsR-nykhjgfEHA",
+      "provider_id": "/g/11ghv3h86g",
+      "rating": 4.2,
+      "reviews": 1289,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant",
+        "Biryani restaurant",
+        "Family restaurant",
+        "Fine dining restaurant",
+        "Non Vegetarian Restaurant"
+      ],
+      "address": "AH43, Kamarajar Salai, Main, Madurai, Meenakshi Nagar, Tamil Nadu 625009",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 pm",
+      "hours": "Open · Closes 10:30 pm",
+      "operating_hours": {
+        "tuesday": "11 am–10:30 pm",
+        "wednesday": "11 am–10:30 pm",
+        "thursday": "11 am–10:30 pm",
+        "friday": "11 am–10:30 pm",
+        "saturday": "11 am–10:30 pm",
+        "sunday": "11 am–10:30 pm",
+        "monday": "11 am–10:30 pm"
+      },
+      "phone": "095857 79992",
+      "website": "http://jesjonfoods.com/",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating"
+          ]
+        }
+      ],
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/jl2kMRG8KDY?source=pa&opi=79508299&hl=en-IN&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ahbb=1&sourceurl=https://www.google.com/search?q%3Drestaurants%2Bin%2BMadurai%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!2s1i:0,t:11886,p:EVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!7e81!12e5!17sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:35!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26gl%3Din%26hl%3Den",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdmvGRPLrnqEyHoDAh3I-z7zXS07qd2fVrAzD5TEDsq7yggR6n_A0aoxiaT4OIrJSkZgjEh3bIfxdhBYbVAXuhCTkCkTkRY0xAg2vkV39O_tnijgDsvdg10_Twwx_jpbyvFN20z=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/lgILwnicHcTdDsEwGADQJ5rVhoXERWfDRJBpFtws-_PVaq21tb8X9AzeRuJcnO-Hav1SC9N8UnsEQsCzeKtCZoLrgutRJioTZKKUkSkTY5dV-7xqNuFpL3nt91vhYWoHxuAMlzNy6ty6RxIP3pT4nqqdHiCc8RijRHSPhEyOgdyd2Q1Kn9ppcO9y6l7TCF_edEXYihEWXlGHwWpYZM-PseaPEjzV5DBGMWnbLi5fad-sDxYalu0YIWTQ_5nBf-RPRnE"
+    },
+    {
+      "position": 4,
+      "title": "Melting Pot Restaurant Madurai",
+      "place_id": "ChIJ23M5waTFADsRYb7izzpM0Bw",
+      "data_id": "0x3b00c5a4c13973db:0x1cd04c3acfe2be61",
+      "data_cid": "2076243243697356385",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c5a4c13973db%3A0x1cd04c3acfe2be61&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c5a4c13973db%3A0x1cd04c3acfe2be61&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9460307,
+        "longitude": 78.1651428
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ23M5waTFADsRYb7izzpM0Bw",
+      "provider_id": "/g/11g5s7_2mc",
+      "rating": 4.9,
+      "reviews": 2900,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant"
+      ],
+      "address": "122, Airport-Mattuthavani Ring Rd, Madurai, Tamil Nadu 625107",
+      "country": "India",
+      "open_state": "Open · Closes 11 pm",
+      "hours": "Open · Closes 11 pm",
+      "operating_hours": {
+        "tuesday": "7 am–11 pm",
+        "wednesday": "7 am–11 pm",
+        "thursday": "7 am–11 pm",
+        "friday": "7 am–11 pm",
+        "saturday": "7 am–11 pm",
+        "sunday": "7 am–11 pm",
+        "monday": "7 am–11 pm"
+      },
+      "phone": "097919 39244",
+      "website": "https://poppyshotels.com/poppys-hotel-madurai/dining",
+      "description": "Casual restaurant chain for fondue meals. Fondue restaurant chain offering heated pots of cheese, chocolate or broth for dipping & cooking.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/FeqjzrQFNFg?source=pa&opi=79508299&hl=en-IN&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ahbb=1&sourceurl=https://www.google.com/search?q%3Drestaurants%2Bin%2BMadurai%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!2s1i:0,t:11886,p:EVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!7e81!12e5!17sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:35!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26gl%3Din%26hl%3Den",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnNXM3XzJtYxgAOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcCxZw5CQ14OHOK1SjBZuqZVao6W2kHq1DJjbrFYNT4OSVxW5aTFTFG-xp-V3WWUGUw5ADs3pNj3fN5YHIAe84p1Jff6O9paTuZ4nx1C6T7W6KWJWU45RCoxn_9phqLAXKM-Ug82g=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/GwhiQ3icHcRdboIwAADgE1WotPiT7KFikIFCHIVOXhbWQAlqWyiEXtEjeJsl-x6-96ubJm32jvPovJVQSjya2TQjV3Jq5LTi6umIsTYGcOMQcrg_zzyw1YKDK0RZlCUw7w_VPFRlrXy2vkcDPMb97xjeUoqyvLQM1zSk4QlYDUqPseJULJgcjafT3mtTfIs-SbNFGsZt62c7XdO5QtLCwKcb5icsZgXCX4Gy8menu-FMvpMLKMR2LT4W6Lou6P7nQP4BQahC2g"
+    },
+    {
+      "position": 5,
+      "title": "Sree Sabarees",
+      "place_id": "ChIJp_5ezYDFADsRBStetvgyRto",
+      "data_id": "0x3b00c580cd5efea7:0xda4632f8b65e2b05",
+      "data_cid": "15728314792430938885",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c580cd5efea7%3A0xda4632f8b65e2b05&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c580cd5efea7%3A0xda4632f8b65e2b05&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.918128699999999,
+        "longitude": 78.1127181
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJp_5ezYDFADsRBStetvgyRto",
+      "provider_id": "/g/1tdb780c",
+      "rating": 4.2,
+      "reviews": 10674,
+      "type": "Vegetarian restaurant",
+      "types": [
+        "Vegetarian restaurant",
+        "Breakfast restaurant"
+      ],
+      "address": "West, Town Hall Rd, Madurai Main, Madurai, Tamil Nadu 625001",
+      "country": "India",
+      "open_state": "Open · Closes 11:30 pm",
+      "hours": "Open · Closes 11:30 pm",
+      "operating_hours": {
+        "tuesday": "6 am–11:30 pm",
+        "wednesday": "6 am–11:30 pm",
+        "thursday": "6 am–11:30 pm",
+        "friday": "6 am–11:30 pm",
+        "saturday": "6 am–12 am",
+        "sunday": "6 am–11:30 pm",
+        "monday": "6 am–11:30 pm"
+      },
+      "phone": "0452 437 9037",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiUKI-ICIDIeEhciFdLX29IPDwoLL2cvMXRkYjc4MGMYAToDCPAN&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdxcNb4zQ5voI5AgLl1V5JqW9JK9RtM82jOM0gLCZJXmmu8H1E935iA_tdYkLjDFqwKxcOHuGKlS7kgBQEVE_PtWQ8853udxmxGXteNetZ5JnWTZ4zKhCzhfGrn2eQWrj1tJasD=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/iiNHunicHcTdboIwGADQJ0JAbAZLvEBFXMEf1IByQ7B07YC2Sj-U8IJ7Bt9myc7Fef9ygLv-NM2WOxOmFGtpr2lHlAQqYUKUMFlXam0Qbfr-ohFxNZDdbTYm6Km-kM_i1k4RfmQejrwjbN1pvd9aLF7m-CJE727swHPQj19AdW3ierV-vKKB7Dd9GLWnj4YtkiANigNkiesip68GMYQXoDsKOcIyO-ezMeLLkX-HnZzSJOtqG3CpV_OXbVmWwf8nhvwDOGFErw"
+    },
+    {
+      "position": 6,
+      "title": "Gowri Parvathi Bhavan, Madurai",
+      "place_id": "ChIJy7mPQnTFADsRk1HWPNp5JPU",
+      "data_id": "0x3b00c574428fb9cb:0xf52479da3cd65193",
+      "data_cid": "17664377616684437907",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c574428fb9cb%3A0xf52479da3cd65193&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c574428fb9cb%3A0xf52479da3cd65193&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9313074,
+        "longitude": 78.148634
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJy7mPQnTFADsRk1HWPNp5JPU",
+      "provider_id": "/g/11k9k7tvn_",
+      "rating": 4.5,
+      "reviews": 5271,
+      "type": "Vegetarian restaurant",
+      "types": [
+        "Vegetarian restaurant"
+      ],
+      "address": "Deputy collector colony, 7th street, 80 Feet Rd, opposite Sundaram Park, KK Nagar, Madurai, Tamil Nadu 625020",
+      "country": "India",
+      "open_state": "Open · Closes 11 pm",
+      "hours": "Open · Closes 11 pm",
+      "operating_hours": {
+        "tuesday": "7 am–11 pm",
+        "wednesday": "7 am–11 pm",
+        "thursday": "7 am–11 pm",
+        "friday": "7 am–11 pm",
+        "saturday": "7 am–11 pm",
+        "sunday": "7 am–11 pm",
+        "monday": "7 am–11 pm"
+      },
+      "phone": "081860 57777",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrOWs3dHZuXxgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfjNpal7tzdRUqs-aV_A7a8yMfn3ICfEgD4W8fDxfv0XM5UifvA8VZ0DjMgGbt1h_7tX52jaeQdguTM9wMeRTGyu_QxCfKFE6x-sfYbwrhzb6XnvjfSHB35rOHhAQjV-kxeC12vxw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/EMSSK3icHcRRboIwGADgE1WKDMEle6jgdJndglPG9kIK9m9XsSgtUL3hjuBtlux7-O6_0tqzefS8RgYT0bai4b3hXd1qy7Wd1O3JEx0zBtXGI2RxPG1AvZ1ZE9nbYbu_GMTykkQsvlLQwUsCS5E-fMaQOhhwQcP9Dwwkzr9xqqhYVdaXZWSLcKoYzw6i39H5SPl2t7r2ZeYSeH1ezhwy8FWNnbxVs0IPCj7WiyDs3teSZCpHR8cTfzq48Wn0McZI_l8j_QdUYEZj"
+    },
+    {
+      "position": 7,
+      "title": "Madurai Kitchen",
+      "place_id": "ChIJNxFb7c3FADsRGcaAPJLvBgk",
+      "data_id": "0x3b00c5cded5b1137:0x906ef923c80c619",
+      "data_cid": "650470607560951321",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c5cded5b1137%3A0x906ef923c80c619&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c5cded5b1137%3A0x906ef923c80c619&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9409747,
+        "longitude": 78.1395299
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJNxFb7c3FADsRGcaAPJLvBgk",
+      "provider_id": "/g/11f9f0y9fb",
+      "rating": 4.1,
+      "reviews": 282,
+      "unclaimed_listing": true,
+      "type": "North Indian restaurant",
+      "types": [
+        "North Indian restaurant"
+      ],
+      "address": "Courtyard, 168, Alagar Kovil Main Rd, next to Circuit House, KK Nagar, Ramaond Reserve Line, Madurai, Tamil Nadu 625002",
+      "country": "India",
+      "open_state": "Open · Closes 10 pm",
+      "hours": "Open · Closes 10 pm",
+      "operating_hours": {
+        "tuesday": "7 am–10 pm",
+        "wednesday": "7 am–10 pm",
+        "thursday": "7 am–10 pm",
+        "friday": "7 am–10 pm",
+        "saturday": "7 am–10 pm",
+        "sunday": "7 am–10 pm",
+        "monday": "7 am–10 pm"
+      },
+      "phone": "0452 424 4555",
+      "website": "https://www.marriott.com/hotels/hotel-information/restaurant/ixmcy-courtyard-madurai/",
+      "description": "Relaxed destination for global fare. Laid-back hotel restaurant offering a menu of international dishes for breakfast, lunch & dinner.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/A35Dzmko4us?source=pa&opi=79508299&hl=en-IN&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ahbb=1&sourceurl=https://www.google.com/search?q%3Drestaurants%2Bin%2BMadurai%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!2s1i:0,t:11886,p:EVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!7e81!12e5!17sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:35!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26gl%3Din%26hl%3Den",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLclCLVTZHJrWIqHKBzWKYcGUGvCVHzlpvaHvfpp1zJeYMMP5HV7-IJ6pQwxtj4TVq3nx_yjGh6gCzTRiGO6q6l4IN-TsU-1rYp3RhgSUwugYhrkXeaVPfGZ7z_t1BLWf09QvmJR8NjXMsKI=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/PQMB8XicHcTNboMgAADgJ6Jq7Oy2ZIfqAfzrWqdYe2kMQZhFRaDa8ZI7922W7Dt8z19ujNTvjiO4v2HTxAS9a6rINBo6mg2ZBoepVmtAtLPfh7chIyLKcHlBiarjGaWhrdOGwAouEUZWyKVFSyelZxPa5PnxBeEdiJNAntaH6bclnv3xcf3pIQ9YZMviG34GcyC28QGUugKeaqRfcPZVrXfWcHU70xYfO3jZ2avxwqzu3LfTMiTF66E_5zqNP1bPdV3A_ydg_AMXPEhB"
+    },
+    {
+      "position": 8,
+      "title": "Blind Chemistry",
+      "place_id": "ChIJ67gRUoLPADsRVdee6GN_wto",
+      "data_id": "0x3b00cf825211b8eb:0xdac27f63e89ed755",
+      "data_cid": "15763301712831371093",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00cf825211b8eb%3A0xdac27f63e89ed755&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00cf825211b8eb%3A0xdac27f63e89ed755&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.922757599999999,
+        "longitude": 78.0942317
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ67gRUoLPADsRVdee6GN_wto",
+      "provider_id": "/g/11l3nyxg7v",
+      "rating": 4.3,
+      "reviews": 1477,
+      "type": "Continental restaurant",
+      "types": [
+        "Continental restaurant",
+        "Cafe"
+      ],
+      "address": "Navavel towers, 167/87A, Bypass Rd, Madurai, Tamil Nadu 625016",
+      "country": "India",
+      "open_state": "Open · Closes 11 pm",
+      "hours": "Open · Closes 11 pm",
+      "operating_hours": {
+        "tuesday": "12–11 pm",
+        "wednesday": "12–11 pm",
+        "thursday": "12–11 pm",
+        "friday": "12–11 pm",
+        "saturday": "12–11 pm",
+        "sunday": "12–11 pm",
+        "monday": "12–11 pm"
+      },
+      "phone": "087548 37822",
+      "website": "https://app.magilhub.com/restaurant/blind-ch3mistry-mdu",
+      "description": "Cool restaurant for comfort food. Relaxed eatery with funky decor serving up pasta, waffles, burgers, fries & other comfort fare.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance"
+          ]
+        }
+      ],
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/PRUAxCuFiWQ?source=pa&opi=79508299&hl=en-IN&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ahbb=1&sourceurl=https://www.google.com/search?q%3Drestaurants%2Bin%2BMadurai%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!2s1i:0,t:11886,p:EVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!7e81!12e5!17sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:35!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26gl%3Din%26hl%3Den",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsM255eGc3dhgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLc6RHdEx84pymlWIqqKM9NwwdNRH7VgwmohIfKkr15251JAnVzvMhEWS1SQoqbkjqe39UH1ceLjdkrExgaBpgTMF-XNm0tEIKrnaNFLBZeYO1mqp3SvUK-yvECoIRwK5SOckPk=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/8OdtAHicHcRLUoMwAADQE6UQEWudcQFOOmCAKvSj7jDEZBqSkI-k7QF7B2_TGd_i_V2595N7iqKRJwumNRvpr6OWaOWp8guiZcRs7xwgLsqyXMiKPLTFgE6P99NZjofSGFyvmhCGpi2Wexak5uUPFhamdyl8zdT-MtccHTrYvWvzLY6GJqtdAQmtjoOw6MT6fGLbeg0-Ghl7VGKr-mZd5V_0cwOlmZJu3mFwntGLLtuA025DxJt4DjCOY8D_J0DdAHagRRk"
+    },
+    {
+      "position": 9,
+      "title": "Raaha Restaurant & Grill",
+      "place_id": "ChIJwdbgauvFADsRsXTeFRlvPKg",
+      "data_id": "0x3b00c5eb6ae0d6c1:0xa83c6f1915de74b1",
+      "data_cid": "12122686450506298545",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c5eb6ae0d6c1%3A0xa83c6f1915de74b1&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c5eb6ae0d6c1%3A0xa83c6f1915de74b1&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9356258,
+        "longitude": 78.1347187
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJwdbgauvFADsRsXTeFRlvPKg",
+      "provider_id": "/g/11y7v0tph2",
+      "rating": 4.7,
+      "reviews": 5919,
+      "type": "Middle Eastern restaurant",
+      "types": [
+        "Middle Eastern restaurant"
+      ],
+      "address": "14, Gokhale Rd, Chinna Chokikulam, Madurai, Tamil Nadu 625002",
+      "country": "India",
+      "open_state": "Open · Closes 11:30 pm",
+      "hours": "Open · Closes 11:30 pm",
+      "operating_hours": {
+        "tuesday": "11:30 am–11:30 pm",
+        "wednesday": "11:30 am–11:30 pm",
+        "thursday": "11:30 am–11:30 pm",
+        "friday": "11:30 am–11:30 pm",
+        "saturday": "11:30 am–11:30 pm",
+        "sunday": "11:30 am–11:30 pm",
+        "monday": "11:30 am–11:30 pm"
+      },
+      "phone": "0452 490 0011",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Assistive hearing loop",
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5N3YwdHBoMhgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcLAXySa10EmklY3N8tmS3jESx7jyN9V_2YiIxBKinEjAsxdxBdRuWdnd7Hz-sNB9Uq3vcOaXzIqLsattlhTzwpgghVzXmTSOLNlK0yrpkTAhFYGMDUinvMDwJFjIqY1jmfElR63IPbudMe=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/nhNp_nicHcTbboIwAADQL0KKTeZcsocSUZmARtDBk8GWtZS2XFrk8pN79m9MPA_n-c-MafSXbQsGF7SuqSh6XXS4VqZQZoFradMu19rC2kbIrWSAA5ROce4AT1Yig9GnkTHkXjyu-BStr7dlVvqjeyiVx5EeyeiSc_9LFFntZ0tH7vrSwgc-5unst4HOjREsmYeGUnadU5nExyASBzB1TZUgts124eZSqke4GX623G8zh8s_T5w_oH-69yQsvgcHAGCx99hSL2nVSbI"
+    },
+    {
+      "position": 10,
+      "title": "Smoke Hub Barbeque - Madurai",
+      "place_id": "ChIJjYoOpvbPADsRlIwAsmS6cZk",
+      "data_id": "0x3b00cff6a60e8a8d:0x9971ba64b2008c94",
+      "data_cid": "11056823501817154708",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00cff6a60e8a8d%3A0x9971ba64b2008c94&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00cff6a60e8a8d%3A0x9971ba64b2008c94&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9289431,
+        "longitude": 78.0955122
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJjYoOpvbPADsRlIwAsmS6cZk",
+      "provider_id": "/g/11rk8y1xrp",
+      "rating": 4.6,
+      "reviews": 6888,
+      "type": "Barbecue restaurant",
+      "types": [
+        "Barbecue restaurant"
+      ],
+      "address": "6th Floor, 75D, Bypass Rd, Kalavasal, Madurai, Tamil Nadu 625016",
+      "country": "India",
+      "open_state": "Open · Closes 4 pm · Reopens 7 pm",
+      "hours": "Open · Closes 4 pm · Reopens 7 pm",
+      "operating_hours": {
+        "tuesday": "12–4 pm, 7–10 pm",
+        "wednesday": "12–4 pm, 7–10 pm",
+        "thursday": "12–4 pm, 7–10 pm",
+        "friday": "12–4 pm, 7–10 pm",
+        "saturday": "12–6 pm, 7–11 pm",
+        "sunday": "12–4 pm, 7–10 pm",
+        "monday": "12–4 pm, 7–10 pm"
+      },
+      "phone": "044 4631 0909",
+      "website": "https://smokehubbarbeque.com/madurai/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/bPIvtKPM2UE?source=pa&opi=79508299&hl=en-IN&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ahbb=1&sourceurl=https://www.google.com/search?q%3Drestaurants%2Bin%2BMadurai%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!2s1i:0,t:11886,p:EVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!7e81!12e5!17sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:35!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26gl%3Din%26hl%3Den",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdlGb6pmsZHbcjvG7PpZ3VIVkiErzWziIulc-QXleuMVzXcbPi6-S9BLyHe3bkb0axBPbzVA28pUOi4Xn_kK8E355sKhYOgmbdgvGsq2knIY5BGsCvYa-zZmmPEn8ZdAF0X7co=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/_dtx-nicHcxREoFAGADgE62WRMx4KJM0GBkj1Ytpt2bLtrvpT9gDuoPbMF6-x-_zLruugblh1KU5YEqxurhD0VIlu0J2A6qEwdoMAFEwHMflYpvXPpk0AtI1odfen4ZNakZBxCuv1WddBfeaokP8a3aRjikJqwk6ztzta12YhBOcPd2Q6MgZ2c1pX41jeeEb2zMtCzZlsmeC5Kz34TbiMkgs14dln2RIp0KEnrTT3FnheErV4jHEGKPyL0XyC7JERVQ"
+    },
+    {
+      "position": 11,
+      "title": "Ahaaram Multi cuisine Restaurant",
+      "place_id": "ChIJweOdB5vPADsR42LuuRVGXM8",
+      "data_id": "0x3b00cf9b079de3c1:0xcf5c4615b9ee62e3",
+      "data_cid": "14941894722836128483",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00cf9b079de3c1%3A0xcf5c4615b9ee62e3&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00cf9b079de3c1%3A0xcf5c4615b9ee62e3&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.904667,
+        "longitude": 78.0966428
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJweOdB5vPADsR42LuuRVGXM8",
+      "provider_id": "/g/1hm2xhbrh",
+      "rating": 4.2,
+      "reviews": 327,
+      "type": "Buffet restaurant",
+      "types": [
+        "Buffet restaurant",
+        "Fine dining restaurant"
+      ],
+      "address": "38, Madakulam Main Rd, Vinayai Nagar, Pasumpon Nagar, Palangantham, Madurai, Tamil Nadu 625003",
+      "country": "India",
+      "open_state": "Open · Closes 11 pm",
+      "hours": "Open · Closes 11 pm",
+      "operating_hours": {
+        "tuesday": "7 am–11 pm",
+        "wednesday": "7 am–11 pm",
+        "thursday": "7 am–11 pm",
+        "friday": "7 am–11 pm",
+        "saturday": "7 am–11 pm",
+        "sunday": "7 am–11 pm",
+        "monday": "7 am–11 pm"
+      },
+      "phone": "0452 237 1155",
+      "description": "Classic dishes in low-key surroundings. Relaxed restaurant with an understated ambiance serving traditional fare, with a buffet option.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/GN5NlmkfU9M?source=pa&opi=79508299&hl=en-IN&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ahbb=1&sourceurl=https://www.google.com/search?q%3Drestaurants%2Bin%2BMadurai%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!2s1i:0,t:11886,p:EVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!7e81!12e5!17sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:35!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26gl%3Din%26hl%3Den",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNQtmisZda3xNQSOvK8LctxLQOX0fgl1Vp4bgRASQ3mAqaP8yr64s_H8MkppuuAarrfEsoQHpNm7HqYpnJdsB_bX_TrZLA8yFdZHMjQEqA-KcMAv9omgJJiQC13m22scCT2dsQ0=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/_lnA-XicHcRRCoIwGADgE5lToyzoYUkhptYqwnwRnTor5-b-aXXCztBtgr6H7_tptJawNM22cSZMCNZWA1SKik5XnZ5QwU2mcgCDgom9UbY8JprfIC1z5xWT037cuSHVr5DsE1Sz1rrIacGO-EQcjvv84L7VbAqZ70YPKYcB50rVGxDElzGf-_1VdkEJ66xIsrNKQ-y-t2XqR3ey6bGxoxEeF4KzILgRz3K4bQP1znYJBK2eFkLIaP5To_sBKsdF0A"
+    },
+    {
+      "position": 12,
+      "title": "Bhagawati Mohans Bhojanalaya",
+      "place_id": "ChIJq6w6nIbFADsRXVN-O0Lcr6A",
+      "data_id": "0x3b00c5869c3aacab:0xa0afdc423b7e535d",
+      "data_cid": "11578715344016921437",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c5869c3aacab%3A0xa0afdc423b7e535d&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c5869c3aacab%3A0xa0afdc423b7e535d&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9207875,
+        "longitude": 78.1191071
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJq6w6nIbFADsRXVN-O0Lcr6A",
+      "provider_id": "/g/1tfjp3ty",
+      "rating": 4.2,
+      "reviews": 3715,
+      "type": "North Indian restaurant",
+      "types": [
+        "North Indian restaurant",
+        "Chinese restaurant",
+        "Country food restaurant",
+        "Gujarati restaurant",
+        "Rajasthani Restaurant",
+        "Restaurant",
+        "South Indian restaurant",
+        "Vegetarian restaurant"
+      ],
+      "address": "28, North Chitrai Street, North St, near Meenakshi Amman Temple, opposite to chappal stand, Madurai, Tamil Nadu 625001",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 pm",
+      "hours": "Open · Closes 10:30 pm",
+      "operating_hours": {
+        "tuesday": "7:30 am–10:30 pm",
+        "wednesday": "7:30 am–10:30 pm",
+        "thursday": "7:30 am–10:30 pm",
+        "friday": "7:30 am–10:30 pm",
+        "saturday": "7:30 am–10:30 pm",
+        "sunday": "7:30 am–10:30 pm",
+        "monday": "7:30 am–10:30 pm"
+      },
+      "phone": "099433 23221",
+      "description": "Vegetarian lunchroom in a basic setting. Simple ambience with plastic chairs & spacious seating for vegetarian lunch options.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiUKI-ICIDIeEhciFdLX29IPDwoLL2cvMXRmanAzdHkYADoDCPAN&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPsc27Kv7xUM9hDSQUvtc5XqsOhqC1ydMagZErxR8DXaM71_a42Mzm65Gum4sYnwCzjsLUN6OOpIAfgNxmpyKILaiCAc952dTtS-UqAXjpFVF-bNGSyPNS6632_aSoIHFa1ZHpDQg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/N5CMznicHcTdboIwGADQJ6r8KDCX7IKAIFFA12HQG1MLtjOUFr6K4Bv6CHubJZ6L8_fiWiv4NIyGz2dMStbUd6h7Kltdt3pGpTBYTwAQBcMPBtWIHVDb2wzeWKRLHuJ9MWjqlB3kvAusqUoJO6368fsjLEnqWWeysNOncJ34LhZwbB_B8wbbInPzXCX-lWWjUNMm2ZLfwKdLx65-NEZF55c3FR0idMliPO0y7Lpz-0ywTNYRsU5rFe7Z18MyTRPx9xS1_0mlRUc"
+    },
+    {
+      "position": 13,
+      "title": "Amma Mess",
+      "place_id": "ChIJY8tnx7_FADsR19xmB6Fvepo",
+      "data_id": "0x3b00c5bfc767cb63:0x9a7a6fa10766dcd7",
+      "data_cid": "11131332166404201687",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c5bfc767cb63%3A0x9a7a6fa10766dcd7&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c5bfc767cb63%3A0x9a7a6fa10766dcd7&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9325739,
+        "longitude": 78.1340585
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJY8tnx7_FADsR19xmB6Fvepo",
+      "provider_id": "/g/11b7y7pzl7",
+      "rating": 3.9,
+      "reviews": 9098,
+      "type": "South Indian restaurant",
+      "types": [
+        "South Indian restaurant",
+        "Chettinad restaurant",
+        "Indian restaurant",
+        "Non Vegetarian Restaurant",
+        "Restaurant",
+        "Seafood restaurant"
+      ],
+      "address": "136, Alagar Kovil Main Rd, Tallakulam, Madurai, Tamil Nadu 625002",
+      "country": "India",
+      "open_state": "Open · Closes 5 pm · Reopens 7 pm",
+      "hours": "Open · Closes 5 pm · Reopens 7 pm",
+      "operating_hours": {
+        "tuesday": "11 am–5 pm, 7–10:30 pm",
+        "wednesday": "11 am–5 pm, 7–10:30 pm",
+        "thursday": "11 am–5 pm, 7–10:30 pm",
+        "friday": "11 am–5 pm, 7–10:30 pm",
+        "saturday": "11 am–5 pm, 7–10:30 pm",
+        "sunday": "11 am–5 pm, 7–10:30 pm",
+        "monday": "11 am–5 pm, 7–10:30 pm"
+      },
+      "phone": "098421 45900",
+      "description": "Low-key option for eclectic Asian bites. Simple Indian & Chinese recipes offered in a down-to-earth location with basic seating.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFiN3k3cHpsNxgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfCZNXoWEL--q4w3-4vPf8oaZxY0dLs9tjhhqaJLUNfC7KHvhaQCWrv81wpOz1Y8WgCmFWTbAMwH2kV7yhi9ziGvJ9yrCOQ9aWWSi8nT-cZkQtSe-c04rAiO7bP8ZiAnwMw6s-6=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/-13HI3icHcRRbsIgGADgE_2WzsZSkz0wMme0Wht1zL4htoXVggIr6gV3ht1mid_D9_crvb-4aRSd5XjUGtOe6x9XW2G0r7UfCdNHreXOgXARIW9dnze0Wn8Z9p4DXJMwhmTYNNjw6nZAp9xl_lvKK1_k-3VD0-V8kLykzA44DpfiER8wa2k_Y7sjWYX5S_eZ3qXKHupjWGR3S4sy44xtFdY7EFVX-m0NAiWWqCI9bnCliA6rMHEweQ0xQgjkcwH6H2SKRGc"
+    },
+    {
+      "position": 14,
+      "title": "Cine Suvai Restaurant",
+      "place_id": "ChIJxfPwH2fFADsRqqWwIC4W7_0",
+      "data_id": "0x3b00c5671ff0f3c5:0xfdef162e20b0a5aa",
+      "data_cid": "18297868198402368938",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c5671ff0f3c5%3A0xfdef162e20b0a5aa&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c5671ff0f3c5%3A0xfdef162e20b0a5aa&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9256876,
+        "longitude": 78.1172926
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJxfPwH2fFADsRqqWwIC4W7_0",
+      "provider_id": "/g/11h52154ts",
+      "rating": 4.2,
+      "reviews": 4456,
+      "type": "South Indian restaurant",
+      "types": [
+        "South Indian restaurant"
+      ],
+      "address": "55, Tamil Sangam Road, Simmakkal, Madurai Main, Madurai, Poondhotam, Tamil Nadu 625001",
+      "country": "India",
+      "open_state": "Open · Closes 10 pm",
+      "hours": "Open · Closes 10 pm",
+      "operating_hours": {
+        "tuesday": "12–10 pm",
+        "wednesday": "12–10 pm",
+        "thursday": "12–10 pm",
+        "friday": "12–10 pm",
+        "saturday": "12–10 pm",
+        "sunday": "12 pm–12 am",
+        "monday": "12–10 pm"
+      },
+      "phone": "0452 495 8444",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/_6c6c4rLUiU?source=pa&opi=79508299&hl=en-IN&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ahbb=1&sourceurl=https://www.google.com/search?q%3Drestaurants%2Bin%2BMadurai%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!2s1i:0,t:11886,p:EVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!7e81!12e5!17sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:35!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26gl%3Din%26hl%3Den",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoNTIxNTR0cxgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdkzfgbDdfzE76a8aYNwo25HIXi0kjkgh4S83cpEfLs4ovO9V1C664KG9M3aSVtR8qky3t4lJweupcxXBI3GfVCkf_bM_HE9JunqMFx1Ofy05daj_SIU4kVhjQaTEJhSI3k0Batqg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/3koQSnicHcThEoEwAADgJ0rLJuXODxGKOKLjVzerbVpa2RLe0CN4G3e-H9_3w7Wu1cg0Sw57TEpW5q3K70RWOq90j8ibye5YKYMoczLxxG2diTdll1lG3_7Qxg4-bzrZHyyD0xWIQjCOYgeS2qdrheRj6ybW1LbRauFGEMeJ3juNeEGNyrDL25o8T14AFzSZCppeonTpu2FbNdH8aW3pCwwyXKRxcEQi4cUOH_yQxwEUwMO6YePOAgAY_D8xqh_-GUVP"
+    },
+    {
+      "position": 15,
+      "title": "Hotel Sree Sabarees",
+      "place_id": "ChIJ6dvNAgjFADsRnv6rMNyEiSQ",
+      "data_id": "0x3b00c50802cddbe9:0x248984dc30abfe9e",
+      "data_cid": "2632781538419015326",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c50802cddbe9%3A0x248984dc30abfe9e&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c50802cddbe9%3A0x248984dc30abfe9e&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9137405,
+        "longitude": 78.1444051
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ6dvNAgjFADsRnv6rMNyEiSQ",
+      "provider_id": "/g/11c3tj1p4x",
+      "rating": 4.3,
+      "reviews": 11127,
+      "type": "Vegetarian restaurant",
+      "types": [
+        "Vegetarian restaurant",
+        "Breakfast restaurant",
+        "South Indian restaurant"
+      ],
+      "address": "1, Kamarajar Salai, Pankajam Colony, Madurai, Tamil Nadu 625009",
+      "country": "India",
+      "open_state": "Open · Closes 11:15 pm",
+      "hours": "Open · Closes 11:15 pm",
+      "operating_hours": {
+        "tuesday": "6 am–11:15 pm",
+        "wednesday": "6 am–11:15 pm",
+        "thursday": "6 am–11:15 pm",
+        "friday": "6 am–11:15 pm",
+        "saturday": "6 am–11:15 pm",
+        "sunday": "6 am–11:15 pm",
+        "monday": "6 am–11:15 pm"
+      },
+      "phone": "063690 41492",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjM3RqMXA0eBgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd8kUlTmdVZRZ52UZJyvILXMAlkAmy0N7_8MQL5KxJ_wZ94XG7sXNi4pmpZiGonPhmcdqRu6JGwB7E4qFe7St4c3AGAh8YdUHu_4c2jg1EgXGotnE5cxBumjQz4Yyyny4scb604=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/FzsSvHicHcTdboIwGADQJ0KqFmEmXpQEqwzN_MFgb4h-kFahLdoyrC-4Z9jbLNm5OL8_wtrOzH2_FdMR15q3dW_qJ2hla2VHoKXPnxdjPDA-IXEjsypq8vYoqxPbs2CSs9R9r7NiQ9qGSIe2YRltdlnw-UrLgX3ggoam2N5wJzt2o1p9CQnVY9_PUjrEYYIfyzo8WAxTQomIzlW-6ksMkzsfJ7yg2qokgFfcy_vujc_OKYcNXGcIL4YxQsgT_4On_gB2zETa"
+    },
+    {
+      "position": 16,
+      "title": "The Banyan Restaurant",
+      "place_id": "ChIJ4_dFbTnPADsRJLRyR8ZOCPs",
+      "data_id": "0x3b00cf396d45f7e3:0xfb084ec64772b424",
+      "data_cid": "18088794516842787876",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00cf396d45f7e3%3A0xfb084ec64772b424&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00cf396d45f7e3%3A0xfb084ec64772b424&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.93571,
+        "longitude": 78.0863081
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ4_dFbTnPADsRJLRyR8ZOCPs",
+      "provider_id": "/g/11byxf7yr2",
+      "rating": 4.2,
+      "reviews": 757,
+      "unclaimed_listing": true,
+      "type": "Continental restaurant",
+      "types": [
+        "Continental restaurant",
+        "Bar"
+      ],
+      "address": "Heritage Madurai, 11, Melakkal Rd, Kochadai, Madurai, Tamil Nadu 625016",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 pm",
+      "hours": "Open · Closes 10:30 pm",
+      "operating_hours": {
+        "tuesday": "7 am–10:30 pm",
+        "wednesday": "7:30 am–10:30 pm",
+        "thursday": "7:30 am–10:30 pm",
+        "friday": "7:30 am–10:30 pm",
+        "saturday": "7:30 am–10:30 pm",
+        "sunday": "7 am–10:30 pm",
+        "monday": "7 am–10:30 pm"
+      },
+      "phone": "0452 238 5455",
+      "website": "http://www.heritagemadurai.com/",
+      "description": "Rustic buffet-style spot with a terrace. Warm & woodsy buffet restaurant featuring a spacious dining area & a leafy outdoor terrace.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating",
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO8uWiYygyqIvWjMUR25rKeQWtLLasqlLQcSofBAP5ReKPhejh2JekPJSjo8SHic2_QR7Kni7jFQlOA2WgCE96fIbbmATAWLjZmn15JCvRur6tvYCcD1WsDrNzxFtDUltoVuUCb=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ORzIjHicHcRZjoIwAADQEyGLwS3xo5YxI6CyiI3zM5GmttTSaltwuaBn8DYmvo_3fjFrL2bmuoINB1QpKkhniMZKWiLtAKvWpfpojIONC2B_Ee120qHm8KCP66pHfF0VQagTkiObpkdzFWmOS3VagCwsSJIxwlkQk3MWl1xNyt8GB_95MU5kM-bLXGxBgCj8mY5Oq7puwQ6glP-10g9j2BedHtn-AHHkIxPpzfO-tFElrNp3FaznN9_zPId9x478AAgmRg8"
+    },
+    {
+      "position": 17,
+      "title": "The Munchies - Veg Restaurant Madurai",
+      "place_id": "ChIJwbfq3KHPADsRaoM-m5PDLFk",
+      "data_id": "0x3b00cfa1dceab7c1:0x592cc3939b3e836a",
+      "data_cid": "6425725807083029354",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00cfa1dceab7c1%3A0x592cc3939b3e836a&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00cfa1dceab7c1%3A0x592cc3939b3e836a&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9024089,
+        "longitude": 78.1023663
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJwbfq3KHPADsRaoM-m5PDLFk",
+      "provider_id": "/g/11wy0kzw50",
+      "rating": 4.6,
+      "reviews": 543,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant",
+        "Cafe",
+        "Italian restaurant",
+        "Vegetarian restaurant"
+      ],
+      "address": "3rd, 13 A, Sathyasai Nagar, Thiyagi Sankaralingam St, Madurai, Tamil Nadu 625003",
+      "country": "India",
+      "open_state": "Open · Closes 10 pm",
+      "hours": "Open · Closes 10 pm",
+      "operating_hours": {
+        "tuesday": "12–10 pm",
+        "wednesday": "12–10 pm",
+        "thursday": "12–10 pm",
+        "friday": "12–10 pm",
+        "saturday": "12–10 pm",
+        "sunday": "12–10 pm",
+        "monday": "12–10 pm"
+      },
+      "phone": "093638 67454",
+      "website": "https://munchiesmadurai.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible seating"
+          ]
+        }
+      ],
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/6JnpTfQhzGs?source=pa&opi=79508299&hl=en-IN&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ahbb=1&sourceurl=https://www.google.com/search?q%3Drestaurants%2Bin%2BMadurai%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!2s1i:0,t:11886,p:EVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!7e81!12e5!17sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:35!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26gl%3Din%26hl%3Den",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3eTBrenc1MBgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLei24ePecV_qmAP3dRwgqQ6cuVaOznfdusdseZ8a0nyTnNj4tJnubyV6sfNpLOxGp0mvjjj9TQnmRlX-45lovMAu8ZfcMkOqlSX3jluChGgI_m61PVqa8M8GinW_iDL_Esr6WyZrakPS2b5=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/PbfCV3icHcTLjoIwFADQL0KqIGEmccE8QmYCgo-gYUNqKYXS3gJtVfxJ1_M3JnMW5-_ZGjPod9cVrbdgSjFBraYTUWAomAVR0mUT1toh2o2ij14mtFv5NKekqEYZ5V69v7FxFxBb4OwBTW11rWkZYgTzEbbcN79gL3MR6GY7JNk9HpC8cs7fjjuQe3F2_LVQ1zSyYdmQtM9GcTh7XNjPNmY_lQyWeTHiMA3jDk5V95VU33oKTnM54T4_rC7rzW2JEHLa_4kDL852SfE"
+    },
+    {
+      "position": 18,
+      "title": "Hotel New Sri Sabareesh",
+      "place_id": "ChIJFaC1vg_FADsRXNOtQF0ioNA",
+      "data_id": "0x3b00c50fbeb5a015:0xd0a0225d40add35c",
+      "data_cid": "15033053340075152220",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c50fbeb5a015%3A0xd0a0225d40add35c&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c50fbeb5a015%3A0xd0a0225d40add35c&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9189063,
+        "longitude": 78.1127509
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJFaC1vg_FADsRXNOtQF0ioNA",
+      "provider_id": "/g/11shp4qqvb",
+      "rating": 4.2,
+      "reviews": 1282,
+      "type": "South Indian restaurant",
+      "types": [
+        "South Indian restaurant"
+      ],
+      "address": "49A, W Perumal Maistry St, Madurai Main, Madurai, Tamil Nadu 625001",
+      "country": "India",
+      "open_state": "Open · Closes 11 pm",
+      "hours": "Open · Closes 11 pm",
+      "operating_hours": {
+        "tuesday": "6 am–11 pm",
+        "wednesday": "6 am–11 pm",
+        "thursday": "6 am–11 pm",
+        "friday": "6 am–11 pm",
+        "saturday": "6 am–11 pm",
+        "sunday": "6 am–11 pm",
+        "monday": "6 am–11 pm"
+      },
+      "phone": "0452 234 6669",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFzaHA0cXF2YhgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfNi99RO0-zklUhyA9KCv4s627rUa88wjMJ3f3wg1mm5ydpI74HKKMAb39DZJ6mY51QCUykfQORLmkwrWzs3ABuMPHBSr9geC1up_EHpGry6CiSA3eG_p8hXUhAS-gZoUJTEb30Nw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/9DXbhnicHcTbboIwAADQL6qUVZGa-FDQyEC8scbLi1FWWgelTQs2-Id-wv5myc7D-X2LrtN25nmNQCOuFG9Yb5kpVduxthuVSnrc3KwFpfUIiWq5rjYPjA9bCF51Q8VAcBY_xzb4mBp6C0P3k6eoQo77Uk6Gb_05HSdZlpM7wotLGsjzxN_HdKir_fawlrUzx5dFJOrzXRIVBnMW-72-LhO9MkMQPwqC2OqqQ3GighSAXxRNv5Z3BDdu7nwIIRD_l6D9A34wRAI"
+    },
+    {
+      "position": 19,
+      "title": "Phil's Bistro",
+      "place_id": "ChIJ9dHn_LbFADsRB00M9i924Bs",
+      "data_id": "0x3b00c5b6fce7d1f5:0x1be0762ff60c4d07",
+      "data_cid": "2008735382170782983",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c5b6fce7d1f5%3A0x1be0762ff60c4d07&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c5b6fce7d1f5%3A0x1be0762ff60c4d07&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.932556199999999,
+        "longitude": 78.14796009999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ9dHn_LbFADsRB00M9i924Bs",
+      "provider_id": "/g/1hjgv2xms",
+      "rating": 4.3,
+      "reviews": 1461,
+      "type": "Italian restaurant",
+      "types": [
+        "Italian restaurant",
+        "American restaurant",
+        "Bistro",
+        "Continental restaurant",
+        "Dessert restaurant",
+        "Pizza restaurant"
+      ],
+      "address": "444, 9th Main Rd, Managiri, Madurai, Tamil Nadu 625020",
+      "country": "India",
+      "open_state": "Closes soon · 3 pm · Reopens 6 pm",
+      "hours": "Closes soon · 3 pm · Reopens 6 pm",
+      "operating_hours": {
+        "tuesday": "12–3 pm, 6–10:30 pm",
+        "wednesday": "12–3 pm, 6–10:30 pm",
+        "thursday": "12–3 pm, 6–10:30 pm",
+        "friday": "12–3 pm, 6–10:30 pm",
+        "saturday": "12–3 pm, 6–10:30 pm",
+        "sunday": "12–3 pm, 6–10:30 pm",
+        "monday": "12–3 pm, 6–10:30 pm"
+      },
+      "phone": "080156 21160",
+      "website": "https://www.philsbistro.in/",
+      "description": "All-in-one Italian & American diner. Casual restaurant serving Italian staples, from pasta to pizza, American dishes & Chinese options.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible entrance"
+          ]
+        }
+      ],
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/b_DIlj_CJWg?source=pa&opi=79508299&hl=en-IN&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ahbb=1&sourceurl=https://www.google.com/search?q%3Drestaurants%2Bin%2BMadurai%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!2s1i:0,t:11886,p:EVsrNIHXvQkE78-L51a4eIe64OTrH_c:2!7e81!12e5!17sEVsrNIHXvQkE78-L51a4eIe64OTrH_c:35!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26gl%3Din%26hl%3Den",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiYKJOICITIfEhgiFtLX29IPEAoML2cvMWhqZ3YyeG1zGAE6AwjwDQ%3D%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcxdTXMx8E0OPXk7A1DNNiOFzxoF5eC9fY9ggSVmc7XzLEu6wxjBbF3-N-sF2vN6Yag5Ovudxr37VMDrBxxRQbFi3VKMwOurmZovkSBX9vNGJAG-2WEORV7hUDymDO5tjEI7TOu=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/PdytsnicHcRJDoIwAADAF1VQghUTDyDUuNC6InrTikWx1HSB6gd9g78xcQ7z_ZRaP9XQcR6l12FCsEdhVCGpqHVR6w4V3GHypBSgygnDqOILai_bPLWDxCXLvIJhN8b4RtDbCuQX4-B6CBjbZJzC_L1ITL-19-iMPICBQr0G9w8n5pPGXKz0YJbGMrJ2vTqjm5fN05YYyY-iqTZRHjR4MgsnoLdPyDqD5S5-8Zj4-p5M4ZaYUdt1XReU_ymof1GcRDA"
+    },
+    {
+      "position": 20,
+      "title": "Kumar Mess- Non-veg Restaurant",
+      "place_id": "ChIJ8_v6KL7FADsR5wp9iAeiDuE",
+      "data_id": "0x3b00c5be28fafbf3:0xe10ea207887d0ae7",
+      "data_cid": "16217077461446101735",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3b00c5be28fafbf3%3A0xe10ea207887d0ae7&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3b00c5be28fafbf3%3A0xe10ea207887d0ae7&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 9.9319303,
+        "longitude": 78.13383569999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ8_v6KL7FADsR5wp9iAeiDuE",
+      "provider_id": "/g/11btrqsw5l",
+      "rating": 4.1,
+      "reviews": 7015,
+      "type": "Chettinad restaurant",
+      "types": [
+        "Chettinad restaurant",
+        "Non Vegetarian Restaurant"
+      ],
+      "address": "57, Alagar Kovil Main Rd, Mellur, Tallakulam, Madurai, Tamil Nadu 625002",
+      "country": "India",
+      "open_state": "Open · Closes 10 pm",
+      "hours": "Open · Closes 10 pm",
+      "operating_hours": {
+        "tuesday": "11 am–10 pm",
+        "wednesday": "11 am–10 pm",
+        "thursday": "11 am–10 pm",
+        "friday": "11 am–10 pm",
+        "saturday": "11 am–10 pm",
+        "sunday": "11 am–10 pm",
+        "monday": "11 am–10 pm"
+      },
+      "phone": "099659 44576",
+      "website": "http://www.maduraikumarmess.com/",
+      "description": "Multicuisine mess in low key ambience. Multicuisine thaali with spicy Chettinad fare in simple surrounds.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible toilet"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair-accessible car park",
+            "Wheelchair-accessible entrance",
+            "Wheelchair-accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFidHJxc3c1bBgBOgMI8A0%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=Y7nEarmnOJ6vptQPjrK4gQ4&ei=Y7nEarmnOJ6vptQPjrK4gQ4&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdhZUpgvMje2LFA8beXZQcV7m9sBxd7cfrV5Quz4LGFyU78oKnQ5qMQXakNJG68aCaiAJ3NF9rIFX52ZX7oqaLzjOBuYPt8VGU8xOVp0oFdznuRS4MNgt4yFA19YEO-_rllN-EnQA=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/pRw2lnicHcRdboIwAADgE1VQYRQTH8piyZQfq4EAL0tXujKFFtuyKTf0CLvNkn0P3--zs3Y0G8fpu_VCKCV6PhmumZKWS7tganCEpsYAZhyEouuQtF1TjOI7vfBVghH84FVDWBkMoYnubcA-demTafaSGD-KAKqDJP4tJRW9Zvv4BdJX-oX26wyH-g1X_qqpAnWjyXzJo6k-WljGBbzn5egq3M5yOp29NBPWe2C0DOtdDt5132dgJwna_ixd1wXd_wzIP-2XRKg"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&gl=in&google_domain=google.com&hl=en&q=restaurants+in+Madurai&start=20&type=search"
+  }
+}

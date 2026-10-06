@@ -123,10 +123,13 @@ def rank(base: HotelSearchResponse, profile: str | None, include_rentals: bool |
             score *= UNPROVEN_PENALTY
         scored.append((o, score, cheaper_than))
 
-    scored.sort(key=lambda t: (-t[1], t[0].total_price))
+    def is_decent(o: HotelOption) -> bool:
+        return (o.rating or 0) >= DECENT_MIN_RATING and (o.review_count or 0) >= DECENT_MIN_REVIEWS
 
-    decent = [o for o in eligible if (o.rating or 0) >= DECENT_MIN_RATING
-              and (o.review_count or 0) >= DECENT_MIN_REVIEWS]
+    # below-the-bar properties (few reviews or low rating) never outrank decent ones, however cheap
+    scored.sort(key=lambda t: (not is_decent(t[0]), -t[1], t[0].total_price))
+
+    decent = [o for o in eligible if is_decent(o)]
     cheapest_decent = min(decent, key=lambda o: o.total_price).id if decent else None
     trusted = [o for o in eligible if (o.review_count or 0) >= 100 and o.rating is not None]
     best_rated = max(trusted, key=lambda o: adj(o)).id if trusted else None

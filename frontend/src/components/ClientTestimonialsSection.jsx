@@ -1,5 +1,5 @@
 import React from 'react';
-import { Quote, Star, CheckCircle, Heart, Users } from 'lucide-react';
+import { Star, CheckCircle, Users } from 'lucide-react';
 import { TESTIMONIALS } from '../data/mockData';
 
 export default function ClientTestimonialsSection() {

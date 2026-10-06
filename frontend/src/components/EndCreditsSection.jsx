@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Compass, Code, Database, Sparkles, Heart, CheckCircle2, Layers } from 'lucide-react';
+import { Compass, Layers } from 'lucide-react';
 import { HACKATHON_CREDITS } from '../data/mockData';
 
 export default function EndCreditsSection({ onOpenArchDiagram }) {

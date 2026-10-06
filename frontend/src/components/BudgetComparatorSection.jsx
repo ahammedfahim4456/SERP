@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wallet, TrendingUp, TrendingDown, AlertTriangle, CheckCircle, Sparkles, ArrowRight, ShieldAlert } from 'lucide-react';
+import { Wallet } from 'lucide-react';
 
 export default function BudgetComparatorSection({
   userBudget,
@@ -7,6 +7,8 @@ export default function BudgetComparatorSection({
   nightsCount,
   cityAStats,
   cityBStats,
+  cityAName = 'Gokarna',
+  cityBName = 'Pondicherry',
 }) {
   const renderMeter = (stats, cityName) => {
     const totalCost = stats.totalCost;
@@ -132,8 +134,8 @@ export default function BudgetComparatorSection({
 
       {/* Showdown Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {renderMeter(cityAStats, 'Gokarna')}
-        {renderMeter(cityBStats, 'Pondicherry')}
+        {renderMeter(cityAStats, cityAName)}
+        {renderMeter(cityBStats, cityBName)}
       </div>
 
       {/* Direct Rupee Winner Verdict Banner */}
@@ -147,7 +149,7 @@ export default function BudgetComparatorSection({
               The Pocket Reality Verdict
             </div>
             <div className="font-serif font-bold text-base sm:text-lg text-stone-900">
-              {aCheaper ? 'Gokarna' : 'Pondicherry'} saves you ₹{difference.toLocaleString('en-IN')} over {aCheaper ? 'Pondicherry' : 'Gokarna'}!
+              {aCheaper ? cityAName : cityBName} saves you ₹{difference.toLocaleString('en-IN')} over {aCheaper ? cityBName : cityAName}!
             </div>
           </div>
         </div>

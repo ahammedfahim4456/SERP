@@ -4,7 +4,13 @@ from typing import Annotated, Literal
 from fastapi import APIRouter, Query, Request
 
 from .hotels import parse_child_ages
-from .schemas import FlightSearchResponse, HotelSearchResponse, TransitSearchResponse
+from .schemas import (
+    FlightSearchResponse,
+    FoodSearchResponse,
+    HotelSearchResponse,
+    TransitSearchResponse,
+    TripadvisorSearchResponse,
+)
 
 router = APIRouter(prefix="/api")
 
@@ -58,6 +64,38 @@ async def search_hotels(
     return await request.app.state.hotels.search(
         destination, check_in, check_out, adults, ages, currency, profile,
         include_rentals, include_hostels, limit)
+
+
+@router.get("/food/search", response_model=FoodSearchResponse, response_model_by_alias=True)
+async def search_food(
+    request: Request,
+    lat: Annotated[float, Query(ge=-90, le=90, description="Anchor latitude, e.g. the chosen hotel")],
+    lng: Annotated[float, Query(ge=-180, le=180, description="Anchor longitude")],
+    category: Annotated[Literal["any", "vegetarian", "family", "breakfast", "cafe", "fine_dining"], Query()] = "any",
+    cuisine: Annotated[str | None, Query(description="Optional, e.g. chettinad or north indian")] = None,
+    vegetarian_only: Annotated[bool, Query(alias="vegetarianOnly",
+                                           description="Only places listed as vegetarian; also searches for them")] = False,
+    meal: Annotated[Literal["breakfast", "lunch", "dinner"] | None, Query()] = None,
+    max_distance_km: Annotated[float, Query(alias="maxDistanceKm", ge=0.2, le=20)] = 3.0,
+    min_rating: Annotated[float | None, Query(alias="minRating", ge=0, le=5)] = None,
+    adults: Annotated[int, Query(ge=1, le=9)] = 2,
+    children: Annotated[int, Query(ge=0, le=6)] = 0,
+    profile: Annotated[Literal["family", "business", "budget"] | None, Query(
+        description="Ranking style. Default: family if children > 0, otherwise budget")] = None,
+    limit: Annotated[int, Query(ge=1, le=20)] = 10,
+):
+    return await request.app.state.food.search(
+        lat, lng, category, cuisine, vegetarian_only, meal, max_distance_km, min_rating,
+        adults, children, profile, limit)
+
+
+@router.get("/recommendations/tripadvisor", response_model=TripadvisorSearchResponse, response_model_by_alias=True)
+async def get_tripadvisor_recommendations(
+    request: Request,
+    destination: Annotated[str, Query(min_length=2, max_length=120, description="City or area, e.g. 'Gokarna'")],
+    budget: Annotated[int | None, Query(ge=1000, description="Optional target budget")] = None,
+):
+    return await request.app.state.tripadvisor.recommend(destination, budget)
 
 
 @router.get("/usage")

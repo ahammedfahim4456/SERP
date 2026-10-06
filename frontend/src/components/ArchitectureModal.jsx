@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Layers, ArrowDown, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { X, Layers, ArrowDown } from 'lucide-react';
 
 export default function ArchitectureModal({ isOpen, onClose }) {
   if (!isOpen) return null;

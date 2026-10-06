@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Music, Sparkles, MapPin, Utensils, Star, Tag } from 'lucide-react';
+import { Calendar, MapPin, Star } from 'lucide-react';
 
 export default function NearbyEventsSection({ events, localFood, cityName }) {
   return (

@@ -92,3 +92,25 @@ class SerpApiClient:
             params["children_ages"] = ",".join(str(a) for a in child_ages)
         # the "no results" wording is an assumption: verify it if you ever see a 502 for an obscure town
         return await self._search(params, empty_ok=("any results",))
+
+    async def google_maps_places(self, query: str, lat: float, lng: float) -> dict:
+        """Google Maps local search anchored on a point. First page only (about 20 places).
+        The anchor ("ll") matters: in the saved probes, searches WITHOUT it came back with fewer
+        fields (no price band, no service options)."""
+        return await self._search({
+            "engine": "google_maps",
+            "type": "search",
+            "q": query,
+            "ll": f"@{lat},{lng},15z",
+            "hl": "en",
+            "gl": "in",
+        }, empty_ok=("any results",))
+
+    async def tripadvisor(self, query: str, ssrc: str = "h") -> dict:
+        """TripAdvisor search engine for destination recommendations and stays."""
+        return await self._search({
+            "engine": "tripadvisor",
+            "q": query,
+            "ssrc": ssrc,
+            "hl": "en",
+        }, empty_ok=("any results", "no results"))
