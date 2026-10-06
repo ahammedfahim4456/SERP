@@ -1,11 +1,18 @@
 # Travel Assistant backend (FastAPI)
 
-## Run
+## First-time setup (do this once)
     python -m venv .venv
     .venv\Scripts\activate          # Windows  (Mac/Linux: source .venv/bin/activate)
     pip install -r requirements.txt
-    copy .env.example .env           # then put your SerpApi key in .env
+    copy .env.example .env           # ONCE ONLY: this overwrites .env. Then paste your SerpApi key into .env
+
+## Every time after that
+    cd backend\travel-backend-py
+    .venv\Scripts\activate
     uvicorn app.main:app --reload
+
+Never re-run the `copy .env.example .env` line: it replaces your real `.env` (and your key) with the blank template.
+Never share screenshots of `.env`.
 
 Docs UI: http://localhost:8000/docs
 
