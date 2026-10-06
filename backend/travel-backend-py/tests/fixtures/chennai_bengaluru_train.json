@@ -1,0 +1,1317 @@
+{
+  "search_metadata": {
+    "id": "6ac346e90bbc38c73f31ca9f",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/lC62QzO34c0JLLdHvxFoalayFK8sKJq5OpAg3cX8NuM/6ac346e90bbc38c73f31ca9f.json",
+    "markdown_endpoint": "https://serpapi.com/searches/lC62QzO34c0JLLdHvxFoalayFK8sKJq5OpAg3cX8NuM/6ac346e90bbc38c73f31ca9f.md",
+    "created_at": "2026-10-05 06:42:49 UTC",
+    "processed_at": "2026-10-05 06:42:49 UTC",
+    "google_maps_directions_url": "https://www.google.com/maps/dir/Chennai+Central%2C+252%2F236%2C+Periamet%2C+Jutkapuram%2C+Chennai%2C+Tamil+Nadu+600003%2C+India/Bengaluru+City+Junction%2C+XHG9%2B7F3%2C+M.G.+Railway+Colony%2C+Sevashrama%2C+Bengaluru%2C+Karnataka+560023%2C+India/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3a526519a262331f:0x4faca3d3e8232839!2m2!1d80.2755328!2d13.082357!1m5!1m1!1s0x3bae170006fc4207:0xcc29ab96dacde651!2m2!1d77.5686714!2d12.9755495!3e3?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/lC62QzO34c0JLLdHvxFoalayFK8sKJq5OpAg3cX8NuM/6ac346e90bbc38c73f31ca9f.html",
+    "prettify_html_file": "https://serpapi.com/searches/lC62QzO34c0JLLdHvxFoalayFK8sKJq5OpAg3cX8NuM/6ac346e90bbc38c73f31ca9f.prettify",
+    "total_time_taken": 1.19
+  },
+  "search_parameters": {
+    "engine": "google_maps_directions",
+    "hl": "en",
+    "start_addr": "Chennai Central, Chennai",
+    "end_addr": "Bengaluru City Junction, Bengaluru",
+    "travel_mode": "3"
+  },
+  "places_info": [
+    {
+      "address": "Chennai Central, 252/236, Periamet, Jutkapuram, Chennai, Tamil Nadu 600003, India",
+      "data_id": "0x3a526519a262331f:0x4faca3d3e8232839",
+      "gps_coordinates": {
+        "latitude": 13.082357,
+        "longitude": 80.2755328
+      }
+    },
+    {
+      "address": "Bengaluru City Junction, XHG9+7F3, M.G. Railway Colony, Sevashrama, Bengaluru, Karnataka 560023, India",
+      "data_id": "0x3bae170006fc4207:0xcc29ab96dacde651",
+      "gps_coordinates": {
+        "latitude": 12.9755495,
+        "longitude": 77.5686714
+      }
+    }
+  ],
+  "directions": [
+    {
+      "travel_mode": "Transit",
+      "start_time": "1:28\u202fPM",
+      "end_time": "8:25\u202fPM",
+      "distance": 367160,
+      "duration": 25023,
+      "formatted_distance": "367 km",
+      "formatted_duration": "6 hr 57 min",
+      "cost": 172.7,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 404,
+          "duration": 405,
+          "formatted_distance": "400 m",
+          "formatted_duration": "7 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Walk",
+              "distance": 13,
+              "duration": 13,
+              "formatted_distance": "13 m",
+              "formatted_duration": "13 sec"
+            },
+            {
+              "title": "Enter via Gate A1 \u00b7 Take the stairs",
+              "distance": 391,
+              "duration": 392,
+              "formatted_distance": "400 m",
+              "formatted_duration": "7 min"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "16551 - Ashokapuram SF Express 16551 Ashokapuram",
+          "duration": 22800,
+          "formatted_duration": "6 hr 20 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivar Dr. MGR CTL",
+            "stop_id": "MAS",
+            "time": "1:35\u202fPM",
+            "data_id": "0x3a5265ffa1216265:0x47ee704562150916"
+          },
+          "end_stop": {
+            "name": "Krantivira Sangoli Rayanna",
+            "stop_id": "SBC",
+            "time": "7:55\u202fPM",
+            "data_id": "0x3bae161b5bb8ab2b:0xd9ce8443dbf706ee"
+          },
+          "stops": [
+            {
+              "name": "Tiruvallur",
+              "stop_id": "TRL",
+              "time": "2:10\u202fPM",
+              "data_id": "0x3a52902c93460d79:0x631fdf1ab69e7f35"
+            },
+            {
+              "name": "Arakkonam Junction",
+              "stop_id": "AJJ",
+              "time": "2:35\u202fPM",
+              "data_id": "0x3a52bc6b4c087c79:0x87abadec627f5be"
+            },
+            {
+              "name": "Sholinghur",
+              "stop_id": "SHU",
+              "time": "2:55\u202fPM",
+              "data_id": "0x3a52b68ef9a9bc3f:0x745bff1fd47a44ff"
+            },
+            {
+              "name": "Walajah Road Junction",
+              "stop_id": "WJR",
+              "time": "3:10\u202fPM",
+              "data_id": "0x3bad4abc4acdb1f3:0x90d52d3a2c5256df"
+            },
+            {
+              "name": "Mukundarayapuram",
+              "stop_id": "MCN",
+              "time": "3:25\u202fPM",
+              "data_id": "0x3bad498a5cf816ff:0xe3085a6e0da7cc9a"
+            },
+            {
+              "name": "Katpadi Junction",
+              "stop_id": "KPD",
+              "time": "3:45\u202fPM",
+              "data_id": "0x3bad47139be78f11:0xfe4dca49bfc3cea1"
+            },
+            {
+              "name": "Gudiyattam",
+              "stop_id": "GYM",
+              "time": "4:05\u202fPM",
+              "data_id": "0x3bad6cb2b8fda3af:0xd0704a0ca917edf3"
+            },
+            {
+              "name": "Ambur",
+              "stop_id": "AB",
+              "time": "4:25\u202fPM",
+              "data_id": "0x3bad08e6feffcd31:0x96cc7b8c7752fc4e"
+            },
+            {
+              "name": "Vaniyambadi",
+              "stop_id": "VN",
+              "time": "4:40\u202fPM",
+              "data_id": "0x3bada9a33984f2d9:0x19e2a5b3e1379b1d"
+            },
+            {
+              "name": "Jolarpettai Junction",
+              "stop_id": "JTJ",
+              "time": "5:15\u202fPM",
+              "data_id": "0x3badab4d7c0c6579:0x7efa21fd4abcb389"
+            },
+            {
+              "name": "Kuppam",
+              "stop_id": "KPN",
+              "time": "5:53\u202fPM",
+              "data_id": "0x3badb9cb581ecd03:0xabaa84238a40b01"
+            },
+            {
+              "name": "Bangarapet Junction",
+              "stop_id": "BWT",
+              "time": "6:20\u202fPM",
+              "data_id": "0x3bade937c4dcabcf:0x1b7202ffcddac138"
+            },
+            {
+              "name": "Malur",
+              "stop_id": "MLO",
+              "time": "6:41\u202fPM",
+              "data_id": "0x3bade2053a6684e5:0x266ee6369c3dffe0"
+            },
+            {
+              "name": "Whitefield",
+              "stop_id": "WFD",
+              "time": "6:55\u202fPM",
+              "data_id": "0x3bae0e1669f9c45f:0xce3959cc51c140ba"
+            },
+            {
+              "name": "Krishnarajapuram",
+              "stop_id": "KJM",
+              "time": "7:06\u202fPM",
+              "data_id": "0x3bae113dc082a1d1:0x5520ab11e1208961"
+            },
+            {
+              "name": "Bangalore East",
+              "stop_id": "BNCE",
+              "time": "7:17\u202fPM",
+              "data_id": "0x3bae16f0726ecbeb:0x7ca2c860fb74f77"
+            },
+            {
+              "name": "Bangalore Cant",
+              "stop_id": "BNC",
+              "time": "7:25\u202fPM",
+              "data_id": "0x3bae165c570a1a3d:0xff95c1324f02f46e"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 2232,
+          "duration": 1818,
+          "formatted_distance": "2.2 km",
+          "formatted_duration": "30 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Exit via Entry Gate",
+              "distance": 134,
+              "duration": 134,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min"
+            },
+            {
+              "title": "Head toward  Parcel Office Rd",
+              "action": "straight",
+              "distance": 35,
+              "duration": 30,
+              "formatted_distance": "35 m",
+              "formatted_duration": "30 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Parcel Office Rd",
+              "action": "turn-right",
+              "distance": 404,
+              "duration": 330,
+              "formatted_distance": "400 m",
+              "formatted_duration": "6 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  TCM Royan Rd",
+              "action": "turn-right",
+              "distance": 653,
+              "duration": 508,
+              "formatted_distance": "650 m",
+              "formatted_duration": "8 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Binny Mill Rd / Cottonpet Main Rd",
+              "action": "turn-right",
+              "distance": 292,
+              "duration": 226,
+              "formatted_distance": "290 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-scxpuQPB1nQOwHmL-jxrA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=302.98254&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.96902381293125,
+                "longitude": 77.56806149691927
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 324,
+              "duration": 261,
+              "formatted_distance": "300 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MKPlgG1suwNXAmZYorf82A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=19.796566&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.970438397112567,
+                "longitude": 77.56679593424525
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 151,
+              "duration": 133,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 115,
+              "duration": 96,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 124,
+              "duration": 100,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "extensions": [
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "4:53\u202fPM",
+      "end_time": "9:55\u202fPM",
+      "distance": 367196,
+      "duration": 18123,
+      "formatted_distance": "367 km",
+      "formatted_duration": "5 hr 2 min",
+      "cost": 1210.4,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 404,
+          "duration": 405,
+          "formatted_distance": "400 m",
+          "formatted_duration": "7 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Walk",
+              "distance": 13,
+              "duration": 13,
+              "formatted_distance": "13 m",
+              "formatted_duration": "13 sec"
+            },
+            {
+              "title": "Enter via Gate A1 \u00b7 Take the stairs",
+              "distance": 391,
+              "duration": 392,
+              "formatted_distance": "400 m",
+              "formatted_duration": "7 min"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "20607 - Mysuru Vande Bharat Express 20664 Mysuru Junction (Mysore)",
+          "duration": 15900,
+          "formatted_duration": "4 hr 25 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivar Dr. MGR CTL",
+            "stop_id": "MAS",
+            "time": "5:00\u202fPM",
+            "data_id": "0x3a5265ffa1216265:0x47ee704562150916"
+          },
+          "end_stop": {
+            "name": "Krantivira Sangoli Rayanna",
+            "stop_id": "SBC",
+            "time": "9:25\u202fPM",
+            "data_id": "0x3bae161b5bb8ab2b:0xd9ce8443dbf706ee"
+          },
+          "stops": [
+            {
+              "name": "Katpadi Junction",
+              "stop_id": "KPD",
+              "time": "6:25\u202fPM",
+              "data_id": "0x3bad47139be78f11:0xfe4dca49bfc3cea1"
+            },
+            {
+              "name": "Krishnarajapuram",
+              "stop_id": "KJM",
+              "time": "8:50\u202fPM",
+              "data_id": "0x3bae113dc082a1d1:0x5520ab11e1208961"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 2232,
+          "duration": 1818,
+          "formatted_distance": "2.2 km",
+          "formatted_duration": "30 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Exit via Entry Gate",
+              "distance": 134,
+              "duration": 134,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min"
+            },
+            {
+              "title": "Head toward  Parcel Office Rd",
+              "action": "straight",
+              "distance": 35,
+              "duration": 30,
+              "formatted_distance": "35 m",
+              "formatted_duration": "30 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Parcel Office Rd",
+              "action": "turn-right",
+              "distance": 404,
+              "duration": 330,
+              "formatted_distance": "400 m",
+              "formatted_duration": "6 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  TCM Royan Rd",
+              "action": "turn-right",
+              "distance": 653,
+              "duration": 508,
+              "formatted_distance": "650 m",
+              "formatted_duration": "8 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Binny Mill Rd / Cottonpet Main Rd",
+              "action": "turn-right",
+              "distance": 292,
+              "duration": 226,
+              "formatted_distance": "290 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-scxpuQPB1nQOwHmL-jxrA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=302.98254&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.96902381293125,
+                "longitude": 77.56806149691927
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 324,
+              "duration": 261,
+              "formatted_distance": "300 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MKPlgG1suwNXAmZYorf82A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=19.796566&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.970438397112567,
+                "longitude": 77.56679593424525
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 151,
+              "duration": 133,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 115,
+              "duration": 96,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 124,
+              "duration": 100,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "extensions": [
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "5:23\u202fPM",
+      "end_time": "10:55\u202fPM",
+      "distance": 367106,
+      "duration": 19923,
+      "formatted_distance": "367 km",
+      "formatted_duration": "5 hr 32 min",
+      "cost": 1185.4,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 404,
+          "duration": 405,
+          "formatted_distance": "400 m",
+          "formatted_duration": "7 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Walk",
+              "distance": 13,
+              "duration": 13,
+              "formatted_distance": "13 m",
+              "formatted_duration": "13 sec"
+            },
+            {
+              "title": "Enter via Gate A1 \u00b7 Take the stairs",
+              "distance": 391,
+              "duration": 392,
+              "formatted_distance": "400 m",
+              "formatted_duration": "7 min"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "12027 - KSR Bengaluru Shatabdi Express 12027 KSR Bengaluru City Junction (Bangalore)",
+          "duration": 17700,
+          "formatted_duration": "4 hr 55 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivar Dr. MGR CTL",
+            "stop_id": "MAS",
+            "time": "5:30\u202fPM",
+            "data_id": "0x3a5265ffa1216265:0x47ee704562150916"
+          },
+          "end_stop": {
+            "name": "Krantivira Sangoli Rayanna",
+            "stop_id": "SBC",
+            "time": "10:25\u202fPM",
+            "data_id": "0x3bae161b5bb8ab2b:0xd9ce8443dbf706ee"
+          },
+          "stops": [
+            {
+              "name": "Katpadi Junction",
+              "stop_id": "KPD",
+              "time": "7:00\u202fPM",
+              "data_id": "0x3bad47139be78f11:0xfe4dca49bfc3cea1"
+            },
+            {
+              "name": "Jolarpettai Junction",
+              "stop_id": "JTJ",
+              "time": "8:10\u202fPM",
+              "data_id": "0x3badab4d7c0c6579:0x7efa21fd4abcb389"
+            },
+            {
+              "name": "Bangalore Cant",
+              "stop_id": "BNC",
+              "time": "10:05\u202fPM",
+              "data_id": "0x3bae165c570a1a3d:0xff95c1324f02f46e"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 2232,
+          "duration": 1818,
+          "formatted_distance": "2.2 km",
+          "formatted_duration": "30 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Exit via Entry Gate",
+              "distance": 134,
+              "duration": 134,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min"
+            },
+            {
+              "title": "Head toward  Parcel Office Rd",
+              "action": "straight",
+              "distance": 35,
+              "duration": 30,
+              "formatted_distance": "35 m",
+              "formatted_duration": "30 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Parcel Office Rd",
+              "action": "turn-right",
+              "distance": 404,
+              "duration": 330,
+              "formatted_distance": "400 m",
+              "formatted_duration": "6 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  TCM Royan Rd",
+              "action": "turn-right",
+              "distance": 653,
+              "duration": 508,
+              "formatted_distance": "650 m",
+              "formatted_duration": "8 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Binny Mill Rd / Cottonpet Main Rd",
+              "action": "turn-right",
+              "distance": 292,
+              "duration": 226,
+              "formatted_distance": "290 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-scxpuQPB1nQOwHmL-jxrA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=302.98254&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.96902381293125,
+                "longitude": 77.56806149691927
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 324,
+              "duration": 261,
+              "formatted_distance": "300 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MKPlgG1suwNXAmZYorf82A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=19.796566&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.970438397112567,
+                "longitude": 77.56679593424525
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 151,
+              "duration": 133,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 115,
+              "duration": 96,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 124,
+              "duration": 100,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "extensions": [
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "9:08\u202fPM",
+      "end_time": "4:20\u202fAM",
+      "distance": 367106,
+      "duration": 25923,
+      "formatted_distance": "367 km",
+      "formatted_duration": "7 hr 12 min",
+      "cost": 262.7,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 404,
+          "duration": 405,
+          "formatted_distance": "400 m",
+          "formatted_duration": "7 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Walk",
+              "distance": 13,
+              "duration": 13,
+              "formatted_distance": "13 m",
+              "formatted_duration": "13 sec"
+            },
+            {
+              "title": "Enter via Gate A1 \u00b7 Take the stairs",
+              "distance": 391,
+              "duration": 392,
+              "formatted_distance": "400 m",
+              "formatted_duration": "7 min"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "16021 - Kaveri Express 16021 Ashokapuram",
+          "duration": 23700,
+          "formatted_duration": "6 hr 35 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivar Dr. MGR CTL",
+            "stop_id": "MAS",
+            "time": "9:15\u202fPM",
+            "data_id": "0x3a5265ffa1216265:0x47ee704562150916"
+          },
+          "end_stop": {
+            "name": "Krantivira Sangoli Rayanna",
+            "stop_id": "SBC",
+            "time": "3:50\u202fAM",
+            "data_id": "0x3bae161b5bb8ab2b:0xd9ce8443dbf706ee"
+          },
+          "stops": [
+            {
+              "name": "Tiruvallur",
+              "stop_id": "TRL",
+              "time": "9:55\u202fPM",
+              "data_id": "0x3a52902c93460d79:0x631fdf1ab69e7f35"
+            },
+            {
+              "name": "Arakkonam Junction",
+              "stop_id": "AJJ",
+              "time": "10:20\u202fPM",
+              "data_id": "0x3a52bc6b4c087c79:0x87abadec627f5be"
+            },
+            {
+              "name": "Anavardikhanpettai",
+              "stop_id": "AVN",
+              "time": "10:35\u202fPM",
+              "data_id": "0x3a52b9f910ca554d:0x444f38e983261e5b"
+            },
+            {
+              "name": "Sholinghur",
+              "stop_id": "SHU",
+              "time": "10:45\u202fPM",
+              "data_id": "0x3a52b68ef9a9bc3f:0x745bff1fd47a44ff"
+            },
+            {
+              "name": "Walajah Road Junction",
+              "stop_id": "WJR",
+              "time": "11:00\u202fPM",
+              "data_id": "0x3bad4abc4acdb1f3:0x90d52d3a2c5256df"
+            },
+            {
+              "name": "Katpadi Junction",
+              "stop_id": "KPD",
+              "time": "11:25\u202fPM",
+              "data_id": "0x3bad47139be78f11:0xfe4dca49bfc3cea1"
+            },
+            {
+              "name": "Jolarpettai Junction",
+              "stop_id": "JTJ",
+              "time": "12:50\u202fAM",
+              "data_id": "0x3badab4d7c0c6579:0x7efa21fd4abcb389"
+            },
+            {
+              "name": "Kuppam",
+              "stop_id": "KPN",
+              "time": "1:29\u202fAM",
+              "data_id": "0x3badb9cb581ecd03:0xabaa84238a40b01"
+            },
+            {
+              "name": "Bangarapet Junction",
+              "stop_id": "BWT",
+              "time": "1:58\u202fAM",
+              "data_id": "0x3bade937c4dcabcf:0x1b7202ffcddac138"
+            },
+            {
+              "name": "Whitefield",
+              "stop_id": "WFD",
+              "time": "2:34\u202fAM",
+              "data_id": "0x3bae0e1669f9c45f:0xce3959cc51c140ba"
+            },
+            {
+              "name": "Krishnarajapuram",
+              "stop_id": "KJM",
+              "time": "2:45\u202fAM",
+              "data_id": "0x3bae113dc082a1d1:0x5520ab11e1208961"
+            },
+            {
+              "name": "Bangalore East",
+              "stop_id": "BNCE",
+              "time": "2:58\u202fAM",
+              "data_id": "0x3bae16f0726ecbeb:0x7ca2c860fb74f77"
+            },
+            {
+              "name": "Bangalore Cant",
+              "stop_id": "BNC",
+              "time": "3:09\u202fAM",
+              "data_id": "0x3bae165c570a1a3d:0xff95c1324f02f46e"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 2232,
+          "duration": 1818,
+          "formatted_distance": "2.2 km",
+          "formatted_duration": "30 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Exit via Entry Gate",
+              "distance": 134,
+              "duration": 134,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min"
+            },
+            {
+              "title": "Head toward  Parcel Office Rd",
+              "action": "straight",
+              "distance": 35,
+              "duration": 30,
+              "formatted_distance": "35 m",
+              "formatted_duration": "30 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Parcel Office Rd",
+              "action": "turn-right",
+              "distance": 404,
+              "duration": 330,
+              "formatted_distance": "400 m",
+              "formatted_duration": "6 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  TCM Royan Rd",
+              "action": "turn-right",
+              "distance": 653,
+              "duration": 508,
+              "formatted_distance": "650 m",
+              "formatted_duration": "8 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Binny Mill Rd / Cottonpet Main Rd",
+              "action": "turn-right",
+              "distance": 292,
+              "duration": 226,
+              "formatted_distance": "290 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-scxpuQPB1nQOwHmL-jxrA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=302.98254&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.96902381293125,
+                "longitude": 77.56806149691927
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 324,
+              "duration": 261,
+              "formatted_distance": "300 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MKPlgG1suwNXAmZYorf82A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=19.796566&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.970438397112567,
+                "longitude": 77.56679593424525
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 151,
+              "duration": 133,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 115,
+              "duration": 96,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 124,
+              "duration": 100,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "extensions": [
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "10:43\u202fPM",
+      "end_time": "5:05\u202fAM",
+      "distance": 367106,
+      "duration": 22923,
+      "formatted_distance": "367 km",
+      "formatted_duration": "6 hr 22 min",
+      "cost": 292.7,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 404,
+          "duration": 405,
+          "formatted_distance": "400 m",
+          "formatted_duration": "7 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Walk",
+              "distance": 13,
+              "duration": 13,
+              "formatted_distance": "13 m",
+              "formatted_duration": "13 sec"
+            },
+            {
+              "title": "Enter via Gate A1 \u00b7 Take the stairs",
+              "distance": 391,
+              "duration": 392,
+              "formatted_distance": "400 m",
+              "formatted_duration": "7 min"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "12657 - KSR Bengaluru SF Mail 12657 KSR Bengaluru City Junction (Bangalore)",
+          "duration": 20700,
+          "formatted_duration": "5 hr 45 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivar Dr. MGR CTL",
+            "stop_id": "MAS",
+            "time": "10:50\u202fPM",
+            "data_id": "0x3a5265ffa1216265:0x47ee704562150916"
+          },
+          "end_stop": {
+            "name": "Krantivira Sangoli Rayanna",
+            "stop_id": "SBC",
+            "time": "4:35\u202fAM",
+            "data_id": "0x3bae161b5bb8ab2b:0xd9ce8443dbf706ee"
+          },
+          "stops": [
+            {
+              "name": "Arakkonam Junction",
+              "stop_id": "AJJ",
+              "time": "11:45\u202fPM",
+              "data_id": "0x3a52bc6b4c087c79:0x87abadec627f5be"
+            },
+            {
+              "name": "Katpadi Junction",
+              "stop_id": "KPD",
+              "time": "12:35\u202fAM",
+              "data_id": "0x3bad47139be78f11:0xfe4dca49bfc3cea1"
+            },
+            {
+              "name": "Jolarpettai Junction",
+              "stop_id": "JTJ",
+              "time": "1:55\u202fAM",
+              "data_id": "0x3badab4d7c0c6579:0x7efa21fd4abcb389"
+            },
+            {
+              "name": "Bangarapet Junction",
+              "stop_id": "BWT",
+              "time": "2:55\u202fAM",
+              "data_id": "0x3bade937c4dcabcf:0x1b7202ffcddac138"
+            },
+            {
+              "name": "Bangalore East",
+              "stop_id": "BNCE",
+              "time": "3:48\u202fAM",
+              "data_id": "0x3bae16f0726ecbeb:0x7ca2c860fb74f77"
+            },
+            {
+              "name": "Bangalore Cant",
+              "stop_id": "BNC",
+              "time": "3:57\u202fAM",
+              "data_id": "0x3bae165c570a1a3d:0xff95c1324f02f46e"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 2232,
+          "duration": 1818,
+          "formatted_distance": "2.2 km",
+          "formatted_duration": "30 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Exit via Entry Gate",
+              "distance": 134,
+              "duration": 134,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min"
+            },
+            {
+              "title": "Head toward  Parcel Office Rd",
+              "action": "straight",
+              "distance": 35,
+              "duration": 30,
+              "formatted_distance": "35 m",
+              "formatted_duration": "30 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Parcel Office Rd",
+              "action": "turn-right",
+              "distance": 404,
+              "duration": 330,
+              "formatted_distance": "400 m",
+              "formatted_duration": "6 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  TCM Royan Rd",
+              "action": "turn-right",
+              "distance": 653,
+              "duration": 508,
+              "formatted_distance": "650 m",
+              "formatted_duration": "8 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Binny Mill Rd / Cottonpet Main Rd",
+              "action": "turn-right",
+              "distance": 292,
+              "duration": 226,
+              "formatted_distance": "290 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-scxpuQPB1nQOwHmL-jxrA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=302.98254&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.96902381293125,
+                "longitude": 77.56806149691927
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 324,
+              "duration": 261,
+              "formatted_distance": "300 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MKPlgG1suwNXAmZYorf82A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=19.796566&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.970438397112567,
+                "longitude": 77.56679593424525
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 151,
+              "duration": 133,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 115,
+              "duration": 96,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 124,
+              "duration": 100,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "extensions": [
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "5:43\u202fAM",
+      "end_time": "10:30\u202fAM",
+      "distance": 367106,
+      "duration": 17223,
+      "formatted_distance": "367 km",
+      "formatted_duration": "4 hr 47 min",
+      "cost": 1045.4,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 404,
+          "duration": 405,
+          "formatted_distance": "400 m",
+          "formatted_duration": "7 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Walk",
+              "distance": 13,
+              "duration": 13,
+              "formatted_distance": "13 m",
+              "formatted_duration": "13 sec"
+            },
+            {
+              "title": "Enter via Gate A1 \u00b7 Take the stairs",
+              "distance": 391,
+              "duration": 392,
+              "formatted_distance": "400 m",
+              "formatted_duration": "7 min"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "20607 - Mysuru Vande Bharat Express 20607 Mysuru Junction (Mysore)",
+          "duration": 15000,
+          "formatted_duration": "4 hr 10 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivar Dr. MGR CTL",
+            "stop_id": "MAS",
+            "time": "5:50\u202fAM",
+            "data_id": "0x3a5265ffa1216265:0x47ee704562150916"
+          },
+          "end_stop": {
+            "name": "Krantivira Sangoli Rayanna",
+            "stop_id": "SBC",
+            "time": "10:00\u202fAM",
+            "data_id": "0x3bae161b5bb8ab2b:0xd9ce8443dbf706ee"
+          },
+          "stops": [
+            {
+              "name": "Katpadi Junction",
+              "stop_id": "KPD",
+              "time": "7:15\u202fAM",
+              "data_id": "0x3bad47139be78f11:0xfe4dca49bfc3cea1"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 2232,
+          "duration": 1818,
+          "formatted_distance": "2.2 km",
+          "formatted_duration": "30 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Exit via Entry Gate",
+              "distance": 134,
+              "duration": 134,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min"
+            },
+            {
+              "title": "Head toward  Parcel Office Rd",
+              "action": "straight",
+              "distance": 35,
+              "duration": 30,
+              "formatted_distance": "35 m",
+              "formatted_duration": "30 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Parcel Office Rd",
+              "action": "turn-right",
+              "distance": 404,
+              "duration": 330,
+              "formatted_distance": "400 m",
+              "formatted_duration": "6 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  TCM Royan Rd",
+              "action": "turn-right",
+              "distance": 653,
+              "duration": 508,
+              "formatted_distance": "650 m",
+              "formatted_duration": "8 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Binny Mill Rd / Cottonpet Main Rd",
+              "action": "turn-right",
+              "distance": 292,
+              "duration": 226,
+              "formatted_distance": "290 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-scxpuQPB1nQOwHmL-jxrA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=302.98254&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.96902381293125,
+                "longitude": 77.56806149691927
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 324,
+              "duration": 261,
+              "formatted_distance": "300 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MKPlgG1suwNXAmZYorf82A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=19.796566&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.970438397112567,
+                "longitude": 77.56679593424525
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 151,
+              "duration": 133,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 115,
+              "duration": 96,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 124,
+              "duration": 100,
+              "formatted_distance": "120 m",
+              "formatted_duration": "2 min",
+              "extensions": [
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "durations": [
+    {
+      "travel_mode": "Driving",
+      "duration": 25249,
+      "formatted_duration": "7 hr 1"
+    },
+    {
+      "travel_mode": "Two-wheeler",
+      "duration": 26544,
+      "formatted_duration": "7 hr 22"
+    },
+    {
+      "travel_mode": "Transit",
+      "duration": 25020,
+      "formatted_duration": "6 hr 57"
+    },
+    {
+      "travel_mode": "Walking",
+      "duration": 265293,
+      "formatted_duration": "3 days"
+    }
+  ]
+}

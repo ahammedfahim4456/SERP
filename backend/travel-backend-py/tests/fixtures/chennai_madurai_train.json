@@ -1,0 +1,1305 @@
+{
+  "search_metadata": {
+    "id": "6ac346eb73d175cbf23a384a",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/JlA_bZFIfbpu9aspik2-GsIIxAgqRRquT-t5fYYBZAY/6ac346eb73d175cbf23a384a.json",
+    "markdown_endpoint": "https://serpapi.com/searches/JlA_bZFIfbpu9aspik2-GsIIxAgqRRquT-t5fYYBZAY/6ac346eb73d175cbf23a384a.md",
+    "created_at": "2026-10-05 06:42:51 UTC",
+    "processed_at": "2026-10-05 06:42:51 UTC",
+    "google_maps_directions_url": "https://www.google.com/maps/dir/Chennai+Central%2C+252%2F236%2C+Periamet%2C+Jutkapuram%2C+Chennai%2C+Tamil+Nadu+600003%2C+India/Madurai+Junction%2C+Madurai%2C+Tamil+Nadu+625001%2C+India/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3a526519a262331f:0x4faca3d3e8232839!2m2!1d80.2755328!2d13.082357!1m5!1m1!1s0x3b00cf7d86a9502b:0x57b3b8f68a12e336!2m2!1d78.1104983!2d9.9192456!3e3?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/JlA_bZFIfbpu9aspik2-GsIIxAgqRRquT-t5fYYBZAY/6ac346eb73d175cbf23a384a.html",
+    "prettify_html_file": "https://serpapi.com/searches/JlA_bZFIfbpu9aspik2-GsIIxAgqRRquT-t5fYYBZAY/6ac346eb73d175cbf23a384a.prettify",
+    "total_time_taken": 7.06
+  },
+  "search_parameters": {
+    "engine": "google_maps_directions",
+    "hl": "en",
+    "start_addr": "Chennai Central, Chennai",
+    "end_addr": "Madurai Junction, Madurai",
+    "travel_mode": "3"
+  },
+  "places_info": [
+    {
+      "address": "Chennai Central, 252/236, Periamet, Jutkapuram, Chennai, Tamil Nadu 600003, India",
+      "data_id": "0x3a526519a262331f:0x4faca3d3e8232839",
+      "gps_coordinates": {
+        "latitude": 13.082357,
+        "longitude": 80.2755328
+      }
+    },
+    {
+      "address": "Madurai Junction, Madurai, Tamil Nadu 625001, India",
+      "data_id": "0x3b00cf7d86a9502b:0x57b3b8f68a12e336",
+      "gps_coordinates": {
+        "latitude": 9.9192456,
+        "longitude": 78.1104983
+      }
+    }
+  ],
+  "directions": [
+    {
+      "travel_mode": "Transit",
+      "start_time": "12:50\u202fPM",
+      "end_time": "8:35\u202fPM",
+      "distance": 495716,
+      "duration": 27847,
+      "formatted_distance": "496 km",
+      "formatted_duration": "7 hr 45 min",
+      "cost": 222.7,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 1852,
+          "duration": 1447,
+          "formatted_distance": "1.9 km",
+          "formatted_duration": "25 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  west",
+              "action": "straight",
+              "distance": 201,
+              "duration": 159,
+              "formatted_distance": "200 m",
+              "formatted_duration": "3 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Slight  left  toward  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-slight-left",
+              "distance": 63,
+              "duration": 53,
+              "formatted_distance": "63 m",
+              "formatted_duration": "53 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-right",
+              "distance": 920,
+              "duration": 778,
+              "formatted_distance": "900 m",
+              "formatted_duration": "13 min",
+              "extensions": [
+                "Pass by Punjab National Bank - ATM (on the right in 500m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Gandhi Irwin Bridge Rd",
+              "action": "turn-left",
+              "distance": 9,
+              "duration": 14,
+              "formatted_distance": "9 m",
+              "formatted_duration": "14 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=EIV2rh-BrVrFPu5RQsfMcw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=87.53417&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.080813509785884,
+                "longitude": 80.26522465916496
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  NH 179B",
+              "action": "turn-right",
+              "distance": 220,
+              "duration": 188,
+              "formatted_distance": "220 m",
+              "formatted_duration": "3 min",
+              "extensions": [
+                "Pass by Office of Commissioner of Police Chennai (on the right in 190m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Whenners Rd",
+              "action": "turn-left",
+              "distance": 130,
+              "duration": 111,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ZjIMDw1PkYJuJXY47IK0yA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=75.294556&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.08030607531043,
+                "longitude": 80.26328893579698
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 16,
+              "duration": 14,
+              "formatted_distance": "16 m",
+              "formatted_duration": "14 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nKKCnpKyQtLMfLm6k4Y0rg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=159.43192&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.079360636280347,
+                "longitude": 80.26311455945915
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Take entrance \u00b7 Take the stairs",
+              "distance": 293,
+              "duration": 130,
+              "formatted_distance": "290 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HwL-krQHbeM1K6l-x7NzYg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=352.92355&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.079186849548437,
+                "longitude": 80.2631831191743
+              }
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "12635 - Vaigai SF Express 12635 Madurai Junction",
+          "duration": 26400,
+          "formatted_duration": "7 hr 20 min",
+          "start_stop": {
+            "name": "Chennai Egmore",
+            "stop_id": "MS",
+            "time": "1:15\u202fPM",
+            "data_id": "0x3a526609638a76a5:0xa605f681010b8b85"
+          },
+          "end_stop": {
+            "name": "Madurai Junction",
+            "stop_id": "MDU",
+            "time": "8:35\u202fPM",
+            "data_id": "0x3b00cf7d86a9502b:0x57b3b8f68a12e336"
+          },
+          "stops": [
+            {
+              "name": "Tambaram (\u0ba4\u0bbe\u0bae\u0bcd\u0baa\u0bb0\u0bae\u0bcd)",
+              "stop_id": "TBM",
+              "time": "1:42\u202fPM",
+              "data_id": "0x3a525f6d07dad611:0x60fc7f42a6e81303"
+            },
+            {
+              "name": "Chengalpattu Junction",
+              "stop_id": "CGL",
+              "time": "2:10\u202fPM",
+              "data_id": "0x3a52fc6dd71ebf99:0xe4de7c753c79f675"
+            },
+            {
+              "name": "Villupuram Junction",
+              "stop_id": "VM",
+              "time": "3:35\u202fPM",
+              "data_id": "0x3a5356e9e6f3b96b:0x2aa726a2645525e7"
+            },
+            {
+              "name": "Vriddhachalam Junction",
+              "stop_id": "VRI",
+              "time": "4:16\u202fPM",
+              "data_id": "0x3bab4a41a8be08fb:0xb9af74e2b83fb833"
+            },
+            {
+              "name": "Ariyalur",
+              "stop_id": "ALU",
+              "time": "4:50\u202fPM",
+              "data_id": "0x3bab2086c68ea367:0x94e846c4b94717b0"
+            },
+            {
+              "name": "Srirangam",
+              "stop_id": "SRGM",
+              "time": "5:32\u202fPM",
+              "data_id": "0x3baaf5d69e83adf9:0x57013bdb2025fc3e"
+            },
+            {
+              "name": "Tiruchchirappalli Junction",
+              "stop_id": "TPJ",
+              "time": "6:10\u202fPM",
+              "data_id": "0x3baaf53df38c7a0b:0x642af3365d873cc1"
+            },
+            {
+              "name": "Manaparai",
+              "stop_id": "MPA",
+              "time": "6:40\u202fPM",
+              "data_id": "0x3baa6e47f91d8ef5:0x890a221db0b6faf3"
+            },
+            {
+              "name": "Dindigul Junction",
+              "stop_id": "DG",
+              "time": "7:20\u202fPM",
+              "data_id": "0x3b00aa4e0f4a1ea1:0xd6de7da035c3fa2b"
+            },
+            {
+              "name": "Sholavandan",
+              "stop_id": "SDN",
+              "time": "7:50\u202fPM",
+              "data_id": "0x3b00ca8e81922dcd:0xb86abc61e0863dc9"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "2:45\u202fPM",
+      "end_time": "8:45\u202fPM",
+      "distance": 495716,
+      "duration": 21547,
+      "formatted_distance": "496 km",
+      "formatted_duration": "6 hr",
+      "cost": 1420.4,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 1852,
+          "duration": 1447,
+          "formatted_distance": "1.9 km",
+          "formatted_duration": "25 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  west",
+              "action": "straight",
+              "distance": 201,
+              "duration": 159,
+              "formatted_distance": "200 m",
+              "formatted_duration": "3 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Slight  left  toward  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-slight-left",
+              "distance": 63,
+              "duration": 53,
+              "formatted_distance": "63 m",
+              "formatted_duration": "53 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-right",
+              "distance": 920,
+              "duration": 778,
+              "formatted_distance": "900 m",
+              "formatted_duration": "13 min",
+              "extensions": [
+                "Pass by Punjab National Bank - ATM (on the right in 500m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Gandhi Irwin Bridge Rd",
+              "action": "turn-left",
+              "distance": 9,
+              "duration": 14,
+              "formatted_distance": "9 m",
+              "formatted_duration": "14 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=EIV2rh-BrVrFPu5RQsfMcw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=87.53417&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.080813509785884,
+                "longitude": 80.26522465916496
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  NH 179B",
+              "action": "turn-right",
+              "distance": 220,
+              "duration": 188,
+              "formatted_distance": "220 m",
+              "formatted_duration": "3 min",
+              "extensions": [
+                "Pass by Office of Commissioner of Police Chennai (on the right in 190m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Whenners Rd",
+              "action": "turn-left",
+              "distance": 130,
+              "duration": 111,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ZjIMDw1PkYJuJXY47IK0yA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=75.294556&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.08030607531043,
+                "longitude": 80.26328893579698
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 16,
+              "duration": 14,
+              "formatted_distance": "16 m",
+              "formatted_duration": "14 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nKKCnpKyQtLMfLm6k4Y0rg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=159.43192&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.079360636280347,
+                "longitude": 80.26311455945915
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Take entrance \u00b7 Take the stairs",
+              "distance": 293,
+              "duration": 130,
+              "formatted_distance": "290 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HwL-krQHbeM1K6l-x7NzYg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=352.92355&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.079186849548437,
+                "longitude": 80.2631831191743
+              }
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "20665 - Tirunelveli Vande Bharat Express 20665 Tirunelveli Junction",
+          "duration": 20100,
+          "formatted_duration": "5 hr 35 min",
+          "start_stop": {
+            "name": "Chennai Egmore",
+            "stop_id": "MS",
+            "time": "3:10\u202fPM",
+            "data_id": "0x3a526609638a76a5:0xa605f681010b8b85"
+          },
+          "end_stop": {
+            "name": "Madurai Junction",
+            "stop_id": "MDU",
+            "time": "8:45\u202fPM",
+            "data_id": "0x3b00cf7d86a9502b:0x57b3b8f68a12e336"
+          },
+          "stops": [
+            {
+              "name": "Tambaram (\u0ba4\u0bbe\u0bae\u0bcd\u0baa\u0bb0\u0bae\u0bcd)",
+              "stop_id": "TBM",
+              "time": "3:32\u202fPM",
+              "data_id": "0x3a525f6d07dad611:0x60fc7f42a6e81303"
+            },
+            {
+              "name": "Villupuram Junction",
+              "stop_id": "VM",
+              "time": "5:02\u202fPM",
+              "data_id": "0x3a5356e9e6f3b96b:0x2aa726a2645525e7"
+            },
+            {
+              "name": "Vriddhachalam Junction",
+              "stop_id": "VRI",
+              "time": "5:34\u202fPM",
+              "data_id": "0x3bab4a41a8be08fb:0xb9af74e2b83fb833"
+            },
+            {
+              "name": "Tiruchchirappalli Junction",
+              "stop_id": "TPJ",
+              "time": "7:05\u202fPM",
+              "data_id": "0x3baaf53df38c7a0b:0x642af3365d873cc1"
+            },
+            {
+              "name": "Dindigul Junction",
+              "stop_id": "DG",
+              "time": "8:00\u202fPM",
+              "data_id": "0x3b00aa4e0f4a1ea1:0xd6de7da035c3fa2b"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "4:55\u202fPM",
+      "end_time": "12:45\u202fAM",
+      "distance": 495645,
+      "duration": 28147,
+      "formatted_distance": "496 km",
+      "formatted_duration": "7 hr 50 min",
+      "cost": 357.7,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 1852,
+          "duration": 1447,
+          "formatted_distance": "1.9 km",
+          "formatted_duration": "25 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  west",
+              "action": "straight",
+              "distance": 201,
+              "duration": 159,
+              "formatted_distance": "200 m",
+              "formatted_duration": "3 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Slight  left  toward  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-slight-left",
+              "distance": 63,
+              "duration": 53,
+              "formatted_distance": "63 m",
+              "formatted_duration": "53 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-right",
+              "distance": 920,
+              "duration": 778,
+              "formatted_distance": "900 m",
+              "formatted_duration": "13 min",
+              "extensions": [
+                "Pass by Punjab National Bank - ATM (on the right in 500m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Gandhi Irwin Bridge Rd",
+              "action": "turn-left",
+              "distance": 9,
+              "duration": 14,
+              "formatted_distance": "9 m",
+              "formatted_duration": "14 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=EIV2rh-BrVrFPu5RQsfMcw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=87.53417&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.080813509785884,
+                "longitude": 80.26522465916496
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  NH 179B",
+              "action": "turn-right",
+              "distance": 220,
+              "duration": 188,
+              "formatted_distance": "220 m",
+              "formatted_duration": "3 min",
+              "extensions": [
+                "Pass by Office of Commissioner of Police Chennai (on the right in 190m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Whenners Rd",
+              "action": "turn-left",
+              "distance": 130,
+              "duration": 111,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ZjIMDw1PkYJuJXY47IK0yA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=75.294556&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.08030607531043,
+                "longitude": 80.26328893579698
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 16,
+              "duration": 14,
+              "formatted_distance": "16 m",
+              "formatted_duration": "14 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nKKCnpKyQtLMfLm6k4Y0rg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=159.43192&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.079360636280347,
+                "longitude": 80.26311455945915
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Take entrance \u00b7 Take the stairs",
+              "distance": 293,
+              "duration": 130,
+              "formatted_distance": "290 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HwL-krQHbeM1K6l-x7NzYg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=352.92355&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.079186849548437,
+                "longitude": 80.2631831191743
+              }
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "12633 - Kanniyakumari SF Express 12633 Kanniyakumari",
+          "duration": 26700,
+          "formatted_duration": "7 hr 25 min",
+          "start_stop": {
+            "name": "Chennai Egmore",
+            "stop_id": "MS",
+            "time": "5:20\u202fPM",
+            "data_id": "0x3a526609638a76a5:0xa605f681010b8b85"
+          },
+          "end_stop": {
+            "name": "Madurai Junction",
+            "stop_id": "MDU",
+            "time": "12:45\u202fAM",
+            "data_id": "0x3b00cf7d86a9502b:0x57b3b8f68a12e336"
+          },
+          "stops": [
+            {
+              "name": "Tambaram (\u0ba4\u0bbe\u0bae\u0bcd\u0baa\u0bb0\u0bae\u0bcd)",
+              "stop_id": "TBM",
+              "time": "5:47\u202fPM",
+              "data_id": "0x3a525f6d07dad611:0x60fc7f42a6e81303"
+            },
+            {
+              "name": "Chengalpattu Junction",
+              "stop_id": "CGL",
+              "time": "6:15\u202fPM",
+              "data_id": "0x3a52fc6dd71ebf99:0xe4de7c753c79f675"
+            },
+            {
+              "name": "Melmaruvathur",
+              "stop_id": "MLMR",
+              "time": "6:40\u202fPM",
+              "data_id": "0x3a5310aa7a66a451:0x94ac74c85fc23962"
+            },
+            {
+              "name": "Tindivanam",
+              "stop_id": "TMV",
+              "time": "7:05\u202fPM",
+              "data_id": "0x3a5340b2e794f3cf:0xed70d69d2a598bdb"
+            },
+            {
+              "name": "Villupuram Junction",
+              "stop_id": "VM",
+              "time": "8:00\u202fPM",
+              "data_id": "0x3a5356e9e6f3b96b:0x2aa726a2645525e7"
+            },
+            {
+              "name": "Vriddhachalam Junction",
+              "stop_id": "VRI",
+              "time": "8:44\u202fPM",
+              "data_id": "0x3bab4a41a8be08fb:0xb9af74e2b83fb833"
+            },
+            {
+              "name": "Tiruchchirappalli Junction",
+              "stop_id": "TPJ",
+              "time": "10:30\u202fPM",
+              "data_id": "0x3baaf53df38c7a0b:0x642af3365d873cc1"
+            },
+            {
+              "name": "Dindigul Junction",
+              "stop_id": "DG",
+              "time": "11:30\u202fPM",
+              "data_id": "0x3b00aa4e0f4a1ea1:0xd6de7da035c3fa2b"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "6:50\u202fPM",
+      "end_time": "2:45\u202fAM",
+      "distance": 495645,
+      "duration": 28447,
+      "formatted_distance": "496 km",
+      "formatted_duration": "7 hr 55 min",
+      "cost": 357.7,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 1852,
+          "duration": 1447,
+          "formatted_distance": "1.9 km",
+          "formatted_duration": "25 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  west",
+              "action": "straight",
+              "distance": 201,
+              "duration": 159,
+              "formatted_distance": "200 m",
+              "formatted_duration": "3 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Slight  left  toward  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-slight-left",
+              "distance": 63,
+              "duration": 53,
+              "formatted_distance": "63 m",
+              "formatted_duration": "53 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-right",
+              "distance": 920,
+              "duration": 778,
+              "formatted_distance": "900 m",
+              "formatted_duration": "13 min",
+              "extensions": [
+                "Pass by Punjab National Bank - ATM (on the right in 500m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Gandhi Irwin Bridge Rd",
+              "action": "turn-left",
+              "distance": 9,
+              "duration": 14,
+              "formatted_distance": "9 m",
+              "formatted_duration": "14 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=EIV2rh-BrVrFPu5RQsfMcw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=87.53417&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.080813509785884,
+                "longitude": 80.26522465916496
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  NH 179B",
+              "action": "turn-right",
+              "distance": 220,
+              "duration": 188,
+              "formatted_distance": "220 m",
+              "formatted_duration": "3 min",
+              "extensions": [
+                "Pass by Office of Commissioner of Police Chennai (on the right in 190m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Whenners Rd",
+              "action": "turn-left",
+              "distance": 130,
+              "duration": 111,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ZjIMDw1PkYJuJXY47IK0yA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=75.294556&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.08030607531043,
+                "longitude": 80.26328893579698
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 16,
+              "duration": 14,
+              "formatted_distance": "16 m",
+              "formatted_duration": "14 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nKKCnpKyQtLMfLm6k4Y0rg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=159.43192&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.079360636280347,
+                "longitude": 80.26311455945915
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Take entrance \u00b7 Take the stairs",
+              "distance": 293,
+              "duration": 130,
+              "formatted_distance": "290 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HwL-krQHbeM1K6l-x7NzYg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=352.92355&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.079186849548437,
+                "longitude": 80.2631831191743
+              }
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "12693 - Pearl City Superfast Express 12693 Tuticorin",
+          "duration": 27000,
+          "formatted_duration": "7 hr 30 min",
+          "start_stop": {
+            "name": "Chennai Egmore",
+            "stop_id": "MS",
+            "time": "7:15\u202fPM",
+            "data_id": "0x3a526609638a76a5:0xa605f681010b8b85"
+          },
+          "end_stop": {
+            "name": "Madurai Junction",
+            "stop_id": "MDU",
+            "time": "2:45\u202fAM",
+            "data_id": "0x3b00cf7d86a9502b:0x57b3b8f68a12e336"
+          },
+          "stops": [
+            {
+              "name": "Tambaram (\u0ba4\u0bbe\u0bae\u0bcd\u0baa\u0bb0\u0bae\u0bcd)",
+              "stop_id": "TBM",
+              "time": "7:42\u202fPM",
+              "data_id": "0x3a525f6d07dad611:0x60fc7f42a6e81303"
+            },
+            {
+              "name": "Chengalpattu Junction",
+              "stop_id": "CGL",
+              "time": "8:10\u202fPM",
+              "data_id": "0x3a52fc6dd71ebf99:0xe4de7c753c79f675"
+            },
+            {
+              "name": "Madurantakam",
+              "stop_id": "MMK",
+              "time": "8:30\u202fPM",
+              "data_id": "0x3a531b6bc592b60b:0xa148f54e35390a4c"
+            },
+            {
+              "name": "Melmaruvathur",
+              "stop_id": "MLMR",
+              "time": "8:45\u202fPM",
+              "data_id": "0x3a5310aa7a66a451:0x94ac74c85fc23962"
+            },
+            {
+              "name": "Tindivanam",
+              "stop_id": "TMV",
+              "time": "9:10\u202fPM",
+              "data_id": "0x3a5340b2e794f3cf:0xed70d69d2a598bdb"
+            },
+            {
+              "name": "Villupuram Junction",
+              "stop_id": "VM",
+              "time": "10:05\u202fPM",
+              "data_id": "0x3a5356e9e6f3b96b:0x2aa726a2645525e7"
+            },
+            {
+              "name": "Vriddhachalam Junction",
+              "stop_id": "VRI",
+              "time": "10:48\u202fPM",
+              "data_id": "0x3bab4a41a8be08fb:0xb9af74e2b83fb833"
+            },
+            {
+              "name": "Ariyalur",
+              "stop_id": "ALU",
+              "time": "11:24\u202fPM",
+              "data_id": "0x3bab2086c68ea367:0x94e846c4b94717b0"
+            },
+            {
+              "name": "Tiruchchirappalli Junction",
+              "stop_id": "TPJ",
+              "time": "12:50\u202fAM",
+              "data_id": "0x3baaf53df38c7a0b:0x642af3365d873cc1"
+            },
+            {
+              "name": "Dindigul Junction",
+              "stop_id": "DG",
+              "time": "1:50\u202fAM",
+              "data_id": "0x3b00aa4e0f4a1ea1:0xd6de7da035c3fa2b"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "7:10\u202fPM",
+      "end_time": "3:00\u202fAM",
+      "distance": 495645,
+      "duration": 28147,
+      "formatted_distance": "496 km",
+      "formatted_duration": "7 hr 50 min",
+      "cost": 357.7,
+      "currency": "INR",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 1852,
+          "duration": 1447,
+          "formatted_distance": "1.9 km",
+          "formatted_duration": "25 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  west",
+              "action": "straight",
+              "distance": 201,
+              "duration": 159,
+              "formatted_distance": "200 m",
+              "formatted_duration": "3 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Slight  left  toward  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-slight-left",
+              "distance": 63,
+              "duration": 53,
+              "formatted_distance": "63 m",
+              "formatted_duration": "53 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-right",
+              "distance": 920,
+              "duration": 778,
+              "formatted_distance": "900 m",
+              "formatted_duration": "13 min",
+              "extensions": [
+                "Pass by Punjab National Bank - ATM (on the right in 500m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Gandhi Irwin Bridge Rd",
+              "action": "turn-left",
+              "distance": 9,
+              "duration": 14,
+              "formatted_distance": "9 m",
+              "formatted_duration": "14 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=EIV2rh-BrVrFPu5RQsfMcw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=87.53417&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.080813509785884,
+                "longitude": 80.26522465916496
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  NH 179B",
+              "action": "turn-right",
+              "distance": 220,
+              "duration": 188,
+              "formatted_distance": "220 m",
+              "formatted_duration": "3 min",
+              "extensions": [
+                "Pass by Office of Commissioner of Police Chennai (on the right in 190m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Whenners Rd",
+              "action": "turn-left",
+              "distance": 130,
+              "duration": 111,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ZjIMDw1PkYJuJXY47IK0yA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=75.294556&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.08030607531043,
+                "longitude": 80.26328893579698
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 16,
+              "duration": 14,
+              "formatted_distance": "16 m",
+              "formatted_duration": "14 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nKKCnpKyQtLMfLm6k4Y0rg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=159.43192&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.079360636280347,
+                "longitude": 80.26311455945915
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Take entrance \u00b7 Take the stairs",
+              "distance": 293,
+              "duration": 130,
+              "formatted_distance": "290 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HwL-krQHbeM1K6l-x7NzYg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=352.92355&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.079186849548437,
+                "longitude": 80.2631831191743
+              }
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "12661 - Pothigai SF Express 12661 Sengottai",
+          "duration": 26700,
+          "formatted_duration": "7 hr 25 min",
+          "start_stop": {
+            "name": "Chennai Egmore",
+            "stop_id": "MS",
+            "time": "7:35\u202fPM",
+            "data_id": "0x3a526609638a76a5:0xa605f681010b8b85"
+          },
+          "end_stop": {
+            "name": "Madurai Junction",
+            "stop_id": "MDU",
+            "time": "3:00\u202fAM",
+            "data_id": "0x3b00cf7d86a9502b:0x57b3b8f68a12e336"
+          },
+          "stops": [
+            {
+              "name": "Tambaram (\u0ba4\u0bbe\u0bae\u0bcd\u0baa\u0bb0\u0bae\u0bcd)",
+              "stop_id": "TBM",
+              "time": "8:02\u202fPM",
+              "data_id": "0x3a525f6d07dad611:0x60fc7f42a6e81303"
+            },
+            {
+              "name": "Chengalpattu Junction",
+              "stop_id": "CGL",
+              "time": "8:30\u202fPM",
+              "data_id": "0x3a52fc6dd71ebf99:0xe4de7c753c79f675"
+            },
+            {
+              "name": "Villupuram Junction",
+              "stop_id": "VM",
+              "time": "10:20\u202fPM",
+              "data_id": "0x3a5356e9e6f3b96b:0x2aa726a2645525e7"
+            },
+            {
+              "name": "Vriddhachalam Junction",
+              "stop_id": "VRI",
+              "time": "11:04\u202fPM",
+              "data_id": "0x3bab4a41a8be08fb:0xb9af74e2b83fb833"
+            },
+            {
+              "name": "Tiruchchirappalli Junction",
+              "stop_id": "TPJ",
+              "time": "1:10\u202fAM",
+              "data_id": "0x3baaf53df38c7a0b:0x642af3365d873cc1"
+            },
+            {
+              "name": "Dindigul Junction",
+              "stop_id": "DG",
+              "time": "2:10\u202fAM",
+              "data_id": "0x3b00aa4e0f4a1ea1:0xd6de7da035c3fa2b"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "4:17\u202fPM",
+      "end_time": "12:10\u202fAM",
+      "distance": 495558,
+      "duration": 28354,
+      "formatted_distance": "496 km",
+      "formatted_duration": "7 hr 53 min",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 325,
+          "duration": 274,
+          "formatted_distance": "350 m",
+          "formatted_duration": "5 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  west",
+              "action": "straight",
+              "distance": 104,
+              "duration": 83,
+              "formatted_distance": "100 m",
+              "formatted_duration": "1 min",
+              "extensions": [
+                "Pass by Bishnu sori (on the left)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  at  Munees Tavera Travels  toward  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-left",
+              "distance": 54,
+              "duration": 47,
+              "formatted_distance": "54 m",
+              "formatted_duration": "47 sec",
+              "extensions": [
+                "Pass by shanmugam taxi (on the left in 20m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  AGS COOL BAR  onto  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-right",
+              "distance": 77,
+              "duration": 62,
+              "formatted_distance": "77 m",
+              "formatted_duration": "1 min",
+              "extensions": [
+                "Continue to follow Chennai - Villupuram - Trichy - Kanyakumari Rd/Grand Southern Trunk Rd/Poonamallee High Rd"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  at  Mb Pandiya  toward  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-left",
+              "distance": 10,
+              "duration": 13,
+              "formatted_distance": "10 m",
+              "formatted_duration": "13 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  Park Town  onto  Chennai - Villupuram - Trichy - Kanyakumari Rd / EVR Periyar Salai / Grand Southern Trunk Rd / Poonamallee High Rd",
+              "action": "turn-right",
+              "distance": 69,
+              "duration": 55,
+              "formatted_distance": "69 m",
+              "formatted_duration": "55 sec",
+              "extensions": [
+                "Pass by SRM TRAVELS (on the left)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  at  Arunachalam Shop",
+              "action": "turn-left",
+              "distance": 11,
+              "duration": 14,
+              "formatted_distance": "11 m",
+              "formatted_duration": "14 sec",
+              "extensions": [
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "40061 - Chennai Beach - Tambaram EMU 40061 Tambaram",
+          "duration": 2880,
+          "formatted_duration": "48 min",
+          "start_stop": {
+            "name": "Chennai Park",
+            "stop_id": "MPK",
+            "time": "4:22\u202fPM",
+            "data_id": "0x3a526600eba2c087:0x667ed14b3cb54484"
+          },
+          "end_stop": {
+            "name": "Tambaram (\u0ba4\u0bbe\u0bae\u0bcd\u0baa\u0bb0\u0bae\u0bcd)",
+            "stop_id": "TBM",
+            "time": "5:10\u202fPM",
+            "data_id": "0x3a525f6d07dad611:0x60fc7f42a6e81303"
+          },
+          "stops": [
+            {
+              "name": "Chennai Egmore",
+              "stop_id": "MS",
+              "time": "4:24\u202fPM",
+              "data_id": "0x3a526609638a76a5:0xa605f681010b8b85"
+            },
+            {
+              "name": "Chetpet",
+              "stop_id": "MSC",
+              "time": "4:28\u202fPM",
+              "data_id": "0x3a52667a0b8942d7:0xa1153966a32c474f"
+            },
+            {
+              "name": "Nungambakkam",
+              "stop_id": "NBK",
+              "time": "4:31\u202fPM",
+              "data_id": "0x3a52666271a715dd:0x84dbb59084f9b1df"
+            },
+            {
+              "name": "Kodambakkam",
+              "stop_id": "MKK",
+              "time": "4:33\u202fPM",
+              "data_id": "0x3a5266f674bb2e27:0x4b56916abea703e2"
+            },
+            {
+              "name": "Mambalam",
+              "stop_id": "MBM",
+              "time": "4:35\u202fPM",
+              "data_id": "0x3a5266fe6211e327:0x1b344ab398563c4f"
+            },
+            {
+              "name": "Saidapet",
+              "stop_id": "SP",
+              "time": "4:38\u202fPM",
+              "data_id": "0x3a526705830032db:0xeaf725fd707d0729"
+            },
+            {
+              "name": "Guindy",
+              "stop_id": "GDY",
+              "time": "4:41\u202fPM",
+              "data_id": "0x3a52676a53e33c17:0xba7d02280a595929"
+            },
+            {
+              "name": "St. Thomas Mount Metro",
+              "stop_id": "STM",
+              "time": "4:44\u202fPM",
+              "data_id": "0x3a52675a13a7af07:0x506493b4caa1f7fc"
+            },
+            {
+              "name": "Palavanthangal",
+              "stop_id": "PZA",
+              "time": "4:47\u202fPM",
+              "data_id": "0x3a5260aadd0ffff7:0xeaa5044ed18c1f57"
+            },
+            {
+              "name": "Meenambakkam",
+              "stop_id": "MN",
+              "time": "4:50\u202fPM",
+              "data_id": "0x3a525e1d212def49:0x8fff1643bc3b23cc"
+            },
+            {
+              "name": "Tirusulam",
+              "stop_id": "TLM",
+              "time": "4:52\u202fPM",
+              "data_id": "0x3a525e18a5b674a7:0x5e74e65648c5786"
+            },
+            {
+              "name": "Pallavaram",
+              "stop_id": "PV",
+              "time": "4:55\u202fPM",
+              "data_id": "0x3a525e37480a8d47:0x6cd299db8ba36110"
+            },
+            {
+              "name": "Chrompet",
+              "stop_id": "CMP",
+              "time": "4:58\u202fPM",
+              "data_id": "0x3a525fad63fe24e3:0xf4cb1e461d93cc9c"
+            },
+            {
+              "name": "Tambaram Sanatorium",
+              "stop_id": "TBMS",
+              "time": "5:01\u202fPM",
+              "data_id": "0x3a525f07d64121e5:0xa57301dbee519c4"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Go to Tambaram (\u0ba4\u0bbe\u0bae\u0bcd\u0baa\u0bb0\u0bae\u0bcd)",
+          "duration": 60,
+          "formatted_duration": "1 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Walk",
+              "distance": 0,
+              "duration": 0,
+              "formatted_distance": "0.0 km",
+              "formatted_duration": "0 sec"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "16101 - Kollam Express 16101 Kollam Junction (Quilon)",
+          "duration": 24900,
+          "formatted_duration": "6 hr 55 min",
+          "start_stop": {
+            "name": "Tambaram (\u0ba4\u0bbe\u0bae\u0bcd\u0baa\u0bb0\u0bae\u0bcd)",
+            "stop_id": "TBM",
+            "time": "5:15\u202fPM",
+            "data_id": "0x3a525f6d07dad611:0x60fc7f42a6e81303"
+          },
+          "end_stop": {
+            "name": "Madurai Junction",
+            "stop_id": "MDU",
+            "time": "12:10\u202fAM",
+            "data_id": "0x3b00cf7d86a9502b:0x57b3b8f68a12e336"
+          },
+          "stops": [
+            {
+              "name": "Chengalpattu Junction",
+              "stop_id": "CGL",
+              "time": "5:45\u202fPM",
+              "data_id": "0x3a52fc6dd71ebf99:0xe4de7c753c79f675"
+            },
+            {
+              "name": "Villupuram Junction",
+              "stop_id": "VM",
+              "time": "7:15\u202fPM",
+              "data_id": "0x3a5356e9e6f3b96b:0x2aa726a2645525e7"
+            },
+            {
+              "name": "Ulundurpet",
+              "stop_id": "ULU",
+              "time": "7:43\u202fPM",
+              "data_id": "0x3bab526de9e36e85:0xadb34c42fbf0c1ac"
+            },
+            {
+              "name": "Vriddhachalam Junction",
+              "stop_id": "VRI",
+              "time": "7:58\u202fPM",
+              "data_id": "0x3bab4a41a8be08fb:0xb9af74e2b83fb833"
+            },
+            {
+              "name": "Tiruchchirappalli Junction",
+              "stop_id": "TPJ",
+              "time": "9:45\u202fPM",
+              "data_id": "0x3baaf53df38c7a0b:0x642af3365d873cc1"
+            },
+            {
+              "name": "Dindigul Junction",
+              "stop_id": "DG",
+              "time": "10:50\u202fPM",
+              "data_id": "0x3b00aa4e0f4a1ea1:0xd6de7da035c3fa2b"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        }
+      ]
+    }
+  ],
+  "durations": [
+    {
+      "travel_mode": "Driving",
+      "duration": 28782,
+      "formatted_duration": "8 hr"
+    },
+    {
+      "travel_mode": "Two-wheeler",
+      "duration": 30247,
+      "formatted_duration": "8 hr 24"
+    },
+    {
+      "travel_mode": "Transit",
+      "duration": 27900,
+      "formatted_duration": "7 hr 45"
+    },
+    {
+      "travel_mode": "Walking",
+      "duration": 365421,
+      "formatted_duration": "4 days"
+    }
+  ]
+}

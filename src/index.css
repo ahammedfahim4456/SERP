@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FAF5EE;
+    color: #292524;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Sandalwood & Crimson Accent Utilities */
+.sandal-paper-texture {
+  background-color: #FAF5EE;
+  background-image: radial-gradient(#D6C3AF 0.75px, transparent 0.75px), radial-gradient(#D6C3AF 0.75px, #FAF5EE 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.sandal-card {
+  background: rgba(253, 251, 247, 0.95);
+  border: 1px solid #EBDCCE;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 20px -2px rgba(110, 78, 52, 0.05);
+}
+
+.sandal-card:hover {
+  border-color: #DCC3AB;
+  box-shadow: 0 10px 30px -4px rgba(110, 78, 52, 0.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF5EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #DCC3AB;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BFA890;
+}

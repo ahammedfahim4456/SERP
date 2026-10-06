@@ -1,0 +1,2159 @@
+{
+  "search_metadata": {
+    "id": "6ac3b3e73b93e3a05ee64f90",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/VMOGTSexz6714alw0IJO39a6q5j3EaNooUSPqYlKwFM/6ac3b3e73b93e3a05ee64f90.json",
+    "markdown_endpoint": "https://serpapi.com/searches/VMOGTSexz6714alw0IJO39a6q5j3EaNooUSPqYlKwFM/6ac3b3e73b93e3a05ee64f90.md",
+    "created_at": "2026-10-05 14:27:51 UTC",
+    "processed_at": "2026-10-05 14:27:51 UTC",
+    "google_maps_directions_url": "https://www.google.com/maps/dir/koyambedu+bus+terminus%2C+Koyambedu%2C+Chennai%2C+Tamil+Nadu+600107%2C+India/majestic+BUS+Stand+terminal+1%2C+XHGC%2BMG6%2C+Kempegowda+Bus+Terminal-1%2C+Kempegowda%2C+Majestic%2C+Bengaluru%2C+Karnataka+560009%2C+India/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3a5266bc921ecb3d:0x71bed8853f7ceaad!2m2!1d80.20607749999999!2d13.0660907!1m5!1m1!1s0x3bae17069bd42553:0x96ae12317240aa1f!2m2!1d77.5713462!2d12.9768733!3e3?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/VMOGTSexz6714alw0IJO39a6q5j3EaNooUSPqYlKwFM/6ac3b3e73b93e3a05ee64f90.html",
+    "prettify_html_file": "https://serpapi.com/searches/VMOGTSexz6714alw0IJO39a6q5j3EaNooUSPqYlKwFM/6ac3b3e73b93e3a05ee64f90.prettify",
+    "total_time_taken": 1.65
+  },
+  "search_parameters": {
+    "engine": "google_maps_directions",
+    "hl": "en",
+    "start_addr": "Koyambedu Bus Terminus, Chennai",
+    "end_addr": "Majestic Bus Station, Bengaluru",
+    "travel_mode": "3"
+  },
+  "places_info": [
+    {
+      "address": "koyambedu bus terminus, Koyambedu, Chennai, Tamil Nadu 600107, India",
+      "data_id": "0x3a5266bc921ecb3d:0x71bed8853f7ceaad",
+      "gps_coordinates": {
+        "latitude": 13.0660907,
+        "longitude": 80.20607749999999
+      }
+    },
+    {
+      "address": "majestic BUS Stand terminal 1, XHGC+MG6, Kempegowda Bus Terminal-1, Kempegowda, Majestic, Bengaluru, Karnataka 560009, India",
+      "data_id": "0x3bae17069bd42553:0x96ae12317240aa1f",
+      "gps_coordinates": {
+        "latitude": 12.9768733,
+        "longitude": 77.5713462
+      }
+    }
+  ],
+  "directions": [
+    {
+      "travel_mode": "Transit",
+      "start_time": "8:28\u202fPM",
+      "end_time": "3:58\u202fAM",
+      "distance": 378511,
+      "duration": 27003,
+      "formatted_distance": "379 km",
+      "formatted_duration": "7 hr 30 min",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 589,
+          "duration": 605,
+          "formatted_distance": "600 m",
+          "formatted_duration": "10 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  south  on  koyambedu bus terminus",
+              "action": "straight",
+              "distance": 80,
+              "duration": 63,
+              "formatted_distance": "80 m",
+              "formatted_duration": "1 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VaFoHQzx30crZqGobWahUg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=355.63354&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.066247071416642,
+                "longitude": 80.2060804925141
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 146,
+              "duration": 120,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kUCZWuzVNSxVaOb7J-wiMA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.5524&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065522467372597,
+                "longitude": 80.20607913061279
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  KSRTC Boarding Point Koyambedu",
+              "action": "turn-right",
+              "distance": 322,
+              "duration": 260,
+              "formatted_distance": "300 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yKVsmkwAq1a-vpxB4BKM-A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=91.24298&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065349155754022,
+                "longitude": 80.20494474437302
+              },
+              "extensions": [
+                "Pass by Andhra bus (on the right in 150m)",
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Enter via D \u00b7 Take the elevator",
+              "distance": 41,
+              "duration": 162,
+              "formatted_distance": "41 m",
+              "formatted_duration": "3 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vo71EEXvdQZfG9YgWV92-Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=308.2426&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.067900327737355,
+                "longitude": 80.20424250175783
+              }
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "Green Line Puratchi Thalaivar Dr.M.G.Ramachandran Central Metro",
+          "duration": 1346,
+          "formatted_duration": "22 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivi Dr.J.Jayalalithaa CMBT",
+            "time": "8:38\u202fPM",
+            "data_id": "0x3a5266a355934b35:0x5a99c19dba6f3482"
+          },
+          "end_stop": {
+            "name": "Puratchi Thalaivar Dr. M.G.Ramachandran Central",
+            "time": "9:00\u202fPM",
+            "data_id": "0x3a52660090ca90ab:0x986e2f9d52763531"
+          },
+          "stops": [
+            {
+              "name": "Koyambedu",
+              "time": "8:41\u202fPM",
+              "data_id": "0x3a5266aecb8eae6d:0x9e6bea165e00d55e"
+            },
+            {
+              "name": "Thirumangalam",
+              "time": "8:44\u202fPM",
+              "data_id": "0x3a52641b8071cb57:0x96be2fce408725be"
+            },
+            {
+              "name": "Anna Nagar Tower",
+              "time": "8:46\u202fPM",
+              "data_id": "0x3a52641f4ed03e8d:0xf111dcda90bf9b85"
+            },
+            {
+              "name": "Anna Nagar East metro station",
+              "time": "8:48\u202fPM",
+              "data_id": "0x3a526426669da0a7:0x4d2304ef992fd998"
+            },
+            {
+              "name": "Shenoy Nagar",
+              "time": "8:50\u202fPM",
+              "data_id": "0x3a52668240a430c9:0x2ac61aa54835da4d"
+            },
+            {
+              "name": "Pachaiyappa's College",
+              "time": "8:52\u202fPM",
+              "data_id": "0x3a52667e0302d089:0xaff8126a88d7bcd"
+            },
+            {
+              "name": "Kilpauk",
+              "time": "8:54\u202fPM",
+              "data_id": "0x3a526679d0a0a475:0xcae6983eabc38ef1"
+            },
+            {
+              "name": "Nehru Park",
+              "time": "8:56\u202fPM",
+              "data_id": "0x3a526675b2968ea5:0xafead8e03ede309f"
+            },
+            {
+              "name": "Egmore Metro",
+              "time": "8:58\u202fPM",
+              "data_id": "0x3a5266099d8db6e7:0x7746cc908b80bb53"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/in-chennai-cmrl-metro.svg",
+          "service_run_by": {
+            "name": "Chennai Metro Rail Limited",
+            "link": "http://chennaimetrorail.org/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "duration": 575,
+          "formatted_duration": "10 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Take the elevator \u00b7 Exit via A1 (Ramp)",
+              "distance": 186,
+              "duration": 180,
+              "formatted_distance": "190 m",
+              "formatted_duration": "3 min"
+            },
+            {
+              "title": "Head  southwest",
+              "action": "straight",
+              "distance": 19,
+              "duration": 15,
+              "formatted_distance": "19 m",
+              "formatted_duration": "15 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 45,
+              "duration": 42,
+              "formatted_distance": "45 m",
+              "formatted_duration": "42 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 49,
+              "duration": 36,
+              "formatted_distance": "49 m",
+              "formatted_duration": "36 sec",
+              "extensions": [
+                "Pass by CANARA BANK ATM (on the left)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Take entrance",
+              "distance": 301,
+              "duration": 302,
+              "formatted_distance": "300 m",
+              "formatted_duration": "5 min"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "16021 - Kaveri Express 16021 Ashokapuram",
+          "duration": 23700,
+          "formatted_duration": "6 hr 35 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivar Dr. MGR CTL",
+            "stop_id": "MAS",
+            "time": "9:15\u202fPM",
+            "data_id": "0x3a5265ffa1216265:0x47ee704562150916"
+          },
+          "end_stop": {
+            "name": "Krantivira Sangoli Rayanna",
+            "stop_id": "SBC",
+            "time": "3:50\u202fAM",
+            "data_id": "0x3bae161b5bb8ab2b:0xd9ce8443dbf706ee"
+          },
+          "stops": [
+            {
+              "name": "Tiruvallur",
+              "stop_id": "TRL",
+              "time": "9:55\u202fPM",
+              "data_id": "0x3a52902c93460d79:0x631fdf1ab69e7f35"
+            },
+            {
+              "name": "Arakkonam Junction",
+              "stop_id": "AJJ",
+              "time": "10:20\u202fPM",
+              "data_id": "0x3a52bc6b4c087c79:0x87abadec627f5be"
+            },
+            {
+              "name": "Anavardikhanpettai",
+              "stop_id": "AVN",
+              "time": "10:35\u202fPM",
+              "data_id": "0x3a52b9f910ca554d:0x444f38e983261e5b"
+            },
+            {
+              "name": "Sholinghur",
+              "stop_id": "SHU",
+              "time": "10:45\u202fPM",
+              "data_id": "0x3a52b68ef9a9bc3f:0x745bff1fd47a44ff"
+            },
+            {
+              "name": "Walajah Road Junction",
+              "stop_id": "WJR",
+              "time": "11:00\u202fPM",
+              "data_id": "0x3bad4abc4acdb1f3:0x90d52d3a2c5256df"
+            },
+            {
+              "name": "Katpadi Junction",
+              "stop_id": "KPD",
+              "time": "11:25\u202fPM",
+              "data_id": "0x3bad47139be78f11:0xfe4dca49bfc3cea1"
+            },
+            {
+              "name": "Jolarpettai Junction",
+              "stop_id": "JTJ",
+              "time": "12:50\u202fAM",
+              "data_id": "0x3badab4d7c0c6579:0x7efa21fd4abcb389"
+            },
+            {
+              "name": "Kuppam",
+              "stop_id": "KPN",
+              "time": "1:29\u202fAM",
+              "data_id": "0x3badb9cb581ecd03:0xabaa84238a40b01"
+            },
+            {
+              "name": "Bangarapet Junction",
+              "stop_id": "BWT",
+              "time": "1:58\u202fAM",
+              "data_id": "0x3bade937c4dcabcf:0x1b7202ffcddac138"
+            },
+            {
+              "name": "Whitefield",
+              "stop_id": "WFD",
+              "time": "2:34\u202fAM",
+              "data_id": "0x3bae0e1669f9c45f:0xce3959cc51c140ba"
+            },
+            {
+              "name": "Krishnarajapuram",
+              "stop_id": "KJM",
+              "time": "2:45\u202fAM",
+              "data_id": "0x3bae113dc082a1d1:0x5520ab11e1208961"
+            },
+            {
+              "name": "Bangalore East",
+              "stop_id": "BNCE",
+              "time": "2:58\u202fAM",
+              "data_id": "0x3bae16f0726ecbeb:0x7ca2c860fb74f77"
+            },
+            {
+              "name": "Bangalore Cant",
+              "stop_id": "BNC",
+              "time": "3:09\u202fAM",
+              "data_id": "0x3bae165c570a1a3d:0xff95c1324f02f46e"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 533,
+          "duration": 495,
+          "formatted_distance": "550 m",
+          "formatted_duration": "8 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Exit via Entry Gate",
+              "distance": 134,
+              "duration": 134,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min"
+            },
+            {
+              "title": "Head toward  Parcel Office Rd",
+              "action": "straight",
+              "distance": 135,
+              "duration": 115,
+              "formatted_distance": "140 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Gubbi Thotadappa Rd",
+              "action": "turn-right",
+              "distance": 138,
+              "duration": 113,
+              "formatted_distance": "140 m",
+              "formatted_duration": "2 min",
+              "extensions": [
+                "Pass by Donne Biryani Mane (on the right in 31m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  toward  Gubbi Thotadappa Rd",
+              "action": "turn-right",
+              "distance": 23,
+              "duration": 32,
+              "formatted_distance": "23 m",
+              "formatted_duration": "32 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BNC4EFiqrRN1PTk3PlK4-w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=298.24902&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.976308509272595,
+                "longitude": 77.57092035190634
+              },
+              "extensions": [
+                "Take the stairs"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Take the pedestrian overpass",
+              "distance": 32,
+              "duration": 34,
+              "formatted_distance": "32 m",
+              "formatted_duration": "34 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MIStcN2iE_hKSmDQUNnDWA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=297.13464&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.97613041565718,
+                "longitude": 77.57092481197856
+              }
+            },
+            {
+              "title": "Turn  left  toward  Gubbi Thotadappa Rd",
+              "action": "turn-left",
+              "distance": 28,
+              "duration": 33,
+              "formatted_distance": "28 m",
+              "formatted_duration": "33 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BNC4EFiqrRN1PTk3PlK4-w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=96.574585&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.976308509272595,
+                "longitude": 77.57092035190634
+              },
+              "extensions": [
+                "Take the stairs"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Gubbi Thotadappa Rd",
+              "action": "turn-right",
+              "distance": 43,
+              "duration": 34,
+              "formatted_distance": "43 m",
+              "formatted_duration": "34 sec",
+              "extensions": [
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "8:01\u202fPM",
+      "end_time": "3:58\u202fAM",
+      "distance": 376951,
+      "duration": 28582,
+      "formatted_distance": "377 km",
+      "formatted_duration": "7 hr 57 min",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 2426,
+          "duration": 2016,
+          "formatted_distance": "2.4 km",
+          "formatted_duration": "34 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  south  on  koyambedu bus terminus",
+              "action": "straight",
+              "distance": 80,
+              "duration": 63,
+              "formatted_distance": "80 m",
+              "formatted_duration": "1 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VaFoHQzx30crZqGobWahUg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=355.63354&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.066247071416642,
+                "longitude": 80.2060804925141
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 146,
+              "duration": 120,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kUCZWuzVNSxVaOb7J-wiMA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.5524&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065522467372597,
+                "longitude": 80.20607913061279
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 195,
+              "duration": 158,
+              "formatted_distance": "200 m",
+              "formatted_duration": "3 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yKVsmkwAq1a-vpxB4BKM-A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=91.24298&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065349155754022,
+                "longitude": 80.20494474437302
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 10,
+              "duration": 9,
+              "formatted_distance": "10 m",
+              "formatted_duration": "9 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PU-iHYbUyKWM8YXiApA5xA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=177.98781&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.066957370662706,
+                "longitude": 80.20472028272634
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 554,
+              "duration": 459,
+              "formatted_distance": "550 m",
+              "formatted_duration": "8 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  onto  Kaliamman Koil St",
+              "action": "turn-left",
+              "distance": 44,
+              "duration": 37,
+              "formatted_distance": "44 m",
+              "formatted_duration": "37 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=KKNqFZ3M-5gyHkP2q7aMFw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=119.886024&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.069710458608187,
+                "longitude": 80.20090374841453
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  after  K-10 Police Station, Koyambedu (on the right)",
+              "action": "turn-right",
+              "distance": 609,
+              "duration": 509,
+              "formatted_distance": "600 m",
+              "formatted_duration": "8 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vFBe7qFbLZ4OH1F2ZOk0eg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=32.480152&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.069595714990708,
+                "longitude": 80.20063816111448
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Koyembedu Market Rd",
+              "action": "turn-right",
+              "distance": 533,
+              "duration": 425,
+              "formatted_distance": "550 m",
+              "formatted_duration": "7 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=m1y_nmfv1OQQwslPqed0gQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=265.69473&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.06937591879289,
+                "longitude": 80.19513895612259
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  to stay on  Koyembedu Market Rd",
+              "action": "turn-left",
+              "distance": 69,
+              "duration": 82,
+              "formatted_distance": "69 m",
+              "formatted_duration": "1 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=qqNiiwQFbEHBv4qIlXnnuQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=0.044098243&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.073949777109355,
+                "longitude": 80.19490289098
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  NH 179B",
+              "action": "turn-right",
+              "distance": 186,
+              "duration": 154,
+              "formatted_distance": "190 m",
+              "formatted_duration": "3 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IhWypKRm2Vqcens8EOF0pA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=302.7192&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.074300251432394,
+                "longitude": 80.19449103108194
+              },
+              "extensions": [
+                "Destination will be on the left"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "50 Royapuram",
+          "duration": 1861,
+          "formatted_duration": "31 min",
+          "start_stop": {
+            "name": "Rohini Theatre",
+            "time": "8:35\u202fPM",
+            "data_id": "0x3a5266a8ee628f49:0xb9154b15249732f2"
+          },
+          "end_stop": {
+            "name": "Chennai Central Railway Station",
+            "time": "9:06\u202fPM",
+            "data_id": "0x3a5266000bb988b7:0x6dff7d9b2945b15a"
+          },
+          "stops": [
+            {
+              "name": "Arumbakkam",
+              "time": "8:38\u202fPM",
+              "data_id": "0x3a5266a6d5b94d53:0x9d0f5b1cbb16d643"
+            },
+            {
+              "name": "Arumbakkam Post Office",
+              "time": "8:41\u202fPM",
+              "data_id": "0x3a52669f9cd2157b:0xa7d9c894a6a0564d"
+            },
+            {
+              "name": "Vaishnav College",
+              "time": "8:42\u202fPM",
+              "data_id": "0x3a52669ec1fbbf6b:0xc617797f6c278731"
+            },
+            {
+              "name": "PH Road Anna Arch NSK Nagar",
+              "time": "8:43\u202fPM",
+              "data_id": "0x3a52669c12e6786f:0x5244426aab280c20"
+            },
+            {
+              "name": "Arun Hotel / Ampa Skywalk",
+              "time": "8:45\u202fPM",
+              "data_id": "0x3a52669c9ec9a7bd:0xfd45f46528d9eff1"
+            },
+            {
+              "name": "Amaindhakarai",
+              "time": "8:47\u202fPM",
+              "data_id": "0x3a526686a5005ab7:0xcf1d3a313617d594"
+            },
+            {
+              "name": "Pachayappan College",
+              "time": "8:49\u202fPM",
+              "data_id": "0x3a52668734d20533:0xff2f2da0f9e0651d"
+            },
+            {
+              "name": "Pachaiyappas College",
+              "time": "8:50\u202fPM",
+              "data_id": "0x3a52667e62309013:0x2c3922a3ed1c571a"
+            },
+            {
+              "name": "Tailors Road",
+              "time": "8:51\u202fPM",
+              "data_id": "0x3a5266793e085287:0xbb89d809807d1bba"
+            },
+            {
+              "name": "Ega Theatre",
+              "time": "8:52\u202fPM",
+              "data_id": "0x3a526679116bf549:0xbc3eb90ec3523cb1"
+            },
+            {
+              "name": "Kilpauk",
+              "time": "8:53\u202fPM",
+              "data_id": "0x3a5266770b7009b3:0xde829f98c863e2b4"
+            },
+            {
+              "name": "Breeze Hotel",
+              "time": "8:55\u202fPM",
+              "data_id": "0x3a526676f573d72d:0xcdd2227e80a81719"
+            },
+            {
+              "name": "Dasaprakash",
+              "time": "8:58\u202fPM",
+              "data_id": "0x3a526675210ea583:0x1d718c332a751700"
+            },
+            {
+              "name": "Y.W.C.A.",
+              "time": "9:00\u202fPM",
+              "data_id": "0x3a52660a27de4755:0x7b050c57a075af6f"
+            },
+            {
+              "name": "Dinathanthi",
+              "time": "9:01\u202fPM",
+              "data_id": "0x3a52660837d41aa7:0x776334a8fcf9a5ce"
+            },
+            {
+              "name": "Everest",
+              "time": "9:03\u202fPM",
+              "data_id": "0x3a52660799031861:0xb9ca351a07c36409"
+            },
+            {
+              "name": "Puratchi Thalaivar Dr. M.G. Ramachandran Central",
+              "time": "9:05\u202fPM",
+              "data_id": "0x3a5266006490decb:0x763e5ab08622e2ef"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+          "service_run_by": {
+            "name": "Metropolitan Transport Corporation",
+            "link": "https://mtcbus.tn.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "duration": 510,
+          "formatted_duration": "9 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head toward  Pallavan Salai / Station Rd",
+              "action": "straight",
+              "distance": 50,
+              "duration": 46,
+              "formatted_distance": "50 m",
+              "formatted_duration": "46 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  AGS COOL BAR",
+              "action": "turn-right",
+              "distance": 54,
+              "duration": 47,
+              "formatted_distance": "54 m",
+              "formatted_duration": "47 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jTsOtN6O4N1ELwf0yJHnGg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=87.0745&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.08170430452625,
+                "longitude": 80.27486935791323
+              },
+              "extensions": [
+                "Pass by shanmugam taxi (on the right in 33m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  Munees Tavera Travels",
+              "action": "turn-right",
+              "distance": 89,
+              "duration": 75,
+              "formatted_distance": "89 m",
+              "formatted_duration": "1 min",
+              "extensions": [
+                "Destination will be on the left"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Enter via Gate A1 \u00b7 Take the stairs",
+              "distance": 391,
+              "duration": 392,
+              "formatted_distance": "400 m",
+              "formatted_duration": "7 min"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "16021 - Kaveri Express 16021 Ashokapuram",
+          "duration": 23700,
+          "formatted_duration": "6 hr 35 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivar Dr. MGR CTL",
+            "stop_id": "MAS",
+            "time": "9:15\u202fPM",
+            "data_id": "0x3a5265ffa1216265:0x47ee704562150916"
+          },
+          "end_stop": {
+            "name": "Krantivira Sangoli Rayanna",
+            "stop_id": "SBC",
+            "time": "3:50\u202fAM",
+            "data_id": "0x3bae161b5bb8ab2b:0xd9ce8443dbf706ee"
+          },
+          "stops": [
+            {
+              "name": "Tiruvallur",
+              "stop_id": "TRL",
+              "time": "9:55\u202fPM",
+              "data_id": "0x3a52902c93460d79:0x631fdf1ab69e7f35"
+            },
+            {
+              "name": "Arakkonam Junction",
+              "stop_id": "AJJ",
+              "time": "10:20\u202fPM",
+              "data_id": "0x3a52bc6b4c087c79:0x87abadec627f5be"
+            },
+            {
+              "name": "Anavardikhanpettai",
+              "stop_id": "AVN",
+              "time": "10:35\u202fPM",
+              "data_id": "0x3a52b9f910ca554d:0x444f38e983261e5b"
+            },
+            {
+              "name": "Sholinghur",
+              "stop_id": "SHU",
+              "time": "10:45\u202fPM",
+              "data_id": "0x3a52b68ef9a9bc3f:0x745bff1fd47a44ff"
+            },
+            {
+              "name": "Walajah Road Junction",
+              "stop_id": "WJR",
+              "time": "11:00\u202fPM",
+              "data_id": "0x3bad4abc4acdb1f3:0x90d52d3a2c5256df"
+            },
+            {
+              "name": "Katpadi Junction",
+              "stop_id": "KPD",
+              "time": "11:25\u202fPM",
+              "data_id": "0x3bad47139be78f11:0xfe4dca49bfc3cea1"
+            },
+            {
+              "name": "Jolarpettai Junction",
+              "stop_id": "JTJ",
+              "time": "12:50\u202fAM",
+              "data_id": "0x3badab4d7c0c6579:0x7efa21fd4abcb389"
+            },
+            {
+              "name": "Kuppam",
+              "stop_id": "KPN",
+              "time": "1:29\u202fAM",
+              "data_id": "0x3badb9cb581ecd03:0xabaa84238a40b01"
+            },
+            {
+              "name": "Bangarapet Junction",
+              "stop_id": "BWT",
+              "time": "1:58\u202fAM",
+              "data_id": "0x3bade937c4dcabcf:0x1b7202ffcddac138"
+            },
+            {
+              "name": "Whitefield",
+              "stop_id": "WFD",
+              "time": "2:34\u202fAM",
+              "data_id": "0x3bae0e1669f9c45f:0xce3959cc51c140ba"
+            },
+            {
+              "name": "Krishnarajapuram",
+              "stop_id": "KJM",
+              "time": "2:45\u202fAM",
+              "data_id": "0x3bae113dc082a1d1:0x5520ab11e1208961"
+            },
+            {
+              "name": "Bangalore East",
+              "stop_id": "BNCE",
+              "time": "2:58\u202fAM",
+              "data_id": "0x3bae16f0726ecbeb:0x7ca2c860fb74f77"
+            },
+            {
+              "name": "Bangalore Cant",
+              "stop_id": "BNC",
+              "time": "3:09\u202fAM",
+              "data_id": "0x3bae165c570a1a3d:0xff95c1324f02f46e"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 533,
+          "duration": 495,
+          "formatted_distance": "550 m",
+          "formatted_duration": "8 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Exit via Entry Gate",
+              "distance": 134,
+              "duration": 134,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min"
+            },
+            {
+              "title": "Head toward  Parcel Office Rd",
+              "action": "straight",
+              "distance": 135,
+              "duration": 115,
+              "formatted_distance": "140 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Gubbi Thotadappa Rd",
+              "action": "turn-right",
+              "distance": 138,
+              "duration": 113,
+              "formatted_distance": "140 m",
+              "formatted_duration": "2 min",
+              "extensions": [
+                "Pass by Donne Biryani Mane (on the right in 31m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  toward  Gubbi Thotadappa Rd",
+              "action": "turn-right",
+              "distance": 23,
+              "duration": 32,
+              "formatted_distance": "23 m",
+              "formatted_duration": "32 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BNC4EFiqrRN1PTk3PlK4-w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=298.24902&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.976308509272595,
+                "longitude": 77.57092035190634
+              },
+              "extensions": [
+                "Take the stairs"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Take the pedestrian overpass",
+              "distance": 32,
+              "duration": 34,
+              "formatted_distance": "32 m",
+              "formatted_duration": "34 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MIStcN2iE_hKSmDQUNnDWA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=297.13464&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.97613041565718,
+                "longitude": 77.57092481197856
+              }
+            },
+            {
+              "title": "Turn  left  toward  Gubbi Thotadappa Rd",
+              "action": "turn-left",
+              "distance": 28,
+              "duration": 33,
+              "formatted_distance": "28 m",
+              "formatted_duration": "33 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BNC4EFiqrRN1PTk3PlK4-w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=96.574585&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.976308509272595,
+                "longitude": 77.57092035190634
+              },
+              "extensions": [
+                "Take the stairs"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Gubbi Thotadappa Rd",
+              "action": "turn-right",
+              "distance": 43,
+              "duration": 34,
+              "formatted_distance": "43 m",
+              "formatted_duration": "34 sec",
+              "extensions": [
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "10:05\u202fPM",
+      "end_time": "4:43\u202fAM",
+      "distance": 378536,
+      "duration": 23853,
+      "formatted_distance": "379 km",
+      "formatted_duration": "6 hr 38 min",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 589,
+          "duration": 605,
+          "formatted_distance": "600 m",
+          "formatted_duration": "10 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  south  on  koyambedu bus terminus",
+              "action": "straight",
+              "distance": 80,
+              "duration": 63,
+              "formatted_distance": "80 m",
+              "formatted_duration": "1 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VaFoHQzx30crZqGobWahUg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=355.63354&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.066247071416642,
+                "longitude": 80.2060804925141
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 146,
+              "duration": 120,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kUCZWuzVNSxVaOb7J-wiMA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.5524&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065522467372597,
+                "longitude": 80.20607913061279
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  KSRTC Boarding Point Koyambedu",
+              "action": "turn-right",
+              "distance": 322,
+              "duration": 260,
+              "formatted_distance": "300 m",
+              "formatted_duration": "4 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yKVsmkwAq1a-vpxB4BKM-A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=91.24298&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065349155754022,
+                "longitude": 80.20494474437302
+              },
+              "extensions": [
+                "Pass by Andhra bus (on the right in 150m)",
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Enter via D \u00b7 Take the elevator",
+              "distance": 41,
+              "duration": 162,
+              "formatted_distance": "41 m",
+              "formatted_duration": "3 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vo71EEXvdQZfG9YgWV92-Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=308.2426&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.067900327737355,
+                "longitude": 80.20424250175783
+              }
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "Inter-Corridor Puratchi Thalaivar Dr.M.G.Ramachandran Central Metro",
+          "duration": 1346,
+          "formatted_duration": "23 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivi Dr.J.Jayalalithaa CMBT",
+            "time": "10:15\u202fPM",
+            "data_id": "0x3a5266a355934b35:0x5a99c19dba6f3482"
+          },
+          "end_stop": {
+            "name": "Puratchi Thalaivar Dr. M.G.Ramachandran Central",
+            "time": "10:38\u202fPM",
+            "data_id": "0x3a52660090ca90ab:0x986e2f9d52763531"
+          },
+          "stops": [
+            {
+              "name": "Koyambedu",
+              "time": "10:18\u202fPM",
+              "data_id": "0x3a5266aecb8eae6d:0x9e6bea165e00d55e"
+            },
+            {
+              "name": "Thirumangalam",
+              "time": "10:22\u202fPM",
+              "data_id": "0x3a52641b8071cb57:0x96be2fce408725be"
+            },
+            {
+              "name": "Anna Nagar Tower",
+              "time": "10:23\u202fPM",
+              "data_id": "0x3a52641f4ed03e8d:0xf111dcda90bf9b85"
+            },
+            {
+              "name": "Anna Nagar East metro station",
+              "time": "10:25\u202fPM",
+              "data_id": "0x3a526426669da0a7:0x4d2304ef992fd998"
+            },
+            {
+              "name": "Shenoy Nagar",
+              "time": "10:27\u202fPM",
+              "data_id": "0x3a52668240a430c9:0x2ac61aa54835da4d"
+            },
+            {
+              "name": "Pachaiyappa's College",
+              "time": "10:30\u202fPM",
+              "data_id": "0x3a52667e0302d089:0xaff8126a88d7bcd"
+            },
+            {
+              "name": "Kilpauk",
+              "time": "10:31\u202fPM",
+              "data_id": "0x3a526679d0a0a475:0xcae6983eabc38ef1"
+            },
+            {
+              "name": "Nehru Park",
+              "time": "10:33\u202fPM",
+              "data_id": "0x3a526675b2968ea5:0xafead8e03ede309f"
+            },
+            {
+              "name": "Egmore Metro",
+              "time": "10:35\u202fPM",
+              "data_id": "0x3a5266099d8db6e7:0x7746cc908b80bb53"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/in-chennai-cmrl-metro.svg",
+          "service_run_by": {
+            "name": "Chennai Metro Rail Limited",
+            "link": "http://chennaimetrorail.org/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "duration": 575,
+          "formatted_duration": "10 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Take the elevator \u00b7 Exit via A1 (Ramp)",
+              "distance": 186,
+              "duration": 180,
+              "formatted_distance": "190 m",
+              "formatted_duration": "3 min"
+            },
+            {
+              "title": "Head  southwest",
+              "action": "straight",
+              "distance": 19,
+              "duration": 15,
+              "formatted_distance": "19 m",
+              "formatted_duration": "15 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 45,
+              "duration": 42,
+              "formatted_distance": "45 m",
+              "formatted_duration": "42 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 49,
+              "duration": 36,
+              "formatted_distance": "49 m",
+              "formatted_duration": "36 sec",
+              "extensions": [
+                "Pass by CANARA BANK ATM (on the left)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Take entrance",
+              "distance": 301,
+              "duration": 302,
+              "formatted_distance": "300 m",
+              "formatted_duration": "5 min"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "12657 - KSR Bengaluru SF Mail 12657 KSR Bengaluru City Junction (Bangalore)",
+          "duration": 20700,
+          "formatted_duration": "5 hr 45 min",
+          "start_stop": {
+            "name": "Puratchi Thalaivar Dr. MGR CTL",
+            "stop_id": "MAS",
+            "time": "10:50\u202fPM",
+            "data_id": "0x3a5265ffa1216265:0x47ee704562150916"
+          },
+          "end_stop": {
+            "name": "Krantivira Sangoli Rayanna",
+            "stop_id": "SBC",
+            "time": "4:35\u202fAM",
+            "data_id": "0x3bae161b5bb8ab2b:0xd9ce8443dbf706ee"
+          },
+          "stops": [
+            {
+              "name": "Arakkonam Junction",
+              "stop_id": "AJJ",
+              "time": "11:45\u202fPM",
+              "data_id": "0x3a52bc6b4c087c79:0x87abadec627f5be"
+            },
+            {
+              "name": "Katpadi Junction",
+              "stop_id": "KPD",
+              "time": "12:35\u202fAM",
+              "data_id": "0x3bad47139be78f11:0xfe4dca49bfc3cea1"
+            },
+            {
+              "name": "Jolarpettai Junction",
+              "stop_id": "JTJ",
+              "time": "1:55\u202fAM",
+              "data_id": "0x3badab4d7c0c6579:0x7efa21fd4abcb389"
+            },
+            {
+              "name": "Bangarapet Junction",
+              "stop_id": "BWT",
+              "time": "2:55\u202fAM",
+              "data_id": "0x3bade937c4dcabcf:0x1b7202ffcddac138"
+            },
+            {
+              "name": "Bangalore East",
+              "stop_id": "BNCE",
+              "time": "3:48\u202fAM",
+              "data_id": "0x3bae16f0726ecbeb:0x7ca2c860fb74f77"
+            },
+            {
+              "name": "Bangalore Cant",
+              "stop_id": "BNC",
+              "time": "3:57\u202fAM",
+              "data_id": "0x3bae165c570a1a3d:0xff95c1324f02f46e"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/rail2.svg",
+          "service_run_by": {
+            "name": "Indian Railways",
+            "link": "http://www.indianrail.gov.in/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 533,
+          "duration": 495,
+          "formatted_distance": "550 m",
+          "formatted_duration": "8 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Exit via Entry Gate",
+              "distance": 134,
+              "duration": 134,
+              "formatted_distance": "130 m",
+              "formatted_duration": "2 min"
+            },
+            {
+              "title": "Head toward  Parcel Office Rd",
+              "action": "straight",
+              "distance": 135,
+              "duration": 115,
+              "formatted_distance": "140 m",
+              "formatted_duration": "2 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Gubbi Thotadappa Rd",
+              "action": "turn-right",
+              "distance": 138,
+              "duration": 113,
+              "formatted_distance": "140 m",
+              "formatted_duration": "2 min",
+              "extensions": [
+                "Pass by Donne Biryani Mane (on the right in 31m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  toward  Gubbi Thotadappa Rd",
+              "action": "turn-right",
+              "distance": 23,
+              "duration": 32,
+              "formatted_distance": "23 m",
+              "formatted_duration": "32 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BNC4EFiqrRN1PTk3PlK4-w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=298.24902&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.976308509272595,
+                "longitude": 77.57092035190634
+              },
+              "extensions": [
+                "Take the stairs"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Take the pedestrian overpass",
+              "distance": 32,
+              "duration": 34,
+              "formatted_distance": "32 m",
+              "formatted_duration": "34 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MIStcN2iE_hKSmDQUNnDWA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=297.13464&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.97613041565718,
+                "longitude": 77.57092481197856
+              }
+            },
+            {
+              "title": "Turn  left  toward  Gubbi Thotadappa Rd",
+              "action": "turn-left",
+              "distance": 28,
+              "duration": 33,
+              "formatted_distance": "28 m",
+              "formatted_duration": "33 sec",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BNC4EFiqrRN1PTk3PlK4-w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=96.574585&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 12.976308509272595,
+                "longitude": 77.57092035190634
+              },
+              "extensions": [
+                "Take the stairs"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  onto  Gubbi Thotadappa Rd",
+              "action": "turn-right",
+              "distance": 43,
+              "duration": 34,
+              "formatted_distance": "43 m",
+              "formatted_duration": "34 sec",
+              "extensions": [
+                "Destination will be on the right"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "10:46\u202fPM",
+      "end_time": "6:09\u202fAM",
+      "distance": 306608,
+      "duration": 26614,
+      "formatted_distance": "307 km",
+      "formatted_duration": "7 hr 23 min",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 1745,
+          "duration": 1434,
+          "formatted_distance": "1.7 km",
+          "formatted_duration": "24 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  south  on  koyambedu bus terminus",
+              "action": "straight",
+              "distance": 80,
+              "duration": 63,
+              "formatted_distance": "80 m",
+              "formatted_duration": "1 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VaFoHQzx30crZqGobWahUg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=355.63354&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.066247071416642,
+                "longitude": 80.2060804925141
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 146,
+              "duration": 120,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kUCZWuzVNSxVaOb7J-wiMA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.5524&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065522467372597,
+                "longitude": 80.20607913061279
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  KSRTC Boarding Point Koyambedu",
+              "action": "turn-right",
+              "distance": 746,
+              "duration": 602,
+              "formatted_distance": "750 m",
+              "formatted_duration": "10 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yKVsmkwAq1a-vpxB4BKM-A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=91.24298&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065349155754022,
+                "longitude": 80.20494474437302
+              },
+              "extensions": [
+                "Pass by Block-B (on the right in 350m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  Location  onto  Kaliamman Koil St",
+              "action": "turn-right",
+              "distance": 284,
+              "duration": 234,
+              "formatted_distance": "280 m",
+              "formatted_duration": "4 min",
+              "extensions": [
+                "Pass by Time Keeper (on the right in 30m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  at  Aruna Cool Bar  onto  100 Feet Rd / Jawaharlal Nehru Salai / Mumbai Hwy",
+              "action": "turn-left",
+              "distance": 489,
+              "duration": 415,
+              "formatted_distance": "500 m",
+              "formatted_duration": "7 min",
+              "extensions": [
+                "Pass by Chennai Grand Southern Trunk Rd (on the left in 56m)",
+                "Destination will be on the left"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "Chennai To Bangalore (Bengaluru) Bangalore (Bengaluru)",
+          "duration": 24600,
+          "formatted_duration": "6 hr 50 min",
+          "start_stop": {
+            "name": "Koyambedu",
+            "time": "11:10\u202fPM",
+            "data_id": "0x3a5266a62202a737:0xafda1f63a1f7a33b"
+          },
+          "end_stop": {
+            "name": "Majestic - Boarding Zone",
+            "time": "6:00\u202fAM",
+            "data_id": "0x3bae160f951a8c29:0xf003135d40773434"
+          },
+          "stops": [
+            {
+              "name": "Maduravoyal",
+              "time": "11:20\u202fPM",
+              "data_id": "0x3a526169fe802c75:0x98f27588d9783807"
+            },
+            {
+              "name": "Velappanchavadi",
+              "time": "11:25\u202fPM",
+              "data_id": "0x3a52619c13c2bf45:0x3df6f700a55f7f15"
+            },
+            {
+              "name": "Poonamallee Bypass",
+              "time": "11:35\u202fPM",
+              "data_id": "0x3a528a72ef9484f5:0x91dbfa9e279832aa"
+            },
+            {
+              "name": "Poonamallee Bypass",
+              "time": "11:40\u202fPM",
+              "data_id": "0x3a528a4407765a1d:0xb91aa739cb289cd6"
+            },
+            {
+              "name": "Sri Perumbudur",
+              "time": "11:50\u202fPM",
+              "data_id": "0x3a528cd37e226c37:0x58ad7cbddedbc9f2"
+            },
+            {
+              "name": "Hosur",
+              "time": "4:40\u202fAM",
+              "data_id": "0x3bae70c5958d4b4f:0x55b261c8f4744f6d"
+            },
+            {
+              "name": "Attible",
+              "time": "4:45\u202fAM",
+              "data_id": "0x3bae7196d9e83f7b:0x452a111e4647ee44"
+            },
+            {
+              "name": "Bommasandra",
+              "time": "5:00\u202fAM",
+              "data_id": "0x3bae6c3342edf7b9:0x459cb51f214424ad"
+            },
+            {
+              "name": "Hebbagodi",
+              "time": "5:05\u202fAM",
+              "data_id": "0x3bae6c5b7ee4039d:0xc01f6309e0d8991f"
+            },
+            {
+              "name": "Electronic City",
+              "time": "5:10\u202fAM",
+              "data_id": "0x3bae6c92080c8e35:0x2f1939d6e7647827"
+            },
+            {
+              "name": "Roopena Agrahara",
+              "time": "5:20\u202fAM",
+              "data_id": "0x3bae14f207c76897:0x1ba07ad94707c12c"
+            },
+            {
+              "name": "Madiwala",
+              "time": "5:25\u202fAM",
+              "data_id": "0x3bae14f70b29b887:0xe5393e16b67170df"
+            },
+            {
+              "name": "St Johns",
+              "time": "5:30\u202fAM",
+              "data_id": "0x3bae145136aad9ed:0xf5f872966cf2313"
+            },
+            {
+              "name": "Dairy Circle",
+              "time": "5:35\u202fAM",
+              "data_id": "0x3bae15b0dbf909a7:0xa7186a67819b9042"
+            },
+            {
+              "name": "Lalbagh",
+              "time": "5:40\u202fAM",
+              "data_id": "0x3bae15c298a39f09:0xd9fe26c2968a48d1"
+            },
+            {
+              "name": "Kalasipalya",
+              "time": "5:45\u202fAM",
+              "data_id": "0x3bae15de2963abf5:0x7a424abbe0850c4b"
+            },
+            {
+              "name": "Corporation Circle",
+              "time": "5:50\u202fAM",
+              "data_id": "0x3bae16756dbb9719:0x99cd56340391c7ce"
+            },
+            {
+              "name": "Anand Rao Circle",
+              "time": "5:55\u202fAM",
+              "data_id": "0x3bae16108ad02185:0xe58bc2f3d5771780"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+          "service_run_by": {
+            "name": "IntrCity SmartBus",
+            "link": "https://www.intrcity.com/"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 685,
+          "duration": 580,
+          "formatted_distance": "700 m",
+          "formatted_duration": "9 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head toward  Kempegowda Rd",
+              "action": "straight",
+              "distance": 47,
+              "duration": 38,
+              "formatted_distance": "47 m",
+              "formatted_duration": "38 sec",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Cross the road",
+              "distance": 230,
+              "duration": 202,
+              "formatted_distance": "230 m",
+              "formatted_duration": "3 min"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 349,
+              "duration": 291,
+              "formatted_distance": "350 m",
+              "formatted_duration": "5 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  at  Majestic Cir  onto  Gubbi Thotadappa Rd",
+              "action": "turn-left",
+              "distance": 59,
+              "duration": 49,
+              "formatted_distance": "59 m",
+              "formatted_duration": "49 sec",
+              "extensions": [
+                "Destination will be on the left"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "10:32\u202fPM",
+      "end_time": "6:34\u202fAM",
+      "distance": 343634,
+      "duration": 28937,
+      "formatted_distance": "344 km",
+      "formatted_duration": "8 hr 2 min",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 1312,
+          "duration": 1074,
+          "formatted_distance": "1.3 km",
+          "formatted_duration": "18 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  south  on  koyambedu bus terminus",
+              "action": "straight",
+              "distance": 80,
+              "duration": 63,
+              "formatted_distance": "80 m",
+              "formatted_duration": "1 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VaFoHQzx30crZqGobWahUg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=355.63354&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.066247071416642,
+                "longitude": 80.2060804925141
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 146,
+              "duration": 120,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kUCZWuzVNSxVaOb7J-wiMA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.5524&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065522467372597,
+                "longitude": 80.20607913061279
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  KSRTC Boarding Point Koyambedu",
+              "action": "turn-right",
+              "distance": 746,
+              "duration": 602,
+              "formatted_distance": "750 m",
+              "formatted_duration": "10 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yKVsmkwAq1a-vpxB4BKM-A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=91.24298&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065349155754022,
+                "longitude": 80.20494474437302
+              },
+              "extensions": [
+                "Pass by Block-B (on the right in 350m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  Location  onto  Kaliamman Koil St",
+              "action": "turn-right",
+              "distance": 284,
+              "duration": 234,
+              "formatted_distance": "280 m",
+              "formatted_duration": "4 min",
+              "extensions": [
+                "Pass by Time Keeper (on the right in 30m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  at  Aruna Cool Bar  onto  100 Feet Rd / Jawaharlal Nehru Salai / Mumbai Hwy",
+              "action": "turn-left",
+              "distance": 56,
+              "duration": 55,
+              "formatted_distance": "56 m",
+              "formatted_duration": "55 sec",
+              "extensions": [
+                "Destination will be on the left"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "FlixBus Bengaluru",
+          "duration": 27300,
+          "formatted_duration": "7 hr 35 min",
+          "start_stop": {
+            "name": "Chennai Grand Southern Trunk Road",
+            "time": "10:50\u202fPM",
+            "data_id": "0x3a5266a44a11d8f3:0xe89b851873a6c381"
+          },
+          "end_stop": {
+            "name": "Bengaluru Majestic",
+            "time": "6:25\u202fAM",
+            "data_id": "0x3bae160fbe00c9a9:0x13c6407e222f8056"
+          },
+          "stops": [
+            {
+              "name": "Chennai - Madurayovil Bypass (W)",
+              "time": "11:00\u202fPM",
+              "data_id": "0x3a526169f9ab45bf:0x28956a54b53e8f78"
+            },
+            {
+              "name": "Chennai Velappanchavadi (N)",
+              "time": "11:10\u202fPM",
+              "data_id": "0x3a52619c0bdd7b81:0xd5085ccf35839aad"
+            },
+            {
+              "name": "Chennai Poonamallee",
+              "time": "11:20\u202fPM",
+              "data_id": "0x3a528a72dc1d7e31:0x67eab5371025c2a9"
+            },
+            {
+              "name": "Chennai - Poonamallee (W)",
+              "time": "11:25\u202fPM",
+              "data_id": "0x3a528a4407a7be23:0xd86ce103ace3dff7"
+            },
+            {
+              "name": "Saveetha Medical College",
+              "time": "11:35\u202fPM",
+              "data_id": "0x3a528b7970447e0b:0x4f112680ff17050"
+            },
+            {
+              "name": "Chennai - Irungattukottai (W)",
+              "time": "11:40\u202fPM",
+              "data_id": "0x3a528cbe9353604f:0xeb820b777cdbb2d0"
+            },
+            {
+              "name": "Chennai - Sriperambadur Toll (W)",
+              "time": "11:45\u202fPM",
+              "data_id": "0x3a528cd4e8beeedd:0x82f5869a4214764d"
+            },
+            {
+              "name": "Kanchipuram - Bypass (W)",
+              "time": "12:35\u202fAM",
+              "data_id": "0x3a52c21bda835d01:0xd93056655bae60f1"
+            },
+            {
+              "name": "Arcot - Bypass (W)",
+              "time": "1:15\u202fAM",
+              "data_id": "0x3bad35adb32fc7a3:0x2b11c70d6b8479d3"
+            },
+            {
+              "name": "Vellore Bypass",
+              "time": "1:35\u202fAM",
+              "data_id": "0x3bad388fe1e60c71:0x25e263280aa814f5"
+            },
+            {
+              "name": "Ambur - Bus Stand (W)",
+              "time": "2:25\u202fAM",
+              "data_id": "0x3bad08e66fe28743:0xfe4fc285ae678055"
+            },
+            {
+              "name": "Krishnagiri - Toll Bypass (N)",
+              "time": "3:35\u202fAM",
+              "data_id": "0x3badccaabe3a6291:0xf6aff2bd7fc1abe6"
+            },
+            {
+              "name": "Hosur",
+              "time": "4:40\u202fAM",
+              "data_id": "0x3bae70c5958d4b4f:0x55b261c8f4744f6d"
+            },
+            {
+              "name": "Bengaluru - Attibelle Toll (W)",
+              "time": "4:55\u202fAM",
+              "data_id": "0x3bae7196c8ece30f:0xb72264a5e44813f0"
+            },
+            {
+              "name": "Bengaluru Bommasandra",
+              "time": "5:04\u202fAM",
+              "data_id": "0x3bae6c332dbc94d9:0x55e4230209c9583"
+            },
+            {
+              "name": "Bengaluru - Bommasandra (N)",
+              "time": "5:05\u202fAM",
+              "data_id": "0x3bae6c34452c51c9:0x4cef3440125ba4c9"
+            },
+            {
+              "name": "Bengaluru Hebbagodi",
+              "time": "5:10\u202fAM",
+              "data_id": "0x3bae6c5b4357d093:0xdcb14c0a16b1d0b2"
+            },
+            {
+              "name": "Bengaluru - Electronic City (N)",
+              "time": "5:15\u202fAM",
+              "data_id": "0x3bae6c92016a32eb:0xfcf55e9823f3d229"
+            },
+            {
+              "name": "Bengaluru - SilkBoard Skywalk Bridge (N)",
+              "time": "5:40\u202fAM",
+              "data_id": "0x3bae14edf988168f:0x3d5458c7702526e8"
+            },
+            {
+              "name": "Bengaluru - Madiwala (N)",
+              "time": "5:50\u202fAM",
+              "data_id": "0x3bae1457063087bb:0x1ae2003af842884b"
+            },
+            {
+              "name": "Bengaluru - Dairy Circle (N)",
+              "time": "6:00\u202fAM",
+              "data_id": "0x3bae15b3b29af971:0x3f5835c14d7075df"
+            },
+            {
+              "name": "Bengaluru - Shanti Nagar (N)",
+              "time": "6:15\u202fAM",
+              "data_id": "0x3bae15c4b9f06d7d:0x180f0e933d9f68ab"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+          "service_run_by": {
+            "name": "FlixBus",
+            "link": "https://www.awin1.com/cread.php?awinmid=112620&awinaffid=1869474&ued=https%3A%2F%2Fglobal%2Eflixbus%2Ecom%2F"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 664,
+          "duration": 563,
+          "formatted_distance": "650 m",
+          "formatted_duration": "9 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head toward  Kempegowda Rd",
+              "action": "straight",
+              "distance": 26,
+              "duration": 21,
+              "formatted_distance": "26 m",
+              "formatted_duration": "21 sec",
+              "extensions": [
+                "Pass by Sharada Hotel (on the left)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Cross the road",
+              "distance": 230,
+              "duration": 202,
+              "formatted_distance": "230 m",
+              "formatted_duration": "3 min"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 349,
+              "duration": 291,
+              "formatted_distance": "350 m",
+              "formatted_duration": "5 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  at  Majestic Cir  onto  Gubbi Thotadappa Rd",
+              "action": "turn-left",
+              "distance": 59,
+              "duration": 49,
+              "formatted_distance": "59 m",
+              "formatted_duration": "49 sec",
+              "extensions": [
+                "Destination will be on the left"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "travel_mode": "Transit",
+      "start_time": "11:22\u202fPM",
+      "end_time": "7:39\u202fAM",
+      "distance": 343634,
+      "duration": 29837,
+      "formatted_distance": "344 km",
+      "formatted_duration": "8 hr 17 min",
+      "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+      "trips": [
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 1312,
+          "duration": 1074,
+          "formatted_distance": "1.3 km",
+          "formatted_duration": "18 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head  south  on  koyambedu bus terminus",
+              "action": "straight",
+              "distance": 80,
+              "duration": 63,
+              "formatted_distance": "80 m",
+              "formatted_duration": "1 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VaFoHQzx30crZqGobWahUg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=355.63354&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.066247071416642,
+                "longitude": 80.2060804925141
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right",
+              "action": "turn-right",
+              "distance": 146,
+              "duration": 120,
+              "formatted_distance": "150 m",
+              "formatted_duration": "2 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kUCZWuzVNSxVaOb7J-wiMA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.5524&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065522467372597,
+                "longitude": 80.20607913061279
+              },
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  KSRTC Boarding Point Koyambedu",
+              "action": "turn-right",
+              "distance": 746,
+              "duration": 602,
+              "formatted_distance": "750 m",
+              "formatted_duration": "10 min",
+              "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yKVsmkwAq1a-vpxB4BKM-A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=91.24298&pitch=0&thumbfov=100",
+              "gps_coordinates": {
+                "latitude": 13.065349155754022,
+                "longitude": 80.20494474437302
+              },
+              "extensions": [
+                "Pass by Block-B (on the right in 350m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  right  at  Location  onto  Kaliamman Koil St",
+              "action": "turn-right",
+              "distance": 284,
+              "duration": 234,
+              "formatted_distance": "280 m",
+              "formatted_duration": "4 min",
+              "extensions": [
+                "Pass by Time Keeper (on the right in 30m)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  at  Aruna Cool Bar  onto  100 Feet Rd / Jawaharlal Nehru Salai / Mumbai Hwy",
+              "action": "turn-left",
+              "distance": 56,
+              "duration": 55,
+              "formatted_distance": "56 m",
+              "formatted_duration": "55 sec",
+              "extensions": [
+                "Destination will be on the left"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        },
+        {
+          "travel_mode": "Transit",
+          "title": "FlixBus Bengaluru",
+          "duration": 28200,
+          "formatted_duration": "7 hr 50 min",
+          "start_stop": {
+            "name": "Chennai Grand Southern Trunk Road",
+            "time": "11:40\u202fPM",
+            "data_id": "0x3a5266a44a11d8f3:0xe89b851873a6c381"
+          },
+          "end_stop": {
+            "name": "Bengaluru Majestic",
+            "time": "7:30\u202fAM",
+            "data_id": "0x3bae160fbe00c9a9:0x13c6407e222f8056"
+          },
+          "stops": [
+            {
+              "name": "Chennai - Madurayovil Bypass (W)",
+              "time": "11:50\u202fPM",
+              "data_id": "0x3a526169f9ab45bf:0x28956a54b53e8f78"
+            },
+            {
+              "name": "Chennai Velappanchavadi (N)",
+              "time": "12:05\u202fAM",
+              "data_id": "0x3a52619c0bdd7b81:0xd5085ccf35839aad"
+            },
+            {
+              "name": "Chennai Poonamallee",
+              "time": "12:10\u202fAM",
+              "data_id": "0x3a528a72dc1d7e31:0x67eab5371025c2a9"
+            },
+            {
+              "name": "Chennai - Poonamallee (W)",
+              "time": "12:15\u202fAM",
+              "data_id": "0x3a528a4407a7be23:0xd86ce103ace3dff7"
+            },
+            {
+              "name": "Saveetha Medical College",
+              "time": "12:25\u202fAM",
+              "data_id": "0x3a528b7970447e0b:0x4f112680ff17050"
+            },
+            {
+              "name": "Chennai - Irungattukottai (W)",
+              "time": "12:30\u202fAM",
+              "data_id": "0x3a528cbe9353604f:0xeb820b777cdbb2d0"
+            },
+            {
+              "name": "Chennai - Sriperambadur Toll (W)",
+              "time": "12:35\u202fAM",
+              "data_id": "0x3a528cd4e8beeedd:0x82f5869a4214764d"
+            },
+            {
+              "name": "Kanchipuram - Bypass (W)",
+              "time": "1:10\u202fAM",
+              "data_id": "0x3a52c21bda835d01:0xd93056655bae60f1"
+            },
+            {
+              "name": "Arcot - Bypass (W)",
+              "time": "1:50\u202fAM",
+              "data_id": "0x3bad35adb32fc7a3:0x2b11c70d6b8479d3"
+            },
+            {
+              "name": "Vellore Bypass",
+              "time": "2:10\u202fAM",
+              "data_id": "0x3bad388fe1e60c71:0x25e263280aa814f5"
+            },
+            {
+              "name": "Sidsha Restaurant (Veg & Non-Veg)",
+              "time": "2:35\u202fAM",
+              "data_id": "0x3bad1565d0629501:0x503bfc103ccc5652"
+            },
+            {
+              "name": "Ambur - Bus Stand (W)",
+              "time": "3:25\u202fAM",
+              "data_id": "0x3bad08e66fe28743:0xfe4fc285ae678055"
+            },
+            {
+              "name": "Krishnagiri - Toll Bypass (N)",
+              "time": "4:35\u202fAM",
+              "data_id": "0x3badccaabe3a6291:0xf6aff2bd7fc1abe6"
+            },
+            {
+              "name": "Hosur",
+              "time": "5:30\u202fAM",
+              "data_id": "0x3bae70c5958d4b4f:0x55b261c8f4744f6d"
+            },
+            {
+              "name": "Bengaluru - Attibelle Toll (W)",
+              "time": "5:45\u202fAM",
+              "data_id": "0x3bae7196c8ece30f:0xb72264a5e44813f0"
+            },
+            {
+              "name": "Bengaluru Bommasandra",
+              "time": "5:59\u202fAM",
+              "data_id": "0x3bae6c332dbc94d9:0x55e4230209c9583"
+            },
+            {
+              "name": "Bengaluru - Bommasandra (N)",
+              "time": "6:00\u202fAM",
+              "data_id": "0x3bae6c34452c51c9:0x4cef3440125ba4c9"
+            },
+            {
+              "name": "Bengaluru Hebbagodi",
+              "time": "6:05\u202fAM",
+              "data_id": "0x3bae6c5b4357d093:0xdcb14c0a16b1d0b2"
+            },
+            {
+              "name": "Bengaluru - Electronic City (N)",
+              "time": "6:10\u202fAM",
+              "data_id": "0x3bae6c92016a32eb:0xfcf55e9823f3d229"
+            },
+            {
+              "name": "Bengaluru - SilkBoard Skywalk Bridge (N)",
+              "time": "6:40\u202fAM",
+              "data_id": "0x3bae14edf988168f:0x3d5458c7702526e8"
+            },
+            {
+              "name": "Bengaluru - Madiwala (N)",
+              "time": "6:50\u202fAM",
+              "data_id": "0x3bae1457063087bb:0x1ae2003af842884b"
+            },
+            {
+              "name": "Bengaluru - Dairy Circle (N)",
+              "time": "7:00\u202fAM",
+              "data_id": "0x3bae15b3b29af971:0x3f5835c14d7075df"
+            },
+            {
+              "name": "Bengaluru - Shanti Nagar (N)",
+              "time": "7:15\u202fAM",
+              "data_id": "0x3bae15c4b9f06d7d:0x180f0e933d9f68ab"
+            }
+          ],
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+          "service_run_by": {
+            "name": "FlixBus",
+            "link": "https://www.awin1.com/cread.php?awinmid=112620&awinaffid=1869474&ued=https%3A%2F%2Fglobal%2Eflixbus%2Ecom%2F"
+          }
+        },
+        {
+          "travel_mode": "Walking",
+          "title": "Walk",
+          "distance": 664,
+          "duration": 563,
+          "formatted_distance": "650 m",
+          "formatted_duration": "9 min",
+          "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+          "details": [
+            {
+              "title": "Head toward  Kempegowda Rd",
+              "action": "straight",
+              "distance": 26,
+              "duration": 21,
+              "formatted_distance": "26 m",
+              "formatted_duration": "21 sec",
+              "extensions": [
+                "Pass by Sharada Hotel (on the left)"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+            },
+            {
+              "title": "Cross the road",
+              "distance": 230,
+              "duration": 202,
+              "formatted_distance": "230 m",
+              "formatted_duration": "3 min"
+            },
+            {
+              "title": "Turn  left",
+              "action": "turn-left",
+              "distance": 349,
+              "duration": 291,
+              "formatted_distance": "350 m",
+              "formatted_duration": "5 min",
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            },
+            {
+              "title": "Turn  left  at  Majestic Cir  onto  Gubbi Thotadappa Rd",
+              "action": "turn-left",
+              "distance": 59,
+              "duration": 49,
+              "formatted_distance": "59 m",
+              "formatted_duration": "49 sec",
+              "extensions": [
+                "Destination will be on the left"
+              ],
+              "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "durations": [
+    {
+      "travel_mode": "Driving",
+      "duration": 24330,
+      "formatted_duration": "6 hr 46"
+    },
+    {
+      "travel_mode": "Two-wheeler",
+      "duration": 24186,
+      "formatted_duration": "6 hr 43"
+    },
+    {
+      "travel_mode": "Transit",
+      "duration": 27000,
+      "formatted_duration": "7 hr 30"
+    },
+    {
+      "travel_mode": "Walking",
+      "duration": 261471,
+      "formatted_duration": "3 days"
+    }
+  ]
+}
