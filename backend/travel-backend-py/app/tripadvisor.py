@@ -1,6 +1,7 @@
 import logging
 from datetime import datetime, timezone
 
+from .normalizer import normalize_location
 from .quota import QuotaGuard
 from .schemas import TripadvisorRecommendation, TripadvisorSearchResponse
 from .serpapi_client import SerpApiClient
@@ -16,9 +17,11 @@ class TripadvisorService:
         self.ttl_seconds = ttl_seconds
 
     async def recommend(self, destination: str, budget: int | None = None) -> TripadvisorSearchResponse:
-        destination = " ".join(destination.strip().split())
-        query = f"best things to do in {destination}"
-        key = f"tripadvisor:{destination.lower()}:{budget or 'all'}"
+        loc = normalize_location(destination)
+        dest_display = loc.display_name
+        dest_canonical = loc.canonical_id
+        query = f"best things to do in {dest_display}"
+        key = f"tripadvisor:{dest_canonical}:{budget or 'all'}"
 
         hit = await self.cache.get(key)
         if hit:

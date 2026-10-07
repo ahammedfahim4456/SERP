@@ -3,6 +3,7 @@ import re
 from datetime import date, datetime, timezone
 
 from .hotel_ranking import rank
+from .normalizer import normalize_location
 from .quota import QuotaGuard
 from .schemas import BookingSource, Coordinates, HotelOption, HotelSearchResponse
 from .serpapi_client import SerpApiClient
@@ -83,7 +84,9 @@ class HotelService:
     async def search(self, destination: str, check_in: date, check_out: date, adults: int,
                      child_ages: list[int], currency: str, profile: str | None,
                      include_rentals: bool | None, include_hostels: bool, limit: int) -> HotelSearchResponse:
-        destination = " ".join(destination.split())
+        loc = normalize_location(destination)
+        destination_clean = loc.display_name
+        cache_dest_id = loc.canonical_id
         currency = currency.upper()
         nights = (check_out - check_in).days
         if nights < 1:
@@ -94,7 +97,8 @@ class HotelService:
             raise ValueError("checkIn must not be in the past")
 
         # the cache holds the UNRANKED list, so switching profile never costs a credit
-        key = ":".join(["hotels", destination.lower(), check_in.isoformat(), check_out.isoformat(),
+        # using canonical id ensures "Bangalore", "Bengaluru", "BLR" all share one cache entry!
+        key = ":".join(["hotels", cache_dest_id, check_in.isoformat(), check_out.isoformat(),
                         str(adults), ",".join(map(str, child_ages)) or "-", currency])
 
         base: HotelSearchResponse | None = None
@@ -109,11 +113,11 @@ class HotelService:
         if base is None:
             log.info("cache MISS %s", key)
             await self.quota.ensure_available()
-            raw = await self.client.google_hotels(f"Hotels in {destination}", check_in, check_out,
+            raw = await self.client.google_hotels(f"Hotels in {destination_clean}", check_in, check_out,
                                                   adults, child_ages, currency)
             await self.quota.record_call()
             base = HotelSearchResponse(
-                cached=False, fetched_at=datetime.now(timezone.utc), destination=destination,
+                cached=False, fetched_at=datetime.now(timezone.utc), destination=destination_clean,
                 check_in=check_in, check_out=check_out, nights=nights, adults=adults,
                 children=len(child_ages),
                 google_hotels_url=(raw.get("search_metadata") or {}).get("google_hotels_url"),
@@ -144,6 +148,8 @@ class HotelService:
             lowered = [a.lower() for a in amenities]
             features = [tag for tag, test in FEATURE_RULES.items() if any(test(a) for a in lowered)]
             essential = p.get("essential_info") or []
+            images = p.get("images") or []
+            first_image = images[0] if images and isinstance(images[0], dict) else {}
 
             sources, any_free = [], None
             for s in p.get("prices") or []:
@@ -167,6 +173,7 @@ class HotelService:
             out.append(HotelOption(
                 id=token, name=p["name"],
                 kind="rental" if p.get("type") == "vacation rental" else "hotel",
+                image_url=first_image.get("thumbnail") or first_image.get("original_image"),
                 hostel_like=any(w in f"{p['name']} {website or ''}".lower() for w in HOSTEL_WORDS),
                 star_class=p.get("extracted_hotel_class"),
                 rating=p.get("overall_rating"), review_count=p.get("reviews"),

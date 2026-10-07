@@ -1,9 +1,11 @@
 from datetime import date as Date
-from typing import Annotated, Literal
+from typing import Annotated, Any, Literal
 
 from fastapi import APIRouter, Query, Request
+from pydantic import BaseModel, Field
 
 from .hotels import parse_child_ages
+from .normalizer import normalize_location, get_known_cities
 from .schemas import (
     FlightSearchResponse,
     FoodSearchResponse,
@@ -15,6 +17,13 @@ from .schemas import (
 router = APIRouter(prefix="/api")
 
 IATA = r"^[A-Za-z]{3}$"
+
+
+@router.get("/cities")
+async def list_cities(q: str | None = None):
+    """Returns list of searchable Indian travel cities with canonical aliases & IATA codes."""
+    return {"cities": get_known_cities(q)}
+
 
 
 @router.get("/flights/search", response_model=FlightSearchResponse, response_model_by_alias=True)
@@ -102,3 +111,104 @@ async def get_tripadvisor_recommendations(
 async def usage(request: Request):
     """Handy while testing: how many real SerpApi calls this month."""
     return {"serpapiCallsThisMonth": await request.app.state.quota.used()}
+
+
+# ==============================================================================
+# AI Endpoints (Tracks 1, 2, 3, 4, 5)
+# ==============================================================================
+class PromptRequest(BaseModel):
+    prompt: str = Field(
+        ...,
+        min_length=2,
+        max_length=500,
+        description="Natural language trip request, e.g. '2 adults, 2 kids, Chennai to Madurai, 3 days, ₹25k budget'",
+    )
+
+
+class ExplainPickRequest(BaseModel):
+    item_type: Literal["hotel", "flight", "transit"] = "hotel"
+    item_data: dict[str, Any]
+    profile: Literal["family", "budget", "business"] = "family"
+    language: Literal["en", "ta", "hi"] = "en"
+
+
+class CostSummaryRequest(BaseModel):
+    destination: str
+    transit_cost: int
+    stay_cost: int
+    food_cost: int
+    user_budget: int
+    hotel_details: dict[str, Any] | None = None
+    transit_details: dict[str, Any] | None = None
+    language: Literal["en", "ta", "hi"] = "en"
+
+
+@router.post("/ai/parse-prompt")
+async def parse_prompt(request: Request, body: PromptRequest):
+    """Track 1, 4, 5: Extracts structured travel parameters from natural text in English, Tamil, or Hindi."""
+    return await request.app.state.ai.parse_trip_prompt(body.prompt)
+
+
+@router.post("/ai/plan")
+async def plan_trip_ai(request: Request, body: PromptRequest):
+    """
+    Track 1-5 End-to-End Orchestrator:
+    Parses prompt -> queries SerpApi services -> selects top picks -> generates explanations & cost summary.
+    """
+    return await request.app.state.ai.plan_trip_flow(body.prompt, request.app.state)
+
+
+@router.post("/ai/explain")
+async def explain_pick(request: Request, body: ExplainPickRequest):
+    """Track 2 & 4: Generates friendly 'Why this pick' explanation in English, Tamil, or Hindi."""
+    explanation = await request.app.state.ai.explain_pick(
+        item_type=body.item_type,
+        item_data=body.item_data,
+        profile=body.profile,
+        language=body.language,
+    )
+    return {
+        "itemType": body.item_type,
+        "language": body.language,
+        "profile": body.profile,
+        "explanation": explanation,
+    }
+
+
+@router.post("/ai/cost-summary")
+async def cost_summary(request: Request, body: CostSummaryRequest):
+    """Track 3 & 4: Combines total trip damage and analyzes practical trade-offs."""
+    return await request.app.state.ai.generate_cost_summary(
+        destination_name=body.destination,
+        transit_cost=body.transit_cost,
+        stay_cost=body.stay_cost,
+        food_cost=body.food_cost,
+        user_budget=body.user_budget,
+        hotel_details=body.hotel_details,
+        transit_details=body.transit_details,
+        language=body.language,
+    )
+
+
+@router.get("/ai/normalize")
+async def normalize_city_endpoint(
+    location: Annotated[
+        str,
+        Query(
+            min_length=1,
+            max_length=100,
+            description="City name or airport code, e.g. 'BLR' or 'Bangalore' or 'Madras'",
+        ),
+    ]
+):
+    """Track 5: Normalizes any spelling or airport code to canonical cache key & display info."""
+    norm = normalize_location(location)
+    return {
+        "raw": location,
+        "canonicalId": norm.canonical_id,
+        "displayName": norm.display_name,
+        "iataCode": norm.iata_code,
+        "transitQuery": norm.transit_query,
+        "state": norm.state,
+    }
+

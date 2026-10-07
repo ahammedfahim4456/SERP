@@ -1,68 +1,30 @@
 import React from 'react';
-import { Compass, Key } from 'lucide-react';
+import { ArrowDown, ArrowRight, Compass, Globe2, Search } from 'lucide-react';
 
-export default function HeaderNavbar({ currentUser, onOpenAuth, onOpenCredits, apiCreditsLeft = 246 }) {
+const links = [
+  { label: 'Destinations', href: '#popular-destinations', dropdown: true },
+  { label: 'Experiences', href: '#popular-destinations', dropdown: true },
+  { label: 'Trips', href: '#journey-details-section' },
+  { label: 'About us', href: '#about-truetrip' },
+  { label: 'Journal', href: '#popular-destinations' },
+];
+
+export default function HeaderNavbar() {
   return (
-    <header className="sticky top-0 z-40 bg-sandal-50/90 backdrop-blur-md border-b border-sandal-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        
-        {/* Brand Logo */}
-        <div className="flex items-center gap-3">
-          <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-crimson-800 to-crimson-600 flex items-center justify-center text-white shadow-md shadow-crimson-900/20 ring-2 ring-crimson-200/50">
-            <Compass className="w-6 h-6 animate-spin-slow" />
-          </div>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="font-serif font-bold text-2xl text-stone-900 tracking-tight">
-                True<span className="text-crimson-700">Trip</span>
-              </span>
-              <span className="text-[10px] uppercase font-bold tracking-widest px-2 py-0.5 rounded-full bg-crimson-100 text-crimson-800 border border-crimson-200">
-                SerpApi 2026
-              </span>
-            </div>
-            <p className="text-xs text-stone-500 font-medium">True Trip Cost & Local Vibe Comparator</p>
-          </div>
+    <header className="tt-navbar absolute inset-x-0 top-0 z-40">
+      <div className="mx-auto flex h-[76px] max-w-[1440px] items-center justify-between gap-4 border-b border-white/15 px-5 sm:px-8 lg:px-12">
+        <a href="#top" aria-label="TrueTrip home" className="flex shrink-0 items-center gap-2.5 text-white">
+          <span className="flex h-9 w-9 items-center justify-center text-teal-200"><Compass size={29} strokeWidth={1.35}/></span>
+          <span><span className="block text-[13px] font-bold tracking-[.16em]">TRUE<span className="font-light">TRIP</span></span><span className="mt-0.5 block text-[7px] font-medium uppercase tracking-[.2em] text-white/55">Explore · dream · discover</span></span>
+        </a>
+        <nav aria-label="Main navigation" className="hidden items-center gap-6 lg:flex">
+          {links.map(link => <a key={link.label} href={link.href} className="inline-flex items-center gap-1 text-[10px] font-medium text-white/80 transition hover:text-teal-200">{link.label}{link.dropdown && <ArrowDown size={10}/>}</a>)}
+        </nav>
+        <div className="flex items-center gap-2 sm:gap-3">
+          <a href="#journey-details-section" aria-label="Search trips" className="hidden h-8 w-8 items-center justify-center rounded-full border border-white/20 text-white/80 transition hover:bg-white/10 sm:flex"><Search size={14}/></a>
+          <button type="button" aria-label="Language: English" className="hidden items-center gap-1.5 text-[9px] font-semibold text-white/80 sm:inline-flex"><Globe2 size={12}/>EN <ArrowDown size={10}/></button>
+          <a href="#journey-details-section" className="inline-flex items-center gap-2 rounded-full bg-teal-300 px-4 py-2.5 text-[10px] font-bold text-slate-950 transition hover:bg-teal-200 sm:px-5">Plan your trip <ArrowRight size={13}/></a>
         </div>
-
-        {/* Center Hackathon Highlight */}
-        <div className="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-sandal-100 border border-sandal-300 text-xs text-stone-700">
-          <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          <span className="font-semibold text-stone-900">SerpApi India Hackathon:</span>
-          <span>Travel & Local Discovery</span>
-        </div>
-
-        {/* Right Action Controls */}
-        <div className="flex items-center gap-3">
-          
-          {/* SerpApi Credit Counter */}
-          <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white border border-sandal-200 shadow-sm text-xs">
-            <Key className="w-3.5 h-3.5 text-crimson-600" />
-            <span className="text-stone-500 font-medium">SerpApi Credits:</span>
-            <span className="font-bold text-stone-900">{apiCreditsLeft}/250</span>
-          </div>
-
-          {/* Credits & Flow Diagram Button */}
-          <button
-            onClick={onOpenCredits}
-            className="text-xs font-semibold text-stone-600 hover:text-crimson-800 px-3 py-1.5 rounded-xl hover:bg-sandal-100 transition-colors"
-          >
-            Team Credits
-          </button>
-
-          {/* Login / User Status */}
-          <button
-            onClick={onOpenAuth}
-            className="flex items-center gap-2 px-4 py-2 rounded-xl bg-sandal-200/70 hover:bg-sandal-200 text-stone-800 border border-sandal-300 transition-all font-medium text-xs sm:text-sm shadow-sm"
-          >
-            <div className="w-6 h-6 rounded-full bg-crimson-700 text-white flex items-center justify-center text-xs font-bold">
-              {currentUser.avatarText}
-            </div>
-            <span className="hidden sm:inline">{currentUser.name}</span>
-            <span className="text-stone-400 text-xs">▼</span>
-          </button>
-
-        </div>
-
       </div>
     </header>
   );

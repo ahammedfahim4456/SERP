@@ -12,6 +12,8 @@ class Settings(BaseSettings):
     hotels_ttl_minutes: int = 60          # a guess, tune after testing
     food_ttl_minutes: int = 60            # a guess, tune after testing
     tripadvisor_ttl_minutes: int = 120    # TripAdvisor recommendations TTL
+    gemini_api_key: str | None = None     # Google Gemini API Key from Google AI Studio
+    gemini_model: str = "gemini-flash-lite-latest" # Default supported Gemini model with active quota
     serpapi_base_url: str = "https://serpapi.com"
     cors_origins: list[str] = ["http://localhost:3000", "http://localhost:5173"]
 

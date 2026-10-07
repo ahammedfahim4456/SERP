@@ -2,6 +2,7 @@ import logging
 import re
 from datetime import datetime, timezone
 
+from .normalizer import normalize_location
 from .quota import QuotaGuard
 from .schemas import TransitLeg, TransitOption, TransitSearchResponse
 from .serpapi_client import SerpApiClient
@@ -35,10 +36,12 @@ class TransitService:
 
     async def search(self, origin: str, destination: str) -> TransitSearchResponse:
         origin, destination = origin.strip(), destination.strip()
-        if origin.lower() == destination.lower():
+        norm_orig = normalize_location(origin)
+        norm_dest = normalize_location(destination)
+        if norm_orig.canonical_id == norm_dest.canonical_id:
             raise ValueError("origin and destination must be different")
 
-        key = f"transit:{' '.join(origin.lower().split())}|{' '.join(destination.lower().split())}"
+        key = f"transit:{norm_orig.canonical_id}|{norm_dest.canonical_id}"
 
         hit = await self.cache.get(key)
         if hit:

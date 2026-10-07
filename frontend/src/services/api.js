@@ -78,3 +78,54 @@ export async function searchTripadvisor(destination, budget) {
 export async function getUsage() {
   return fetchJSON(`${BASE}/usage`);
 }
+
+// ─── AI Endpoints (Tracks 1 - 5) ──────────────────────────────
+export async function parseTripPrompt(prompt) {
+  const res = await fetch(`${BASE}/ai/parse-prompt`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt }),
+  });
+  if (!res.ok) throw new Error(`AI Parse error ${res.status}`);
+  return res.json();
+}
+
+export async function planTripAi(prompt) {
+  const res = await fetch(`${BASE}/ai/plan`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt }),
+  });
+  if (!res.ok) throw new Error(`AI Plan error ${res.status}`);
+  return res.json();
+}
+
+export async function explainPick(itemType, itemData, profile = 'family', language = 'en') {
+  const res = await fetch(`${BASE}/ai/explain`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ item_type: itemType, item_data: itemData, profile, language }),
+  });
+  if (!res.ok) throw new Error(`AI Explain error ${res.status}`);
+  return res.json();
+}
+
+export async function getAiCostSummary(payload) {
+  const res = await fetch(`${BASE}/ai/cost-summary`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) throw new Error(`AI Cost error ${res.status}`);
+  return res.json();
+}
+
+export async function normalizeCity(location) {
+  return fetchJSON(`${BASE}/ai/normalize?location=${encodeURIComponent(location)}`);
+}
+
+export async function getCities(query = '') {
+  const q = query ? `?q=${encodeURIComponent(query)}` : '';
+  return fetchJSON(`${BASE}/cities${q}`);
+}
+

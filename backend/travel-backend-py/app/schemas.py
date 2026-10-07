@@ -90,6 +90,7 @@ class HotelOption(CamelModel):
     id: str                                   # SerpApi property_token
     name: str
     kind: str                                 # "hotel" or "rental"
+    image_url: str | None = None               # Google Hotels property photo URL, when supplied
     hostel_like: bool = False                 # name/website heuristic, can be wrong
     star_class: int | None = None
     rating: float | None = None
