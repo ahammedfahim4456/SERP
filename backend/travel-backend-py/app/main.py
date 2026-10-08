@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from .ai import AiService
+from .airbnb import AirbnbService
 from .cache import build_cache
 from .config import get_settings
 from .flights import FlightService
@@ -34,6 +35,8 @@ async def lifespan(app: FastAPI):
         SerpApiClient(http, settings.serpapi_key), cache, quota, settings.transit_ttl_minutes * 60)
     app.state.hotels = HotelService(
         SerpApiClient(http, settings.serpapi_key), cache, quota, settings.hotels_ttl_minutes * 60)
+    app.state.airbnb = AirbnbService(
+        SerpApiClient(http, settings.serpapi_key), cache, quota, settings.airbnb_ttl_minutes * 60)
     app.state.food = FoodService(
         SerpApiClient(http, settings.serpapi_key), cache, quota, settings.food_ttl_minutes * 60)
     app.state.tripadvisor = TripadvisorService(
@@ -48,7 +51,8 @@ app = FastAPI(title="Travel Assistant API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173", "*"],
+    allow_origins=get_settings().cors_origins,
+    allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )

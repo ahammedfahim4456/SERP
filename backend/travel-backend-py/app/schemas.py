@@ -202,3 +202,32 @@ class TripadvisorSearchResponse(CamelModel):
     fetched_at: datetime
     destination: str
     recommendations: list[TripadvisorRecommendation]
+
+
+class AirbnbOption(CamelModel):
+    id: str
+    name: str
+    property_type: str | None = None
+    room_type: str | None = None
+    image_url: str | None = None
+    listing_url: str | None = None
+    rating: float | None = None
+    review_count: int | None = None
+    price_per_night: int | None = None
+    total_price: int | None = None
+    currency: str
+    bedrooms: int | None = None
+    beds: int | None = None
+    bathrooms: int | None = None
+
+
+class AirbnbSearchResponse(CamelModel):
+    cached: bool
+    fetched_at: datetime
+    destination: str
+    check_in: _date
+    check_out: _date
+    adults: int
+    children: int
+    total_found: int = 0
+    options: list[AirbnbOption]

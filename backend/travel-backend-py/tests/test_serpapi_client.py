@@ -42,6 +42,22 @@ def test_no_children_params_when_no_children():
     assert "children" not in seen and "children_ages" not in seen
 
 
+def test_airbnb_request_uses_provider_engine_and_dates():
+    seen = {}
+
+    def handler(request):
+        seen.update(dict(request.url.params))
+        return httpx.Response(200, json={"properties": []})
+
+    run(make_client(handler).airbnb(
+        "places to stay in Bengaluru", date(2026, 11, 5), date(2026, 11, 7), 2, 1, "INR"))
+    assert seen["engine"] == "airbnb"
+    assert seen["q"] == "places to stay in Bengaluru"
+    assert seen["check_in"] == "2026-11-05" and seen["check_out"] == "2026-11-07"
+    assert seen["adults"] == "2" and seen["children"] == "1"
+    assert seen["currency"] == "INR" and seen["api_key"] == KEY
+
+
 def test_network_error_does_not_leak_the_key():
     def handler(request):
         raise httpx.ConnectError(f"boom {request.url}")

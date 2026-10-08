@@ -169,6 +169,26 @@ def normalize_location(raw_text: str) -> NormalizedLocation:
 
 
 def get_known_cities(search_query: str | None = None) -> list[dict[str, Any]]:
+    coordinates = {
+        "bengaluru": (12.9716, 77.5946),
+        "chennai": (13.0827, 80.2707),
+        "coimbatore": (11.0168, 76.9558),
+        "goa": (15.2993, 74.1240),
+        "gokarna": (14.5479, 74.3188),
+        "hyderabad": (17.3850, 78.4867),
+        "jaipur": (26.9124, 75.7873),
+        "kochi": (9.9312, 76.2673),
+        "kodaikanal": (10.2381, 77.4892),
+        "kolkata": (22.5726, 88.3639),
+        "madurai": (9.9252, 78.1198),
+        "mumbai": (19.0760, 72.8777),
+        "mysuru": (12.2958, 76.6394),
+        "delhi": (28.6139, 77.2090),
+        "ooty": (11.4102, 76.6950),
+        "pondicherry": (11.9416, 79.8083),
+        "thiruvananthapuram": (8.5241, 76.9366),
+        "varanasi": (25.3176, 82.9739),
+    }
     seen = set()
     result = []
     for loc in LOCATION_ALIASES.values():
@@ -180,6 +200,8 @@ def get_known_cities(search_query: str | None = None) -> list[dict[str, Any]]:
                 "iataCode": loc.iata_code,
                 "transitQuery": loc.transit_query,
                 "state": loc.state,
+                "latitude": coordinates.get(loc.canonical_id, (None, None))[0],
+                "longitude": coordinates.get(loc.canonical_id, (None, None))[1],
             })
     
     if search_query:
@@ -187,4 +209,3 @@ def get_known_cities(search_query: str | None = None) -> list[dict[str, Any]]:
         result = [c for c in result if q in c["displayName"].lower() or (c["iataCode"] and q in c["iataCode"].lower()) or (c["state"] and q in c["state"].lower())]
         
     return sorted(result, key=lambda x: x["displayName"])
-

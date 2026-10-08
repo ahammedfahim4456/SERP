@@ -30,7 +30,8 @@ serp-api/
 │       │   ├── config.py        # Environment settings
 │       │   ├── serpapi_client.py # SerpApi HTTP client
 │       │   ├── flights.py       # Flight search logic
-│       │   ├── hotels.py        # Hotel search (Google + Airbnb)
+│   │   ├── hotels.py       # Hotel search (Google Hotels)
+│   │   ├── airbnb.py       # Airbnb listings via SerpApi
 │       │   ├── transit.py       # Transit/bus/train search
 │       │   ├── food.py          # Restaurant search
 │       │   ├── tripadvisor.py   # TripAdvisor recommendations
@@ -74,7 +75,7 @@ npm install
 npm run dev
 ```
 
-The frontend dev server runs on `http://localhost:3000` and proxies all `/api/*` requests to the backend at `http://localhost:8000`.
+The frontend dev server runs on `http://localhost:3000`. Configure its `VITE_API_BASE_URL` with the backend origin when it calls the API directly.
 
 ---
 
@@ -85,7 +86,7 @@ The frontend dev server runs on `http://localhost:3000` and proxies all `/api/*`
 | **Google Flights** | Round-trip flight comparison |
 | **Google Maps Transit** | Bus, train, metro directions |
 | **Google Hotels** | Hotel search & pricing |
-| **Airbnb (via SerpApi)** | Vacation rentals, homes |
+| **Airbnb (via SerpApi)** | Vacation rentals and homes (`/api/airbnb/search`) |
 | **TripAdvisor (via SerpApi)** | Budget-based recommendations |
 | **Google Maps Local** | Nearby restaurants & food |
 | **Google Events** | Local events & activities |

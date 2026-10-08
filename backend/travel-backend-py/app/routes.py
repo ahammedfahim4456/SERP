@@ -8,6 +8,7 @@ from .hotels import parse_child_ages
 from .normalizer import normalize_location, get_known_cities
 from .schemas import (
     FlightSearchResponse,
+    AirbnbSearchResponse,
     FoodSearchResponse,
     HotelSearchResponse,
     TransitSearchResponse,
@@ -24,6 +25,19 @@ async def list_cities(q: str | None = None):
     """Returns list of searchable Indian travel cities with canonical aliases & IATA codes."""
     return {"cities": get_known_cities(q)}
 
+
+@router.get("/airbnb/search", response_model=AirbnbSearchResponse, response_model_by_alias=True)
+async def search_airbnb(
+    request: Request,
+    destination: Annotated[str, Query(min_length=2, max_length=120)],
+    check_in: Annotated[Date, Query(alias="checkIn")],
+    check_out: Annotated[Date, Query(alias="checkOut")],
+    adults: Annotated[int, Query(ge=1, le=16)] = 1,
+    children: Annotated[int, Query(ge=0, le=16)] = 0,
+    currency: Annotated[str, Query(pattern=IATA)] = "INR",
+):
+    return await request.app.state.airbnb.search(
+        destination, check_in, check_out, adults, children, currency)
 
 
 @router.get("/flights/search", response_model=FlightSearchResponse, response_model_by_alias=True)
@@ -211,4 +225,3 @@ async def normalize_city_endpoint(
         "transitQuery": norm.transit_query,
         "state": norm.state,
     }
-
