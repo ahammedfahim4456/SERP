@@ -1,0 +1,17 @@
+{
+  "local_results": [
+    {
+      "title": "Local Cafe",
+      "type": "Cafe",
+      "gps_coordinates": { "latitude": 11.94, "longitude": 79.81 },
+      "price": "₹₹",
+      "rating": 4.3
+    },
+    {
+      "title": "Local Restaurant",
+      "type": "Restaurant",
+      "gps_coordinates": { "latitude": 11.95, "longitude": 79.82 },
+      "price": "₹₹₹"
+    }
+  ]
+}

@@ -1,9 +1,11 @@
 import asyncio
+import json
 from datetime import date
 
 import httpx
 import pytest
 
+import app.serpapi_client as client_module
 from app.serpapi_client import SerpApiClient, UpstreamError
 
 KEY = "SECRETKEY123"
@@ -101,3 +103,42 @@ def test_hotels_no_results_is_empty_not_an_error_but_flights_still_raise():
     assert run(make_client(handler).google_hotels("Hotels in X", date(2026, 11, 5), date(2026, 11, 7), 1, [], "INR")) == {}
     with pytest.raises(UpstreamError):
         run(make_client(handler).google_flights("MAA", "BLR", date(2026, 11, 5), None, 1, "INR"))
+
+
+def test_persistent_raw_cache_skips_provider_and_quota_on_cache_hit(tmp_path, monkeypatch):
+    monkeypatch.setattr(client_module, "RAW_CACHE_DIR", tmp_path)
+    calls = {"ensure": 0, "record": 0, "http": 0}
+
+    class Quota:
+        async def ensure_available(self):
+            calls["ensure"] += 1
+
+        async def record_call(self):
+            calls["record"] += 1
+
+    def handler(request):
+        calls["http"] += 1
+        return httpx.Response(200, json={"local_results": [{"title": "Cached place"}]})
+
+    async def scenario():
+        first = make_client(handler)
+        expected = await first.google_maps_places(
+            "places in Goa", 15.2993, 74.124, zoom=12,
+            persistent_ttl_seconds=600, quota=Quota(),
+        )
+        await first._http.aclose()
+
+        second = make_client(lambda _: pytest.fail("cache hit made an HTTP request"))
+        cached = await second.google_maps_places(
+            "places in Goa", 15.2993, 74.124, zoom=12,
+            persistent_ttl_seconds=600, quota=Quota(),
+        )
+        await second._http.aclose()
+        return expected, cached
+
+    expected, cached = run(scenario())
+    assert expected == cached == {"local_results": [{"title": "Cached place"}]}
+    assert calls == {"ensure": 1, "record": 1, "http": 1}
+    cache_files = list(tmp_path.glob("*.json"))
+    assert len(cache_files) == 1
+    assert json.loads(cache_files[0].read_text(encoding="utf-8"))["response"] == expected

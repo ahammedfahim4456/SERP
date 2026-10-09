@@ -1,0 +1,12 @@
+{
+  "properties": [
+    {
+      "title": "Heritage Stay",
+      "gps_coordinates": { "latitude": 11.94, "longitude": 79.81 },
+      "rating": 4.5,
+      "rate_per_night": { "extracted_lowest": 2400 },
+      "images": [{ "thumbnail": "https://example.test/hotel.jpg" }],
+      "address": "White Town"
+    }
+  ]
+}

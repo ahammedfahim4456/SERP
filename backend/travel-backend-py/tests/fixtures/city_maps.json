@@ -1,0 +1,17 @@
+{
+  "local_results": [
+    {
+      "title": "Promenade Beach",
+      "type": "Beach",
+      "gps_coordinates": { "latitude": 11.93, "longitude": 79.84 },
+      "rating": 4.6,
+      "thumbnail": "https://example.test/beach.jpg",
+      "address": "Pondicherry, India",
+      "description": "Promenade by the waterfront."
+    },
+    {
+      "title": "Missing coordinates",
+      "type": "Museum"
+    }
+  ]
+}

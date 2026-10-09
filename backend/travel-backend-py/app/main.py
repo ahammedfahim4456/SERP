@@ -9,6 +9,7 @@ from fastapi.responses import JSONResponse
 from .ai import AiService
 from .airbnb import AirbnbService
 from .cache import build_cache
+from .city_places import CityPlacesService
 from .config import get_settings
 from .flights import FlightService
 from .food import FoodService
@@ -29,6 +30,8 @@ async def lifespan(app: FastAPI):
     http = httpx.AsyncClient(base_url=settings.serpapi_base_url, timeout=30)
     quota = QuotaGuard(cache, settings.monthly_quota)
     app.state.quota = quota
+    city_client = SerpApiClient(http, settings.serpapi_key)
+    app.state.city_places = CityPlacesService(city_client, quota, settings.cache_ttl_seconds)
     app.state.flights = FlightService(
         SerpApiClient(http, settings.serpapi_key), cache, quota, settings.flights_ttl_minutes * 60)
     app.state.transit = TransitService(

@@ -21,3 +21,4 @@ Thumbs.db
 
 # Probe output
 probe_output/
+/backend/travel-backend-py/cache/

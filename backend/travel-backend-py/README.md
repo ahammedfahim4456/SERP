@@ -21,6 +21,11 @@ Docs UI: http://localhost:8000/docs
 
     curl "http://localhost:8000/api/transit/search?origin=Chennai Central, Chennai&destination=Madurai Junction, Madurai"
     curl "http://localhost:8000/api/hotels/search?destination=Madurai&checkIn=2026-11-05&checkOut=2026-11-07&adults=2"
+    curl "http://localhost:8000/api/city/pondicherry?days=4&events=1"
 
 ## Tests (no SerpApi credits used)
     pytest -q
+
+City place searches support the 18 destinations used by the frontend. Raw SerpApi
+responses are cached under `cache/`; set `CACHE_TTL_SECONDS` to change the default
+24-hour cache lifetime. Cached responses do not consume the SerpApi quota.

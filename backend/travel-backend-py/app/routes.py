@@ -1,7 +1,7 @@
 from datetime import date as Date
 from typing import Annotated, Any, Literal
 
-from fastapi import APIRouter, Query, Request
+from fastapi import APIRouter, HTTPException, Query, Request
 from pydantic import BaseModel, Field
 
 from .hotels import parse_child_ages
@@ -14,6 +14,7 @@ from .schemas import (
     TransitSearchResponse,
     TripadvisorSearchResponse,
 )
+from .city_places import CITIES
 
 router = APIRouter(prefix="/api")
 
@@ -24,6 +25,21 @@ IATA = r"^[A-Za-z]{3}$"
 async def list_cities(q: str | None = None):
     """Returns list of searchable Indian travel cities with canonical aliases & IATA codes."""
     return {"cities": get_known_cities(q)}
+
+
+@router.get("/city/{slug}")
+async def city_places(
+    slug: str,
+    request: Request,
+    days: Annotated[int, Query(ge=1, le=30)] = 4,
+    start: Date | None = None,
+    events: Annotated[bool, Query()] = False,
+):
+    if slug not in CITIES:
+        raise HTTPException(status_code=404, detail="Unknown destination")
+    if start is not None and start < Date.today():
+        raise ValueError("start must not be in the past")
+    return await request.app.state.city_places.get_places(slug, days, start, events)
 
 
 @router.get("/airbnb/search", response_model=AirbnbSearchResponse, response_model_by_alias=True)
