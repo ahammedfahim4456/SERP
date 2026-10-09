@@ -1,5 +1,6 @@
 """Persistent MySQL storage for incoming API queries."""
 
+import ssl
 from datetime import datetime, timezone
 
 import aiomysql
@@ -34,7 +35,7 @@ class QueryStore:
                 + ", ".join(missing)
             )
 
-        return {
+        connection_settings = {
             "user": settings.mysql_user,
             "password": settings.mysql_password,
             "host": settings.mysql_host,
@@ -45,6 +46,10 @@ class QueryStore:
             "minsize": 1,
             "maxsize": 10,
         }
+        if settings.mysql_ssl:
+            # Use the runtime's trusted CA store and verify the server certificate.
+            connection_settings["ssl"] = ssl.create_default_context()
+        return connection_settings
 
     async def initialize(self) -> None:
         self.pool = await aiomysql.create_pool(**self._connection_settings())
