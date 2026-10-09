@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     mysql_user: str | None = None
     mysql_password: str | None = None
     mysql_database: str | None = None
-    mysql_ssl: bool = False
+    mysql_ssl: bool | None = None
     serpapi_base_url: str = "https://serpapi.com"
     cors_origins: list[str] = [
         "http://localhost:3000",

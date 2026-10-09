@@ -16,7 +16,7 @@ Never share screenshots of `.env`.
 
 ## MySQL query history
 
-Create a MySQL database (for example, `serp_travel`), then fill in `MYSQL_HOST`, `MYSQL_PORT`, `MYSQL_USER`, `MYSQL_PASSWORD`, and `MYSQL_DATABASE` in `backend/travel-backend-py/.env`. Set `MYSQL_SSL=true` for hosted databases that require TLS (including TiDB Cloud Starter); local MySQL can keep the default `false`. The backend creates the `api_query_log` table at startup. Every request under `/api/` is recorded with its URL/query parameters, request body, response status, error detail, duration, and timestamp. If MySQL is missing or a query cannot be saved, startup fails or the request returns HTTP 503; the backend does not silently continue without persistence.
+Create a MySQL database (for example, `serp_travel`), then fill in `MYSQL_HOST`, `MYSQL_PORT`, `MYSQL_USER`, `MYSQL_PASSWORD`, and `MYSQL_DATABASE` in `backend/travel-backend-py/.env`. TLS is enabled automatically for remote database hosts (including TiDB Cloud Starter) and disabled for local hosts; set `MYSQL_SSL=true` or `MYSQL_SSL=false` to override. The backend creates the `api_query_log` table at startup. Every request under `/api/` is recorded with its URL/query parameters, request body, response status, error detail, duration, and timestamp. If MySQL is missing or a query cannot be saved, startup fails or the request returns HTTP 503; the backend does not silently continue without persistence.
 
 Do not commit `.env` or put database credentials in source files. The `.env` file is ignored by Git.
 

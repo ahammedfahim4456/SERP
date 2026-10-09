@@ -46,7 +46,11 @@ class QueryStore:
             "minsize": 1,
             "maxsize": 10,
         }
-        if settings.mysql_ssl:
+        # Default to TLS for hosted databases, while preserving plain local MySQL.
+        use_ssl = settings.mysql_ssl
+        if use_ssl is None:
+            use_ssl = settings.mysql_host.lower() not in {"localhost", "127.0.0.1", "::1"}
+        if use_ssl:
             # Use the runtime's trusted CA store and verify the server certificate.
             connection_settings["ssl"] = ssl.create_default_context()
         return connection_settings
