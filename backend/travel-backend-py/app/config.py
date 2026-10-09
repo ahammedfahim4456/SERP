@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     food_ttl_minutes: int = 60            # a guess, tune after testing
     tripadvisor_ttl_minutes: int = 120    # TripAdvisor recommendations TTL
     gemini_api_key: str | None = None     # Google Gemini API Key from Google AI Studio
-    gemini_model: str = "gemini-flash-lite-latest" # Default supported Gemini model with active quota
+    gemini_model: str = "gemini-3.8-flash"
     mysql_host: str | None = None
     mysql_port: int = 3306
     mysql_user: str | None = None
