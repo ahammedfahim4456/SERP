@@ -113,8 +113,10 @@ class HotelService:
         if base is None:
             log.info("cache MISS %s", key)
             await self.quota.ensure_available()
-            raw = await self.client.google_hotels(f"Hotels in {destination_clean}", check_in, check_out,
-                                                  adults, child_ages, currency)
+            country_name = loc.state
+            query = f"Hotels in {destination_clean}, {country_name}" if country_name and country_name.lower() != destination_clean.lower() else f"Hotels in {destination_clean}"
+            raw = await self.client.google_hotels(query, check_in, check_out,
+                                                  adults, child_ages, currency, loc.country_code or "in")
             await self.quota.record_call()
             base = HotelSearchResponse(
                 cached=False, fetched_at=datetime.now(timezone.utc), destination=destination_clean,

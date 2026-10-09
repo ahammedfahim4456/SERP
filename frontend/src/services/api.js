@@ -2,10 +2,12 @@
  * API service layer – calls the FastAPI backend and transforms responses
  * into the shapes the frontend components already expect.
  *
- * The Vite dev-server proxies /api → http://localhost:8000 so no CORS issues.
+ * Set VITE_API_BASE_URL to the FastAPI origin when the frontend and API do not
+ * share a host. Empty by default so Vite's /api proxy continues to work locally.
  */
 
-const BASE = '/api';
+const API_ORIGIN = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '');
+const BASE = `${API_ORIGIN}/api`;
 
 // ─── helpers ───────────────────────────────────────────────────
 async function fetchJSON(url) {
@@ -27,11 +29,11 @@ function qs(params) {
 
 // ─── Flights ───────────────────────────────────────────────────
 /**
- * @returns {{ cached, fetchedAt, origin, destination, options[] }}
- * Each option: { category, airline, price, currency, totalDurationMinutes, stops, segments[] }
+ * @returns {{ cached, fetchedAt, origin, destination, adults, children, options[] }}
+ * Each option carries a provider itinerary total; tax inclusion may be unknown.
  */
-export async function searchFlights(origin, destination, date, returnDate, adults = 1, currency = 'INR') {
-  const q = qs({ origin, destination, date, returnDate, adults, currency });
+export async function searchFlights(origin, destination, date, returnDate, adults = 1, children = 0, currency = 'INR') {
+  const q = qs({ origin, destination, date, returnDate, adults, children, currency });
   return fetchJSON(`${BASE}/flights/search?${q}`);
 }
 
@@ -128,4 +130,3 @@ export async function getCities(query = '') {
   const q = query ? `?q=${encodeURIComponent(query)}` : '';
   return fetchJSON(`${BASE}/cities${q}`);
 }
-

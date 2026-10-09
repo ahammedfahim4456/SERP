@@ -49,7 +49,7 @@ class SerpApiClient:
         return body
 
     async def google_flights(self, origin: str, destination: str, outbound: date,
-                             return_date: date | None, adults: int, currency: str) -> dict:
+                             return_date: date | None, adults: int, currency: str, children: int = 0) -> dict:
         params = {
             "engine": "google_flights",
             "departure_id": origin,
@@ -57,6 +57,7 @@ class SerpApiClient:
             "outbound_date": outbound.isoformat(),
             "type": 1 if return_date else 2,   # 1 round trip, 2 one way
             "adults": adults,
+            "children": children,
             "currency": currency,
             "hl": "en",
         }
@@ -75,7 +76,7 @@ class SerpApiClient:
         })
 
     async def google_hotels(self, query: str, check_in: date, check_out: date, adults: int,
-                            child_ages: list[int], currency: str) -> dict:
+                            child_ages: list[int], currency: str, country_code: str = "in") -> dict:
         """First page only (about 20 properties). Fetching more pages would cost more credits."""
         params = {
             "engine": "google_hotels",
@@ -85,7 +86,7 @@ class SerpApiClient:
             "adults": adults,
             "currency": currency,
             "hl": "en",
-            "gl": "in",
+            "gl": country_code.lower(),
         }
         if child_ages:
             params["children"] = len(child_ages)

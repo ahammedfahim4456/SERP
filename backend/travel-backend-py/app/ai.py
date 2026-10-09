@@ -37,11 +37,11 @@ class AiService:
     async def _call_gemini(self, prompt: str, system_instruction: str | None = None) -> tuple[str | None, str | None]:
         """Calls Google Gemini API. Tries active supported models and returns (text_output, model_name)."""
         if not self.api_key:
-            log.info("GEMINI_API_KEY is not set: using smart offline AI rules")
+            log.warning("GEMINI_API_KEY is not set: using local parsing fallback")
             return None, None
 
         # Build prioritized list of models to try
-        candidates = [self.model, "gemini-flash-lite-latest", "gemini-flash-latest", "gemini-2.5-flash"]
+        candidates = [self.model, "gemini-2.5-flash", "gemini-2.0-flash"]
         seen = set()
         models_to_try = []
         for m in candidates:
@@ -76,14 +76,19 @@ class AiService:
                     res = await client.post(url, params={"key": self.api_key}, json=body)
                     if res.status_code == 200:
                         data = res.json()
-                        candidates = data.get("candidates") or []
-                        if candidates:
-                            parts = candidates[0].get("content", {}).get("parts", [])
-                            if parts:
-                                text_out = parts[0].get("text", "").strip()
+                        candidates_response = data.get("candidates") or []
+                        if candidates_response:
+                            parts = candidates_response[0].get("content", {}).get("parts", [])
+                            text_out = "".join(part.get("text", "") for part in parts if part.get("text")).strip()
+                            if text_out:
                                 log.info("Live Gemini API call succeeded with model %s", model_name)
                                 return text_out, model_name
-                    elif res.status_code in (404, 429):
+                        prompt_feedback = data.get("promptFeedback") or {}
+                        log.warning("Gemini model %s returned no text (finishReason=%s, blockReason=%s)", model_name,
+                                    (candidates_response[0].get("finishReason") if candidates_response else None),
+                                    prompt_feedback.get("blockReason"))
+                        continue
+                    elif res.status_code in (400, 404, 429):
                         log.warning("Gemini model %s returned status %s (%s), trying fallback model...", model_name, res.status_code, res.text[:120])
                         continue
                     else:
@@ -125,12 +130,21 @@ class AiService:
             except Exception as e:
                 log.warning("Failed to parse Gemini JSON output: %s", e)
 
-        # 2. Smart Rule-Based Fallback / Enrichment
-        if not parsed_data.get("origin") or not parsed_data.get("destination"):
-            rule_data = self._rule_parse_prompt(prompt)
-            for k, v in rule_data.items():
-                if k not in parsed_data or parsed_data[k] is None:
-                    parsed_data[k] = v
+        # 2. Rule-based enrichment for every omitted/invalid Gemini field.
+        # Partial JSON is common; do not silently replace those missing values with unrelated defaults.
+        rule_data = self._rule_parse_prompt(prompt)
+        if not isinstance(parsed_data, dict):
+            parsed_data = {}
+        for key, value in rule_data.items():
+            if parsed_data.get(key) in (None, "", [], 0):
+                parsed_data[key] = value
+
+        for key, low, high, fallback in (("adults", 1, 9, 2), ("children", 0, 6, 0), ("durationDays", 1, 30, 3), ("budget", 1000, 10000000, 25000)):
+            try:
+                parsed_value = int(parsed_data.get(key, fallback))
+                parsed_data[key] = parsed_value if low <= parsed_value <= high else fallback
+            except (TypeError, ValueError):
+                parsed_data[key] = fallback
 
         # Normalize locations (Track 5: Smart Normalization)
         origin_raw = parsed_data.get("origin") or "Chennai"
@@ -157,11 +171,11 @@ class AiService:
                 start_date = t_date.isoformat()
                 end_date = (t_date + timedelta(days=nights)).isoformat()
 
-        adults = int(parsed_data.get("adults") or 2)
-        children = int(parsed_data.get("children") or 0)
+        adults = parsed_data["adults"]
+        children = parsed_data["children"]
         child_ages = [7, 10][:children] if children > 0 else []
 
-        budget = int(parsed_data.get("budget") or 25000)
+        budget = parsed_data["budget"]
         profile = parsed_data.get("profile") or ("family" if children > 0 else "budget")
 
         raw_dest_list = parsed_data.get("destinations") or [dest_raw]
@@ -173,8 +187,9 @@ class AiService:
             "originalPrompt": prompt,
             "detectedLanguage": detected_lang,
             "isLiveAi": bool(model_used),
-            "aiModel": model_used or "smart-engine",
+            "aiModel": model_used,
             "aiProvider": f"Google Gemini API ({model_used})" if model_used else "Rule-Engine Fallback",
+            "aiError": None if model_used else ("Gemini API key is not configured." if not self.api_key else "Gemini did not return usable text. Check API key permissions, quota, or model availability."),
             "origin": {
                 "raw": origin_raw,
                 "canonicalId": norm_origin.canonical_id,
@@ -350,6 +365,7 @@ class AiService:
         food_cost: int,
         user_budget: int,
         hotel_details: dict[str, Any] | None = None,
+        food_details: dict[str, Any] | None = None,
         transit_details: dict[str, Any] | None = None,
         language: LanguageType = "en",
     ) -> dict[str, Any]:
@@ -368,51 +384,70 @@ class AiService:
             verdict = "over_budget"
             status_badge = "🔴 Over Budget"
 
+        excluded_categories = ", ".join(
+            name for name, amount in (("transport", transit_cost), ("stay", stay_cost))
+            if amount == 0
+        ) or "none"
+        if food_cost == 0 and not food_details:
+            excluded_categories = ", ".join(filter(None, (excluded_categories if excluded_categories != "none" else "", "food")))
+        unselected_note = (
+            f"Categories not selected and excluded: {excluded_categories}."
+            if excluded_categories != "none"
+            else "No transport or stay category was left unselected."
+        )
+        if not food_details:
+            food_note = "No restaurant was selected, so food is not included in the total."
+        elif food_details.get("includedInTotal"):
+            food_note = "A restaurant was selected and its meal estimate is included in the total."
+        else:
+            food_note = (
+                f"A restaurant was selected; its meal estimate is {food_details.get('estimate')} "
+                f"{food_details.get('currency') or 'currency not stated'}, so it is excluded from the INR total."
+            )
         prompt = (
-            f"Write a friendly 3-4 sentence trade-off analysis for a trip to {destination_name}. "
-            f"Budget: ₹{user_budget:,}, Total Cost: ₹{total_cost:,} (Transit: ₹{transit_cost:,}, Stay: ₹{stay_cost:,}, Food: ₹{food_cost:,}). "
-            f"Remaining Margin: ₹{diff:,}. Status: {verdict}. "
-            f"Hotel Info: {hotel_details or {}}. Transit Info: {transit_details or {}}. "
-            f"Mention practical trade-offs like distance vs hotel savings or train vs flight savings. "
-            f"Write strictly in {self._lang_name(language)}."
+            f"For {destination_name}, write exactly two short factual sentences in {self._lang_name(language)}. "
+            f"Sentence 1: state that the selected items total ₹{total_cost:,} against a budget of ₹{user_budget:,}, "
+            f"and use the supplied status {verdict}. Sentence 2: state the exact margin ₹{abs(diff):,} "
+            f"({'remaining' if diff >= 0 else 'over budget'}), accurately include this selection status: "
+            f"{unselected_note} {food_note} "
+            "Do not describe an unselected food cost if the food status says a restaurant was selected. "
+            "Use the supplied amounts and status verbatim; arithmetic is already calculated and authoritative. "
+            "A zero amount means no INR amount was included; it does not mean free, included, or covered. Do not mention hotel, airline, or other names; "
+            "do not add advice, examples, locations, savings claims, or any fact not explicitly given in these instructions."
         )
 
         analysis, model_used = await self._call_gemini(prompt)
 
         if not analysis:
+            missing = [
+                name for name, amount in (("transport", transit_cost), ("stay", stay_cost)) if amount == 0
+            ]
+            if food_cost == 0 and not food_details:
+                missing.append("food")
+            missing_text = ", ".join(missing) or "none"
             if language == "ta":
-                if diff >= 0:
-                    analysis = (
-                        f"{destination_name} பயணத்தின் மொத்த செலவு ₹{total_cost:,}. உங்கள் பட்ஜெட்டில் (₹{user_budget:,}) "
-                        f"இன்னும் ₹{diff:,} மீதம் உள்ளது! மலிவான ரயில் பயணத்தை தேர்ந்தெடுத்தால் மேலும் சேமிக்கலாம்."
-                    )
-                else:
-                    analysis = (
-                        f"{destination_name} பயணம் உங்கள் பட்ஜெட்டை விட ₹{abs(diff):,} அதிகம். "
-                        f"விமானத்திற்கு பதிலாக ரயிலை அல்லது மையப்பகுதிக்கு வெளியே உள்ள தங்குமிடத்தை தேர்வு செய்வதன் மூலம் ₹4,000 வரை மிச்சப்படுத்தலாம்."
-                    )
+                relation = "மீதம்" if diff >= 0 else "பட்ஜெட்டை விட அதிகம்"
+                missing_ta = ", ".join({"transport": "போக்குவரத்து", "stay": "தங்குமிடம்", "food": "உணவு"}[x] for x in missing) or "எதுவும் இல்லை"
+                food_ta = "உணவு தேர்ந்தெடுக்கப்படவில்லை." if not food_details else (
+                    "தேர்ந்தெடுத்த உணவு மதிப்பீடு INR அல்லாத நாணயத்தில் இருப்பதால் INR மொத்தத்தில் சேர்க்கப்படவில்லை."
+                    if not food_details.get("includedInTotal") else "தேர்ந்தெடுத்த உணவு மதிப்பீடு மொத்தத்தில் சேர்க்கப்பட்டுள்ளது."
+                )
+                analysis = f"{destination_name} பயணத்தின் தேர்ந்தெடுத்த செலவுகள் ₹{total_cost:,}; பட்ஜெட் ₹{user_budget:,}. ₹{abs(diff):,} {relation}; தேர்வு செய்யாத செலவுகள் சேர்க்கப்படவில்லை ({missing_ta}). {food_ta}"
             elif language == "hi":
-                if diff >= 0:
-                    analysis = (
-                        f"{destination_name} यात्रा का कुल खर्च ₹{total_cost:,} है। आपके बजट (₹{user_budget:,}) में से "
-                        f"₹{diff:,} अभी भी शेष हैं! ट्रेन विकल्प चुनकर आप और अधिक बचत कर सकते हैं।"
-                    )
-                else:
-                    analysis = (
-                        f"{destination_name} यात्रा आपके बजट से ₹{abs(diff):,} अधिक हो रही है। "
-                        f"फ्लाइट की जगह स्लीपर ट्रेन या मुख्य शहर से 3 किमी दूर का होटल चुनने से ₹4,000 की बचत हो सकती है।"
-                    )
+                relation = "बजट शेष" if diff >= 0 else "बजट से अधिक"
+                missing_hi = ", ".join({"transport": "परिवहन", "stay": "ठहरने का खर्च", "food": "भोजन"}[x] for x in missing) or "कोई नहीं"
+                food_hi = "भोजन नहीं चुना गया।" if not food_details else (
+                    "चुने गए भोजन का अनुमान INR से अलग मुद्रा में है, इसलिए INR कुल में शामिल नहीं है।"
+                    if not food_details.get("includedInTotal") else "चुने गए भोजन का अनुमान कुल में शामिल है।"
+                )
+                analysis = f"{destination_name} के चुने हुए खर्च ₹{total_cost} हैं; बजट ₹{user_budget} है। ₹{abs(diff)} {relation}; नहीं चुने गए खर्च शामिल नहीं हैं ({missing_hi})। {food_hi}"
             else:
-                if diff >= 0:
-                    analysis = (
-                        f"Your {destination_name} trip totals ₹{total_cost:,}, leaving a comfortable safety buffer of ₹{diff:,} (used {pct_used}% of your ₹{user_budget:,} budget). "
-                        f"Opting for an overnight train or verified homestay kept your accommodation and transit costs well balanced."
-                    )
-                else:
-                    analysis = (
-                        f"Your selected plan totals ₹{total_cost:,}, exceeding your ₹{user_budget:,} budget by ₹{abs(diff):,}. "
-                        f"Trade-off: Switching from flights to an overnight AC sleeper saves ₹5,200, which immediately brings the entire trip under budget without sacrificing hotel comfort."
-                    )
+                food_text = food_note
+                analysis = (
+                    f"The selected {destination_name} costs total ₹{total_cost:,} against a budget of ₹{user_budget:,}; "
+                    f"₹{abs(diff):,} {'remains' if diff >= 0 else 'over budget'}. "
+                    f"Not selected and excluded: {missing_text}. {food_text}"
+                )
 
         return {
             "destination": destination_name,
@@ -474,6 +509,7 @@ class AiService:
                     return_date=end_dt,
                     adults=adults,
                     currency="INR",
+                    children=len(child_ages),
                 )
             except Exception as e:
                 log.info("Flights search skipped or errored: %s", e)
@@ -522,7 +558,8 @@ class AiService:
             transit_price = int(top_transit.fare * 2 * adults)
             selected_transit_name = f"Transit ({top_transit.main_mode or 'Rail'})"
         elif top_flight and top_flight.price:
-            transit_price = int(top_flight.price * adults)
+            # FlightService queried this quote for the complete requested party already.
+            transit_price = int(top_flight.price)
             selected_transit_name = f"Flight ({top_flight.airline or 'Air'})"
 
         hotel_price_night = top_hotel.price_per_night if top_hotel and top_hotel.price_per_night else 2000

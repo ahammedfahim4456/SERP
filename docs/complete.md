@@ -133,7 +133,7 @@ Instead, your code needs an API Key:
 
 Go to Google AI Studio (aistudio.google.com) using your Google account.
 
-Click "Get API key"—it is completely free (the free tier of gemini-2.5-flash gives you plenty of requests per minute without paying anything).
+Click "Get API key"—it is completely free (the free tier of gemini-3.8-flash gives you plenty of requests per minute without paying anything).
 
 In your Python project, install the SDK (pip install google-genai) and pass the data from SerpApi straight into Gemini so it writes a smart comparison for the user.
 

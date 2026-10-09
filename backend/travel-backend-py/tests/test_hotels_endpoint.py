@@ -67,8 +67,9 @@ def test_different_guests_is_a_new_search(client):
 
 def test_query_and_child_ages_reach_the_client(client):
     client.get(q(children=2, childAges="5,8"))
-    query, check_in, check_out, adults, ages, currency = client.fake.last_args
-    assert query == "Hotels in Bengaluru" and ages == [5, 8] and adults == 2 and currency == "INR"
+    query, check_in, check_out, adults, ages, currency, country_code = client.fake.last_args
+    assert query == "Hotels in Bengaluru, Karnataka" and ages == [5, 8] and adults == 2 and currency == "INR"
+    assert country_code == "in"
 
 
 @pytest.mark.parametrize("extra", [

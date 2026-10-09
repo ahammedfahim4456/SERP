@@ -1,92 +1,55 @@
-# SerpApi True Trip Comparator
+# SERP Travel Planner
 
-A full-stack travel comparison tool powered by **SerpApi**, **Google Flights**, **Airbnb**, and **TripAdvisor** engines. Compare flights, hotels, transit, food, and events across destinations — all from one dashboard.
+A full-stack travel planner with a React/Vite frontend and a FastAPI backend. Search flights, ground routes, stays, nearby food and destination recommendations, then review a trip cost summary.
 
----
+## Repository layout
 
-## 📂 Project Structure
-
-```
-serp-api/
-├── frontend/           # React + Vite frontend (UI)
-│   ├── src/
-│   │   ├── components/ # All React UI components
-│   │   ├── services/   # API calls to backend
-│   │   ├── data/       # Mock/static data
-│   │   ├── App.jsx     # Main application component
-│   │   ├── main.jsx    # Entry point
-│   │   └── index.css   # Global styles
-│   ├── index.html      # HTML entry point
-│   ├── package.json    # Frontend dependencies
-│   ├── vite.config.js  # Vite dev server config (proxies /api → backend)
-│   ├── tailwind.config.js
-│   └── postcss.config.js
-│
-├── backend/            # Python FastAPI backend
-│   └── travel-backend-py/
-│       ├── app/
-│       │   ├── main.py          # FastAPI app entry
-│       │   ├── routes.py        # API route definitions
-│       │   ├── config.py        # Environment settings
-│       │   ├── serpapi_client.py # SerpApi HTTP client
-│       │   ├── flights.py       # Flight search logic
-│   │   ├── hotels.py       # Hotel search (Google Hotels)
-│   │   ├── airbnb.py       # Airbnb listings via SerpApi
-│       │   ├── transit.py       # Transit/bus/train search
-│       │   ├── food.py          # Restaurant search
-│       │   ├── tripadvisor.py   # TripAdvisor recommendations
-│       │   ├── cache.py         # In-memory caching
-│       │   └── quota.py         # API usage tracking
-│       ├── scripts/             # Utility/probe scripts
-│       ├── tests/               # Backend tests
-│       ├── requirements.txt     # Python dependencies
-│       └── .env                 # API keys (not committed)
-│
-└── docs/               # Documentation & architecture
-    ├── complete.md
-    ├── SerpApi_Analysis_Report.docx
-    ├── Travel_Assistant_Architecture.docx
-    └── user arcchitechture.jpeg
+```text
+frontend/                       React + Vite application
+  public/                       Brand assets
+  src/                          Screens, components and API client
+backend/travel-backend-py/      FastAPI application
+  app/                          Routes and travel-service logic
+  scripts/                      Development and verification utilities
+  tests/                        Backend tests and fixtures
+docs/                           Project guides and architecture material
 ```
 
----
+## Run locally on Windows
 
-## 🚀 How to Run
+### 1. Configure the backend
 
-### Backend (Python FastAPI)
+From the repository root, enter `backend\travel-backend-py`, create a virtual environment, install the requirements, and copy `.env.example` to `.env` **once**. Fill in the SerpApi, Gemini and MySQL settings in `.env`. MySQL must be available because API request history is stored there. Never commit or share `.env`.
 
-```bash
-cd backend/travel-backend-py
+```bat
+cd backend\travel-backend-py
 python -m venv .venv
-.venv\Scripts\activate        # Windows
+.venv\Scripts\activate
 pip install -r requirements.txt
-
-# Create .env with your SerpApi key:
-# SERPAPI_KEY=your_key_here
-
-uvicorn app.main:app --reload --port 8000
+copy .env.example .env
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 ```
 
-### Frontend (React + Vite)
+Keep the backend terminal open. The API docs are at `http://127.0.0.1:8000/docs`.
 
-```bash
+### 2. Start the frontend in a second terminal
+
+```bat
 cd frontend
 npm install
-npm run dev
+npm run dev -- --port 3000
 ```
 
-The frontend dev server runs on `http://localhost:3000`. Configure its `VITE_API_BASE_URL` with the backend origin when it calls the API directly.
+Open `http://127.0.0.1:3000/`. Vite proxies `/api/*` requests to the backend at `http://127.0.0.1:8000`. Set `OMNIVOY_BACKEND_PROXY_TARGET` if the backend is running on another address.
 
----
+## Main features
 
-## 🔑 API Engines Used
+- Flight search through Google Flights
+- Ground transit and nearby restaurant search through Google Maps
+- Hotel and stay search through Google Hotels
+- Airbnb listing search through the backend's `/api/airbnb/search` route
+- Destination recommendations through TripAdvisor
+- AI trip planning, explanations and budget summaries through Gemini
+- MySQL API request history and configurable response caching
 
-| Engine | Purpose |
-|--------|---------|
-| **Google Flights** | Round-trip flight comparison |
-| **Google Maps Transit** | Bus, train, metro directions |
-| **Google Hotels** | Hotel search & pricing |
-| **Airbnb (via SerpApi)** | Vacation rentals and homes (`/api/airbnb/search`) |
-| **TripAdvisor (via SerpApi)** | Budget-based recommendations |
-| **Google Maps Local** | Nearby restaurants & food |
-| **Google Events** | Local events & activities |
+See [backend setup and API notes](backend/travel-backend-py/README.md) and the files in `docs/` for more detail.

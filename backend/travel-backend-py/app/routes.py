@@ -17,12 +17,12 @@ from .schemas import (
 
 router = APIRouter(prefix="/api")
 
-IATA = r"^[A-Za-z]{3}$"
+CURRENCY_CODE = r"^[A-Za-z]{3}$"
 
 
 @router.get("/cities")
 async def list_cities(q: str | None = None):
-    """Returns list of searchable Indian travel cities with canonical aliases & IATA codes."""
+    """Search global IATA airport cities and countries with capital-airport resolution."""
     return {"cities": get_known_cities(q)}
 
 
@@ -43,17 +43,25 @@ async def search_airbnb(
 @router.get("/flights/search", response_model=FlightSearchResponse, response_model_by_alias=True)
 async def search_flights(
     request: Request,
-    origin: Annotated[str, Query(pattern=IATA, description="3-letter IATA code, e.g. MAA")],
-    destination: Annotated[str, Query(pattern=IATA, description="3-letter IATA code, e.g. BLR")],
+    origin: Annotated[str, Query(min_length=2, max_length=120, description="City, country, airport name, or IATA code")],
+    destination: Annotated[str, Query(min_length=2, max_length=120, description="City, country, airport name, or IATA code")],
     travel_date: Annotated[Date, Query(alias="date", description="YYYY-MM-DD")],
     return_date: Annotated[Date | None, Query(alias="returnDate")] = None,
     adults: Annotated[int, Query(ge=1, le=9)] = 1,
-    currency: Annotated[str, Query(pattern=IATA)] = "INR",
+    children: Annotated[int, Query(ge=0, le=6)] = 0,
+    currency: Annotated[str, Query(pattern=CURRENCY_CODE)] = "INR",
 ):
     if travel_date < Date.today():
         raise ValueError("date must not be in the past")
+    origin_location = normalize_location(origin)
+    destination_location = normalize_location(destination)
+    if not origin_location.iata_code:
+        raise ValueError(f"No IATA airport code found for departure location: {origin}")
+    if not destination_location.iata_code:
+        raise ValueError(f"No IATA airport code found for destination: {destination}")
     return await request.app.state.flights.search(
-        origin, destination, travel_date, return_date, adults, currency)
+        origin_location.iata_code, destination_location.iata_code,
+        travel_date, return_date, adults, currency, children=children)
 
 
 @router.get("/transit/search", response_model=TransitSearchResponse, response_model_by_alias=True)
@@ -76,7 +84,7 @@ async def search_hotels(
     adults: Annotated[int, Query(ge=1, le=9)] = 2,
     children: Annotated[int, Query(ge=0, le=6)] = 0,
     child_ages: Annotated[str | None, Query(alias="childAges", description="One age per child, e.g. 5,8")] = None,
-    currency: Annotated[str, Query(pattern=IATA)] = "INR",
+    currency: Annotated[str, Query(pattern=CURRENCY_CODE)] = "INR",
     profile: Annotated[Literal["family", "business", "budget"] | None, Query(
         description="Ranking style. Default: family if children > 0, otherwise budget")] = None,
     include_rentals: Annotated[bool | None, Query(alias="includeRentals")] = None,
@@ -153,6 +161,7 @@ class CostSummaryRequest(BaseModel):
     food_cost: int
     user_budget: int
     hotel_details: dict[str, Any] | None = None
+    food_details: dict[str, Any] | None = None
     transit_details: dict[str, Any] | None = None
     language: Literal["en", "ta", "hi"] = "en"
 
@@ -199,6 +208,7 @@ async def cost_summary(request: Request, body: CostSummaryRequest):
         food_cost=body.food_cost,
         user_budget=body.user_budget,
         hotel_details=body.hotel_details,
+        food_details=body.food_details,
         transit_details=body.transit_details,
         language=body.language,
     )
@@ -224,4 +234,5 @@ async def normalize_city_endpoint(
         "iataCode": norm.iata_code,
         "transitQuery": norm.transit_query,
         "state": norm.state,
+        "countryCode": norm.country_code,
     }

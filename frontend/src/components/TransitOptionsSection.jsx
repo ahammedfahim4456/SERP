@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plane, Bus, Train, Clock } from 'lucide-react';
+import { Plane, Bus, Train, Clock, Check, AlertCircle } from 'lucide-react';
 
 export default function TransitOptionsSection({
   cityKey,
@@ -10,18 +10,22 @@ export default function TransitOptionsSection({
   onSelectTransitMode,
   onSelectOption
 }) {
+  const flightsList = transitData?.flights || [];
+  const busesList = transitData?.buses || [];
+  const trainsList = transitData?.trains || [];
+
   const modes = [
-    { key: 'flight', label: 'Flight Options', icon: Plane, count: transitData.flights.length },
-    { key: 'bus', label: 'Intercity Bus', icon: Bus, count: transitData.buses.length },
-    { key: 'train', label: 'Express Train', icon: Train, count: transitData.trains.length }
+    { key: 'flight', label: 'Flight Options', icon: Plane, count: flightsList.length },
+    { key: 'bus', label: 'Intercity Bus', icon: Bus, count: busesList.length },
+    { key: 'train', label: 'Express Train', icon: Train, count: trainsList.length }
   ];
 
   const currentList =
     selectedMode === 'flight'
-      ? transitData.flights
+      ? flightsList
       : selectedMode === 'bus'
-      ? transitData.buses
-      : transitData.trains;
+      ? busesList
+      : trainsList;
 
   return (
     <div className="space-y-4">
@@ -55,7 +59,7 @@ export default function TransitOptionsSection({
               }`}
             >
               <Icon className="w-3.5 h-3.5 shrink-0" />
-              <span className="truncate">{m.label}</span>
+              <span className="truncate">{m.label} ({m.count})</span>
             </button>
           );
         })}
@@ -63,20 +67,21 @@ export default function TransitOptionsSection({
 
       {/* Transit Options List */}
       <div className="space-y-2.5">
-        {currentList.map((item) => {
-          const isSelected = selectedOptionId === item.id;
-          const price = item.roundTripPrice;
+        {currentList && currentList.length > 0 ? (
+          currentList.map((item) => {
+            const isSelected = selectedOptionId === item.id;
+            const price = Number(item.roundTripPrice || 0);
 
-          return (
-            <div
-              key={item.id}
-              onClick={() => onSelectOption(item.id, price)}
-              className={`p-3.5 rounded-xl border transition-all cursor-pointer ${
-                isSelected
-                  ? 'bg-white border-crimson-600 ring-2 ring-crimson-500/20 shadow-md'
-                  : 'bg-white/70 border-sandal-200 hover:border-sandal-400 hover:bg-white'
-              }`}
-            >
+            return (
+              <div
+                key={item.id}
+                onClick={() => onSelectOption(item.id, price)}
+                className={`p-3.5 rounded-xl border transition-all cursor-pointer ${
+                  isSelected
+                    ? 'bg-white border-crimson-600 ring-2 ring-crimson-500/20 shadow-md'
+                    : 'bg-white/70 border-sandal-200 hover:border-sandal-400 hover:bg-white'
+                }`}
+              >
               <div className="flex items-start justify-between gap-2">
                 <div>
                   <div className="flex items-center gap-2">
@@ -126,7 +131,35 @@ export default function TransitOptionsSection({
               </div>
             </div>
           );
-        })}
+        })
+        ) : (
+          <div className="p-4 rounded-xl bg-sandal-50 border border-sandal-200 text-center space-y-2">
+            <p className="text-xs text-stone-600 font-medium flex items-center justify-center gap-1.5">
+              <AlertCircle className="w-3.5 h-3.5 text-stone-400" />
+              <span>No direct {selectedMode}s found for this route.</span>
+            </p>
+            <div className="flex justify-center gap-2 pt-1">
+              {busesList.length > 0 && selectedMode !== 'bus' && (
+                <button
+                  type="button"
+                  onClick={() => onSelectTransitMode('bus')}
+                  className="px-3 py-1 bg-white hover:bg-sandal-100 text-crimson-800 border border-sandal-300 rounded-lg text-xs font-bold shadow-2xs transition-all"
+                >
+                  Switch to Buses ({busesList.length})
+                </button>
+              )}
+              {trainsList.length > 0 && selectedMode !== 'train' && (
+                <button
+                  type="button"
+                  onClick={() => onSelectTransitMode('train')}
+                  className="px-3 py-1 bg-white hover:bg-sandal-100 text-crimson-800 border border-sandal-300 rounded-lg text-xs font-bold shadow-2xs transition-all"
+                >
+                  Switch to Trains ({trainsList.length})
+                </button>
+              )}
+            </div>
+          </div>
+        )}
       </div>
 
     </div>

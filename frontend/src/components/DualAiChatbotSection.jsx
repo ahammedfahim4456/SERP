@@ -7,6 +7,8 @@ export default function DualAiChatbotSection({
   userBudget,
   originCity
 }) {
+  const marginA = Math.max(0, Number(userBudget || 15000) - Number(cityAStats?.totalCost || 5420));
+
   const [messages, setMessages] = useState([
     {
       id: 1,
@@ -15,7 +17,7 @@ export default function DualAiChatbotSection({
       avatar: '💼',
       badge: 'Penny-Pincher',
       badgeColor: 'bg-amber-100 text-amber-900 border-amber-300',
-      text: `Listen to your wallet! Here is the cold, hard rupee reality:\n• Gokarna via train leaves ₹${(userBudget - cityAStats.totalCost).toLocaleString('en-IN')} in your bank account, whereas flights eat up 45% of your total budget before you even land.\n• In Pondicherry, staying in the French Quarter costs ₹2,800/night vs Zostel Gokarna cliff dorms at ₹1,250/night.\n• Verdict: If your wallet is priority #1, book Gokarna with the overnight sleeper train right now!`
+      text: `Listen to your wallet! Here is the cold, hard rupee reality:\n• Gokarna via train leaves ₹${marginA.toLocaleString('en-IN')} in your bank account, whereas flights eat up 45% of your total budget before you even land.\n• In Pondicherry, staying in the French Quarter costs ₹2,800/night vs Zostel Gokarna cliff dorms at ₹1,250/night.\n• Verdict: If your wallet is priority #1, book Gokarna with the overnight sleeper train right now!`
     },
     {
       id: 2,

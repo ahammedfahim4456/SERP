@@ -23,6 +23,9 @@ class FlightOption(CamelModel):
     airline: str | None = None    # first segment's airline
     price: int | None = None
     currency: str
+    price_status: str = "provider_total"  # Provider itinerary quote; tax inclusion can be unknown.
+    tax_inclusion: str | None = None
+    booking_link: str | None = None
     total_duration_minutes: int = 0
     stops: int = 0
     segments: list[Segment] = []
@@ -33,6 +36,8 @@ class FlightSearchResponse(CamelModel):
     fetched_at: datetime
     origin: str
     destination: str
+    adults: int = 1
+    children: int = 0
     options: list[FlightOption]
 
 

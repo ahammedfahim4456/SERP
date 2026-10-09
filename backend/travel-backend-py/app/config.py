@@ -15,6 +15,11 @@ class Settings(BaseSettings):
     tripadvisor_ttl_minutes: int = 120    # TripAdvisor recommendations TTL
     gemini_api_key: str | None = None     # Google Gemini API Key from Google AI Studio
     gemini_model: str = "gemini-flash-lite-latest" # Default supported Gemini model with active quota
+    mysql_host: str | None = None
+    mysql_port: int = 3306
+    mysql_user: str | None = None
+    mysql_password: str | None = None
+    mysql_database: str | None = None
     serpapi_base_url: str = "https://serpapi.com"
     cors_origins: list[str] = [
         "http://localhost:3000",

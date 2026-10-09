@@ -77,7 +77,18 @@ def test_quota_guard_blocks_after_limit(client):
 
 
 def test_validation(client):
-    assert client.get("/api/flights/search?origin=MA&destination=BLR&date=2030-01-01").status_code == 422
+    # MA is Morocco's ISO code and resolves to its capital airport.
+    assert client.get("/api/flights/search?origin=MA&destination=BLR&date=2030-01-01").status_code == 200
     assert client.get(url(origin="x")).status_code in (200, 422)
     assert client.get("/api/flights/search?origin=MAA&destination=MAA&date=2030-01-01").status_code == 400
     assert client.get(url(date.today() - timedelta(days=1))).status_code == 400
+    assert client.get(url(origin="Unknown place")).status_code == 400
+
+
+def test_flight_quote_is_for_requested_party(client):
+    result = client.get(url(children=2, adults=2)).json()
+    assert result["adults"] == 2
+    assert result["children"] == 2
+    option = result["options"][0]
+    assert option["price"] == 3500
+    assert option["taxInclusion"] is None

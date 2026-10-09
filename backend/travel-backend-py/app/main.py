@@ -18,13 +18,22 @@ from .tripadvisor import TripadvisorService
 from .quota import QuotaExceeded, QuotaGuard
 from .routes import router
 from .serpapi_client import SerpApiClient, UpstreamError
+from .query_store import QueryStore
+from .query_logging import QueryLoggingMiddleware
 
 logging.basicConfig(level=logging.INFO)
+# HTTPX logs full request URLs at INFO, which can expose provider keys passed in query strings.
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("httpcore").setLevel(logging.WARNING)
+query_store = QueryStore.from_settings()
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     settings = get_settings()
+    query_store.settings = settings
+    await query_store.initialize()
+    app.state.query_store = query_store
     cache = await build_cache(settings.redis_url)
     http = httpx.AsyncClient(base_url=settings.serpapi_base_url, timeout=30)
     quota = QuotaGuard(cache, settings.monthly_quota)
@@ -45,6 +54,7 @@ async def lifespan(app: FastAPI):
     yield
     await http.aclose()
     await cache.close()
+    await query_store.close()
 
 
 app = FastAPI(title="Travel Assistant API", lifespan=lifespan)
@@ -57,6 +67,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.include_router(router)
+app.add_middleware(QueryLoggingMiddleware, store=query_store)
 
 
 @app.exception_handler(ValueError)

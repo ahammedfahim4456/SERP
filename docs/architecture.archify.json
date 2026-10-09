@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "SerpApi True Trip Comparator — Runtime Architecture",
+    "subtitle": "React SPA · FastAPI Gateway · Multi-Engine SerpApi Integration · Cache & Quota Guard",
+    "output": "docs/architecture.archify.html",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/ahammedfahim4456/SERP.git",
+      "provider": "github",
+      "revision": "d2cfd19813e3b6ffb0aae709ec47a1b3c75bbc69"
+    }
+  },
+  "components": [
+    {
+      "id": "browser",
+      "type": "external",
+      "label": "Client Browser",
+      "sublabel": "Desktop / Mobile Web",
+      "pos": [40, 260],
+      "size": [130, 60]
+    },
+    {
+      "id": "react_spa",
+      "type": "frontend",
+      "label": "React SPA",
+      "sublabel": "Vite · Tailwind UI",
+      "pos": [280, 260],
+      "size": [140, 60],
+      "sources": [
+        { "path": "frontend/src/App.jsx", "line": 1, "label": "App entry" },
+        { "path": "frontend/src/services/api.js", "line": 1, "label": "API client" }
+      ]
+    },
+    {
+      "id": "fastapi",
+      "type": "backend",
+      "label": "FastAPI Gateway",
+      "sublabel": "Uvicorn · CORS · Routes",
+      "pos": [540, 260],
+      "size": [140, 60],
+      "sources": [
+        { "path": "backend/travel-backend-py/app/main.py", "line": 1, "label": "FastAPI main" },
+        { "path": "backend/travel-backend-py/app/routes.py", "line": 1, "label": "Route handlers" }
+      ]
+    },
+    {
+      "id": "quota",
+      "type": "security",
+      "label": "QuotaGuard",
+      "sublabel": "Monthly Limit Shield",
+      "tag": "Cost Control",
+      "pos": [820, 100],
+      "size": [140, 60],
+      "sources": [
+        { "path": "backend/travel-backend-py/app/quota.py", "line": 10, "label": "QuotaGuard" }
+      ]
+    },
+    {
+      "id": "cache",
+      "type": "database",
+      "label": "Cache Layer",
+      "sublabel": "Redis / Memory Cache",
+      "pos": [820, 420],
+      "size": [140, 60],
+      "sources": [
+        { "path": "backend/travel-backend-py/app/cache.py", "line": 1, "label": "Dual-mode cache" }
+      ]
+    },
+    {
+      "id": "hotel_svc",
+      "type": "backend",
+      "label": "HotelService",
+      "sublabel": "google_hotels engine",
+      "pos": [540, 100],
+      "size": [140, 60],
+      "sources": [
+        { "path": "backend/travel-backend-py/app/hotels.py", "line": 76, "label": "HotelService" }
+      ]
+    },
+    {
+      "id": "flight_svc",
+      "type": "backend",
+      "label": "FlightService",
+      "sublabel": "google_flights engine",
+      "pos": [820, 260],
+      "size": [140, 60],
+      "sources": [
+        { "path": "backend/travel-backend-py/app/flights.py", "line": 11, "label": "FlightService" }
+      ]
+    },
+    {
+      "id": "transit_svc",
+      "type": "backend",
+      "label": "TransitService",
+      "sublabel": "google_maps_directions",
+      "pos": [540, 420],
+      "size": [140, 60],
+      "sources": [
+        { "path": "backend/travel-backend-py/app/transit.py", "line": 29, "label": "TransitService" }
+      ]
+    },
+    {
+      "id": "serpapi_client",
+      "type": "security",
+      "label": "SerpApiClient",
+      "sublabel": "Central HTTP Gateway",
+      "tag": "API Key Boundary",
+      "pos": [1100, 260],
+      "size": [150, 60],
+      "sources": [
+        { "path": "backend/travel-backend-py/app/serpapi_client.py", "line": 10, "label": "SerpApiClient" }
+      ]
+    },
+    {
+      "id": "serpapi_ext",
+      "type": "external",
+      "label": "SerpApi.com",
+      "sublabel": "Google & TripAdvisor APIs",
+      "pos": [1380, 260],
+      "size": [140, 60]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Client Zone (Browser & Static SPA)",
+      "wraps": ["browser", "react_spa"]
+    },
+    {
+      "kind": "security-group",
+      "label": "Backend Application Trust Domain (FastAPI & Internal Services)",
+      "wraps": ["fastapi", "quota", "cache", "flight_svc", "hotel_svc", "transit_svc", "serpapi_client"]
+    },
+    {
+      "kind": "region",
+      "label": "External Upstream (SerpApi Platform)",
+      "wraps": ["serpapi_ext"]
+    }
+  ],
+  "connections": [
+    {
+      "id": "conn-browser-spa",
+      "from": "browser",
+      "to": "react_spa",
+      "label": "HTTPS",
+      "variant": "emphasis"
+    },
+    {
+      "id": "conn-spa-api",
+      "from": "react_spa",
+      "to": "fastapi",
+      "label": "REST /api/*",
+      "variant": "emphasis"
+    },
+    {
+      "id": "conn-api-flights",
+      "from": "fastapi",
+      "to": "flight_svc",
+      "label": "flight search",
+      "variant": "emphasis"
+    },
+    {
+      "id": "conn-api-hotels",
+      "from": "fastapi",
+      "to": "hotel_svc",
+      "label": "hotel search",
+      "variant": "default"
+    },
+    {
+      "id": "conn-api-transit",
+      "from": "fastapi",
+      "to": "transit_svc",
+      "label": "transit search",
+      "variant": "default"
+    },
+    {
+      "id": "conn-flight-quota",
+      "from": "flight_svc",
+      "to": "quota",
+      "label": "quota check",
+      "variant": "security"
+    },
+    {
+      "id": "conn-flight-cache",
+      "from": "flight_svc",
+      "to": "cache",
+      "label": "cache lookup",
+      "variant": "dashed"
+    },
+    {
+      "id": "conn-flight-gateway",
+      "from": "flight_svc",
+      "to": "serpapi_client",
+      "label": "google_flights()",
+      "variant": "emphasis"
+    },
+    {
+      "id": "conn-gateway-upstream",
+      "from": "serpapi_client",
+      "to": "serpapi_ext",
+      "label": "GET /search.json",
+      "variant": "emphasis"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Primary Request Flow (Flight Search)",
+      "items": [
+        "End-user submits journey criteria via React SPA to /api/flights/search",
+        "FastAPI routes to FlightService which checks cache first (TTL: 45 min)",
+        "On cache miss, QuotaGuard verifies monthly allowance (< 90 calls/mo)",
+        "SerpApiClient injects SERPAPI_KEY and calls SerpApi google_flights engine",
+        "Results are parsed, normalized into unified schema, cached, and returned"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Multi-Engine Travel Services",
+      "items": [
+        "HotelService queries google_hotels; HotelRanking calculates composite scores",
+        "TransitService queries google_maps_directions for transit routes & step timing",
+        "FoodService queries google_maps local places with haversine distance filtering",
+        "All services share the exact same Cache-first and QuotaGuard execution pipeline"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Trust Boundaries & Cost Shield",
+      "items": [
+        "Client Zone: Zero credential exposure; browser never sees SerpApi credentials",
+        "Backend Domain: SerpApiClient is the single egress point with key scrubbing in logs",
+        "QuotaGuard acts as cost circuit breaker raising HTTP 429 when budget limit is met",
+        "Fail-soft error handling converts upstream failures into informative responses"
+      ]
+    }
+  ]
+}

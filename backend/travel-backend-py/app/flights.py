@@ -16,7 +16,7 @@ class FlightService:
         self.ttl_seconds = ttl_seconds
 
     async def search(self, origin: str, destination: str, travel_date: date,
-                     return_date: date | None, adults: int, currency: str) -> FlightSearchResponse:
+                     return_date: date | None, adults: int, currency: str, children: int = 0) -> FlightSearchResponse:
         origin, destination, currency = origin.upper(), destination.upper(), currency.upper()
 
         if origin == destination:
@@ -25,7 +25,7 @@ class FlightService:
             raise ValueError("returnDate must not be before date")
 
         key = ":".join(["flights", origin, destination, travel_date.isoformat(),
-                        return_date.isoformat() if return_date else "oneway", str(adults), currency])
+                        return_date.isoformat() if return_date else "oneway", str(adults), str(children), currency])
 
         # 1. cache lookup
         hit = await self.cache.get(key)
@@ -40,14 +40,15 @@ class FlightService:
         # 2. quota guard, then the real call
         log.info("cache MISS %s", key)
         await self.quota.ensure_available()
-        raw = await self.client.google_flights(origin, destination, travel_date, return_date, adults, currency)
+        raw = await self.client.google_flights(origin, destination, travel_date, return_date, adults, currency, children=children)
         await self.quota.record_call()
 
         # 3. normalize + store
         options = self._parse(raw.get("best_flights", []), "best", currency)
         options += self._parse(raw.get("other_flights", []), "other", currency)
         response = FlightSearchResponse(cached=False, fetched_at=datetime.now(timezone.utc),
-                                        origin=origin, destination=destination, options=options)
+                                        origin=origin, destination=destination, adults=adults,
+                                        children=children, options=options)
         await self.cache.set(key, response.model_dump_json(), self.ttl_seconds)
         return response
 
@@ -72,6 +73,8 @@ class FlightService:
                 airline=segs[0].airline if segs else None,
                 price=f.get("price"),
                 currency=currency,
+                tax_inclusion=None,
+                booking_link=f.get("link"),
                 total_duration_minutes=f.get("total_duration") or 0,
                 stops=max(0, len(segs) - 1),
                 segments=segs,
