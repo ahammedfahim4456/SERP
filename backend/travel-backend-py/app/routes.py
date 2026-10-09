@@ -34,7 +34,7 @@ async def search_airbnb(
     check_out: Annotated[Date, Query(alias="checkOut")],
     adults: Annotated[int, Query(ge=1, le=16)] = 1,
     children: Annotated[int, Query(ge=0, le=16)] = 0,
-    currency: Annotated[str, Query(pattern=IATA)] = "INR",
+    currency: Annotated[str, Query(pattern=CURRENCY_CODE)] = "INR",
 ):
     return await request.app.state.airbnb.search(
         destination, check_in, check_out, adults, children, currency)
