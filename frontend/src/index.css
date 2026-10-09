@@ -593,3 +593,62 @@ a { color: inherit; }
   .footer { grid-template-columns: minmax(0, 1fr) auto; }
   .footer > span { display: none; }
 }
+
+/* Midnight Coastal Elegance theme */
+:root {
+  color-scheme: light;
+  --paper: #F7F8FA;
+  --paper-deep: #F7F8FA;
+  --ink: #1B2F52;
+  --muted: #526174;
+  --green: #1B2F52;
+  --green-dark: #1B2F52;
+  --line: #D9DEE7;
+}
+html, body { background: #F7F8FA; color: #1B2F52; }
+::selection { color: #FFFFFF; background: #1B2F52; }
+.topbar, .main-nav, .search-page-shell { background-color: #FFFFFF; }
+.topbar { border-bottom: 1px solid #D9DEE7; }
+.planner-section, .results-section, .help-section { background-color: #F7F8FA; }
+.popular-strip, .explore-section, .footer { background: #F7F8FA; }
+.planner-card, .result-card, .stay-card, .experience-card, .explore-card,
+.route-card, .empty-panel, .search-page-head > button, .budget-card,
+.summary-workspace { background-color: #FFFFFF; }
+.planner-card, .result-card, .stay-card, .experience-card, .explore-card,
+.route-card, .budget-card, .summary-workspace { border-color: #D9DEE7; border-radius: 8px; }
+.brand, .main-nav button, .main-nav a, .quiet-link, .signin-link,
+.planner-intro h2, .section-title h2, .popular-heading h2, .help-section h2,
+.planner-intro h2 em, .help-section h2 em, .result-heading strong,
+.result-price, .journey-times strong, .stay-card-head h3, .stay-price strong,
+.budget-card h3, .budget-total strong, .budget-breakdown b,
+.explore-card > strong, .faq-grid summary, .footer > button { color: #1B2F52; }
+.primary-button, .select-button[aria-pressed="true"],
+.food-select-button[aria-pressed="true"], .budget-bar span { background-color: #1B2F52; color: #FFFFFF; }
+.primary-button { border-radius: 5px; }
+.primary-button:hover { background-color: #1B2F52; filter: brightness(.9); }
+.outline-button { border-color: #D9DEE7; background: #FFFFFF; color: #1B2F52; }
+.trip-type-switch button.active, .result-tabs button.selected,
+.explore-icon, .must-try-badge, .food-select-button, .segment-row span,
+.flight-segment, .pick-explanation { background-color: rgba(132,147,168,.18); color: #1B2F52; }
+.field-control, .field-control input, .field-control select,
+.ai-prompt-body textarea, .child-ages input { background-color: #FFFFFF; color: #1B2F52; }
+.field-control, .child-ages input { border-color: #D9DEE7; border-radius: 5px; }
+.field-control:focus-within, .ai-prompt-body textarea:focus,
+.child-ages input:focus { border-color: #8493A8; }
+.text-link, .select-button, .why-button, .result-link, .food-card-foot a,
+.experience-bottom a, .eyebrow, .live-badge, .provider-hint,
+.field-label, .section-copy, .result-heading > span, .muted-note { color: #526174; }
+.hero { background-color: #1B2F52; }
+.hero-shade { background: linear-gradient(90deg, rgba(17,37,67,.82), rgba(27,47,82,.48) 60%, rgba(27,47,82,.14)), linear-gradient(0deg, rgba(17,37,67,.32), transparent 52%); }
+.hero-kicker span { background: #D6B56D; }
+.hero h1, .hero-subtitle, .hero-points, .hero-caption { color: #FFFFFF; }
+.status-dot { background: #D6B56D; }
+.live-badge .status-dot { background: #D6B56D; }
+.result-card.is-selected, .stay-card.is-selected { border-color: #1B2F52; box-shadow: 0 0 0 2px rgba(27,47,82,.1); }
+.text-link { border-color: #D6B56D; }
+.food-select-button, .must-try-badge { border-color: #D9DEE7; }
+.summary-workspace { background: linear-gradient(135deg, #F7F8FA, #FFFFFF 70%); }
+.destination-card { border-radius: 7px; }
+.search-page-button, .mobile-search-button { border-color: #D9DEE7; background: #FFFFFF; color: #1B2F52; }
+.search-page-button:hover, .mobile-search-button:hover { border-color: #8493A8; background: #F7F8FA; }
+@media (max-width: 760px) { .main-nav { background: #FFFFFF; } }
