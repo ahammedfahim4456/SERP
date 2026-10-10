@@ -1,0 +1,12 @@
+<img width="1051" height="1496" alt="file_0000000096e0820ba5a563de8e21234d" src="https://github.com/user-attachments/assets/4827fbf6-4b76-46c5-9487-83a6e0e427df" />
+The uploaded Source have the Arcitecture diagram of working prototype model created for Travel and Local discovery .
+Repository architecture description
+SERP Travel Planner is organized as a React/Vite frontend and a FastAPI backend. The repository also contains a second frontend directory, frontend-midnight-coastal, with a similar source layout. The main README documents frontend/ as the application; the diagram’s component names and some integrations should be checked against the code before treating them as current.
+In frontend/src, App.jsx coordinates the trip-planning interface and its search and planning flows. The components/ directory contains the interface sections, including destination comparison, budget comparison, hotel, transit, and nearby-event displays. services/api.js is the frontend’s HTTP client: it sends search and AI requests to /api endpoints. Local demo data is kept in data/mockData.js. In local development, Vite proxies API requests to the backend.
+The backend lives in backend/travel-backend-py/app. main.py configures the FastAPI application, shared dependencies, and lifecycle; routes.py defines endpoints for cities, flights, transit, hotels, Airbnb, food, TripAdvisor recommendations, usage, and AI-assisted planning. Separate modules implement those domains, while schemas.py defines response models. serpapi_client.py centralizes calls to SerpApi; domain modules use it to retrieve and process provider results. AI operations are implemented in ai.py.
+Shared backend modules handle settings (config.py), caching (cache.py), quota tracking (quota.py), response normalization, and request history (query_store.py and query_logging.py). The cache can use Redis or in-memory storage. The README describes MySQL-backed API request history, configured through environment settings. Backend tests and fixtures are under backend/travel-backend-py/tests; development probes are under scripts/. Project guides and architecture references are in docs/.
+
+<img width="1600" height="695" alt="image" src="https://github.com/user-attachments/assets/0b72c252-e1df-4218-8e37-8361444f6e76" />
+The Uploaded source have the work flow of backend and API key's .
+
+
